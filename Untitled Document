@@ -1,0 +1,8 @@
+<?php
+
+$path_to_drupal = getcwd().'/app';
+define('DRUPAL_ROOT', $path_to_drupal); 
+// Define default settings.
+$_SERVER['HTTP_HOST'] = 'default';
+include_once $path_to_drupal.'/includes/bootstrap.inc';
+drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);
