@@ -1,4 +1,3 @@
-travel_dev
+My actual files develop projects
 ==========
-
-Travel site project
+Don't use it, it's testing code
