@@ -41,4 +41,4 @@
     </div>
   <?php endif; ?>
 </div>
- <span class="copyright">Development by <a href="http://happensit.ru" target="_blank" title="Happensit - Разработка уникальных интернет-проектов">Happensit</a></span>
+ <span class="copyright">Created by <a href="http://happensit.ru" target="_blank" title="Happensit - Разработка уникальных интернет-проектов">Happensit</a></span>
