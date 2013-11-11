@@ -9,6 +9,8 @@ function rubik_preprocess_html(&$vars) {
   if (theme_get_setting('rubik_inline_field_descriptions')) {
     $vars['classes_array'][] = 'rubik-inline-field-descriptions';
   }
+
+  drupal_add_css(drupal_get_path('theme', 'bartik') . '/develop.css');
 }
 
 /**
