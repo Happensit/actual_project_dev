@@ -11,7 +11,6 @@ function rubik_preprocess_html(&$vars) {
   }
 }
 
-
 /**
  * Implements hook_css_alter().
  * @TODO: Do this in .info once http://drupal.org/node/575298 is committed.
