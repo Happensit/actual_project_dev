@@ -1,2 +1,1 @@
-
-My develop project
+Development project
