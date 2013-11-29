@@ -12,7 +12,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/screenshot.png" afterPath="$PROJECT_DIR$/themes/bartik/screenshot.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/images/search-button.png" afterPath="$PROJECT_DIR$/themes/bartik/images/search-button.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/images/tabs-border.png" afterPath="$PROJECT_DIR$/themes/bartik/images/tabs-border.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/bartik.info" afterPath="$PROJECT_DIR$/themes/bartik/bartik.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/color/color.inc" afterPath="$PROJECT_DIR$/themes/bartik/color/color.inc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/css/colors.css" afterPath="$PROJECT_DIR$/themes/bartik/css/colors.css" />
@@ -32,7 +31,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/color/preview.html" afterPath="$PROJECT_DIR$/themes/bartik/color/preview.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/color/preview.js" afterPath="$PROJECT_DIR$/themes/bartik/color/preview.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/css/print.css" afterPath="$PROJECT_DIR$/themes/bartik/css/print.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/settings.php" afterPath="$PROJECT_DIR$/sites/default/settings.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/css/style-rtl.css" afterPath="$PROJECT_DIR$/themes/bartik/css/style-rtl.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/css/style.css" afterPath="$PROJECT_DIR$/themes/bartik/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/template.php" afterPath="$PROJECT_DIR$/themes/bartik/template.php" />
@@ -160,6 +158,13 @@
           </mappings>
         </serverdata>
       </server>
+      <server id="d4b6681f-9f28-4bb6-a7c1-bcf21fdd48ff">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
     </servers>
   </component>
   <component name="RunManager">
@@ -189,7 +194,11 @@
       <created>1385686944287</created>
       <updated>1385686944288</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Change .htaccess">
+      <created>1385713932264</created>
+      <updated>1385713932264</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -225,7 +234,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Delete template  page--user--register.tpl.php Bartik" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete template  page--user--register.tpl.php Bartik" />
+    <MESSAGE value="Change .htaccess" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change .htaccess" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
