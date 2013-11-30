@@ -1,0 +1,40 @@
+<?php
+/**
+ * Implements hook_menu().
+ */
+function get_filter_menu() {
+  $items = array();
+ 
+  $items['filter/get_filter'] = array(
+    'page callback' => 'get_filter_callback',
+   'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
+  );
+ 
+ 
+  return $items;
+}
+
+
+/**
+ * callback
+ */
+
+function get_filter_callback() {
+
+	// $view = views_get_view('product_filter');
+	// $view->set_display('default');
+	// $view->execute();
+	// $total_rows = $view->total_rows;
+	// dprint_r($total_rows);
+
+	print ('{"brand": [108, 91], "material-karkas": [], "field-strana-proishozhdenija-tid": [8744], "type-lamp": [3], "material-abajura": [], "color-abazhura": [8779]}
+');
+
+/*	foreach ($view->exposed_data as $key => $value) {
+		//dprint_r($value);
+		print $value;
+	}*/
+
+
+}

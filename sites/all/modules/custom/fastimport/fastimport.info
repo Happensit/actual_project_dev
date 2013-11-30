@@ -1,0 +1,13 @@
+name = Commerce FastImport 
+description = Fast Import for commerce price and count @Lev
+core = 7.x
+dependencies[] = commerce
+package = Commerce
+
+files[] = fastimport.inc
+files[] = fastimport.module
+configure=admin/commerce/fastimport/settings
+
+version = "7.x-1.2"
+core = "7.x"
+project = "fastimport"

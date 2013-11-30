@@ -1,0 +1,14 @@
+.form-item-fastimport-producer {
+width:280px; float:left;
+}
+.form-item-fastimport-producer select {
+min-width:250px; 
+}
+.form-item-fastimport-data {
+width:420px; float:left; height:400px;
+}
+.form-item-fastimport-data textarea {
+	width:420px;
+}
+div.fastimport_info  {margin-left:750px;}
+#edit-submit {display:none;}

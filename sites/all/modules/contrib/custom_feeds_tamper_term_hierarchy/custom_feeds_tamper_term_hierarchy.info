@@ -1,0 +1,9 @@
+name = Custom Feeds Tamper Term Hierarchy
+description = Provides a plugin to extract Term Hierarchies from an imported field using delimiters.
+package = _custom
+dependencies[] = feeds
+dependencies[] = taxonomy
+dependencies[] = feeds_tamper
+core = 7.x
+version = "7.x-1.0"
+

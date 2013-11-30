@@ -1,0 +1,11 @@
+name = Colorfield
+description = Exposes a color field type to store colors as hexadecimal values.
+package = Colorfield
+core = 7.x
+
+; Information added by drupal.org packaging script on 2013-09-30
+version = "7.x-1.0+2-dev"
+core = "7.x"
+project = "colorfield"
+datestamp = "1380559616"
+

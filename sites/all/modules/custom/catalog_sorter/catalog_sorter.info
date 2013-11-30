@@ -1,0 +1,4 @@
+name = Catalog Sorter 
+description = Custom catalog sorter
+core = 7.x
+version = VERSION

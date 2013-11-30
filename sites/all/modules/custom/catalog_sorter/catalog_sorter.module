@@ -1,0 +1,48 @@
+<?php
+
+
+function catalog_sorter_views_query_alter(&$view, &$query) {
+
+  if ($view->name == 'lamp_taxonomy' || $view->name == 'properties_page') {
+
+    $sort = $_REQUEST['sort-order'];
+    if(isset($sort)) {
+    switch ($sort) {
+      case "asc":
+
+         unset($query->orderby[3]);
+         
+         $query->orderby[1] = array(
+				'field' => 'commerce_product_field_data_field_product__field_data_commer',
+				'direction' => 'ASC',
+				);
+
+        break;
+      case "desc":
+
+	        $query->orderby[1] = array(
+					'field' => 'commerce_product_field_data_field_product__field_data_commer',
+					'direction' => 'DESC',
+					);
+	        
+	        unset($query->orderby[3]);
+
+        break;
+
+       case 'goto':
+       
+        	drupal_goto($_GET['q']);
+       
+        break;
+    	}
+
+	} else {
+
+	//unset($query->orderby[0]);
+	//unset($query->orderby[1]);
+	//unset($query->orderby[2]);
+	unset($query->orderby[3]);
+	}
+
+   }
+}

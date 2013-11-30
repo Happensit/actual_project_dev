@@ -1,0 +1,259 @@
+.views-widget {display: block; padding: 10px 0;}
+.colors, .colors2 {
+	width: 210px;
+	float: left;
+	margin-bottom: 4px;
+}
+
+.colors a, .colors2 a {
+	display:inline-block;
+	width:20px;
+	height:20px;
+	margin:3px;
+	border-radius:4px;
+	border:dashed 1px transparent;
+	color:transparent;
+	font-size:0;
+}
+
+.colors a.select, .colors2 a.select{
+	background-image:url('color-selector.png');
+	background-position: 100% 0%;
+	background-repeat:no-repeat;
+	/*border: 1px solid red;*/
+}
+
+/* Разноцветный*/
+#a-edit-color-karkas-9582, #a-edit-color-abazhura-9538 {
+  background:url('color_sprait.png') -1px 0px;
+}
+#a-edit-color-karkas-9582.select, #a-edit-color-abazhura-9538.select {
+	background:url('color_sprait.png') 22px 0px;
+}
+
+/* Прозрачный */
+#a-edit-color-karkas-9716, #a-edit-color-abazhura-9494 {
+	background:url('color_sprait.png') 0px 22px;
+}
+#a-edit-color-karkas-9716.select, #a-edit-color-abazhura-9494.select {
+	background:url('color_sprait.png') 22px 22px;
+}
+
+/* Без плафона/абажура */
+#a-edit-color-abazhura-9718, #a-edit-color-karkas-9717 {
+    background: url("less.png") -1px 21px;
+}
+#a-edit-color-abazhura-9718.select, #a-edit-color-karkas-9717.select {
+    background: url("less.png") 22px -1px;
+}
+/* Тултипы дескрипшнов */
+
+
+.filtertip img {
+	margin: 3px 10px 0 15px;
+}
+
+.filtertip {
+	cursor:help;
+	position: absolute;
+	width: 35px;
+	right: 15px;
+	margin-top: -25px;
+}
+
+.filtertip .description {
+	background-color:#fff;
+	border:2px solid #0275c6;
+	border-radius:13px;
+	color:#4d4d4d;
+	/*display:none;*/
+	font-size:12px;
+	font-weight:normal;
+	left:50px;
+	padding:9px;
+	position:absolute;
+	top:0;
+	width:185px;
+	z-index:15
+}
+
+.filtertip .description span{ 
+	background:url(/misc/hint.png);
+	display:block;
+	height:21px;
+	left:-13px;
+	margin:-11px 0 0 0;
+	padding:0;
+	position:absolute;
+	top:50%;
+	width:13px;
+	z-index:24
+}
+
+.results {
+	display: inline;
+	background-color:#fff;
+	border:1px solid #0275c6;
+	border-radius:8px;
+	color:#0275c6;
+	/*display:none;*/
+	font-size:12px;
+	font-weight:bold;
+	left: -150px;
+	padding:5px;
+	position:absolute;
+	width:130px;
+	z-index:15
+}
+
+.results a {
+	text-decoration: underline;
+}
+
+.results span { 
+	background:url(/misc/hint_count.png);
+	display:block;
+	height:10px;
+	right: -5.8px;
+	margin: -5px 0 0 0;
+	padding:0;
+	position:absolute;
+	top:50%;
+	width: 6px;
+	z-index:24
+}
+
+
+.views-exposed-widgets .title_widget {
+	display: block;
+	height: 22px;
+    line-height: 27px;
+	padding-bottom: 4px;
+	cursor: pointer;
+	border-bottom: 1px solid #21aaf6;
+	width: 202px;
+}
+
+.views-exposed-widgets .title_widget label {
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.views-exposed-widgets input.form-submit#edit-submit-product-filter {
+	background: #f95b1a;
+	 color: #fff;
+	 font-size: 14px;
+	 text-shadow: 0 1px 0 #f95b1a;
+	 padding: 4px 0 5px 0;
+	 margin: 0;
+	 cursor: pointer;
+	 border: 0;
+	 border-top: 1px solid #f95b1a;
+	 border-left: #d2d2d2;
+	 border-right: #d2d2d2;
+	 border-bottom: 1px solid #b4b4b4;
+	 box-shadow: 0 -1px 0 #d2d2d2, 0 1px 0 #fff;
+	 width: 110px;
+	 margin-top: 1em;
+	 border-radius: 2px;
+}
+.views-exposed-widgets input.form-submit#edit-submit-product-filter:hover {
+	/*background: linear-gradient(to bottom, #f95b1a 0%,#f95b1a 60%);*/
+	box-shadow: 0 -1px 0 #d2d2d2, 0 1px 0 #d2d2d2;
+}
+.views-exposed-widgets input.form-submit#edit-reset {
+	 font-size: 14px;
+	 padding: 4px 0 5px 0;
+	 cursor: pointer;
+	 margin-top: 1em;
+	 width: 90px;
+	 border: 1px solid #e4e4e4;
+	border-bottom: 1px solid #b4b4b4;
+	border-left-color: #d2d2d2;
+	border-right-color: #d2d2d2;
+	 border-radius: 2px;
+	 box-shadow: 0 -1px 0 #d2d2d2, 0 1px 0 #fff;
+}
+.views-exposed-widgets input.form-submit#edit-reset:hover {
+	border: 1px solid #e4e4e4;
+	border-bottom: 1px solid #b4b4b4;
+	border-left-color: #d2d2d2;
+	border-right-color: #d2d2d2;
+	border-radius: 2px;
+	box-shadow: 0 -1px 0 #d2d2d2, 0 1px 0 #d2d2d2;
+}
+.views-exposed-widgets input.form-submit#edit-reset:active {
+box-shadow: inset -1px 0px 0px #d2d2d2;
+}
+.views-exposed-widgets  input[type="text"] {
+	border-radius: 3px;
+}
+
+
+/* Скрываем лишние блоки в фильтре */
+
+.views-widget-filter-voltage .views-widget, #edit-material-abajura-wrapper .views-widget, #edit-material-karkas-wrapper .views-widget,
+.views-widget-filter-type_tsokol .views-widget, .views-widget-filter-field_strana_proishozhdenija_tid .views-widget, 
+.views-widget-filter-type_lamp .views-widget, .views-widget-filter-field_status_value .views-widget, .views-widget-filter-tsok_type .views-widget {
+	display: none;
+}
+
+.form-item-total-capacity label[for="edit-total-capacity-all"], .form-item-total-capacity input#edit-total-capacity-all {
+	display: none;
+}
+
+.title_widget {padding-left: 10px; background: url(f-plus.png) no-repeat scroll left center transparent;}
+
+.title_widget.show  {
+	padding-left: 13px;
+	background: url(f-minus.png) no-repeat scroll left center transparent !important;
+}
+
+input[type="text"], input[type="text"]:focus, textarea:focus { 
+	background: #F4F4F4;
+	border-bottom: 1px solid #E8E8E8;
+	border-left: 1px solid #A9A9A9;
+	border-radius: 4px;
+	border-right: 1px solid #E8E8E8;
+	border-top: 2px solid #A9A9A9;
+	box-shadow: inset 2px 2px 2px -2px #CFCFCF;
+	outline: medium none currentColor;
+	transition: border 0.2s cubic-bezier(0, 0, 1, 1) 0s, box-shadow 0.2s cubic-bezier(0, 0, 1, 1) 0s;
+}
+
+ul.bef-tree, .bef-tree-child {
+	margin: 0 0 2px 0 !important;
+}
+ul.bef-tree li {
+	background: transparent !important;
+}
+ul.bef-tree li ul.bef-tree-child li {
+	margin-left: 10px;
+	text-transform: lowercase;
+}
+
+
+#edit-dotted-wrapper .title_widget, #edit-led-wrapper .title_widget, #edit-christal-wrapper .title_widget,
+#edit-children-wrapper .title_widget, #edit-forged-wrapper .title_widget, #edit-solar-wrapper .title_widget,
+#edit-protect-wrapper .title_widget, #edit-floristics-wrapper .title_widget {
+	display: none;
+}
+#edit-led-wrapper span.filtertip {
+	margin-top: -2px !important;
+}
+#edit-dotted-wrapper span.filtertip, #edit-christal-wrapper span.filtertip, #edit-children-wrapper span.filtertip, #edit-forged-wrapper span.filtertip, #edit-solar-wrapper span.filtertip, #edit-protect-wrapper span.filtertip, #edit-floristics-wrapper span.filtertip{
+	margin-top: 0px !important;
+}
+
+.form-type-checkbox {width:210px;}
+
+#edit-led-wrapper{padding: .5em 0 0 0;}
+
+#edit-dotted-wrapper .views-widget, #edit-led-wrapper .views-widget, #edit-christal-wrapper .views-widget,
+#edit-children-wrapper .views-widget, #edit-forged-wrapper .views-widget, #edit-solar-wrapper .views-widget,
+#edit-protect-wrapper .views-widget, #edit-floristics-wrapper .views-widget {padding: 0 !important;}
+
+
+#edit-status-wrapper {
+padding-bottom: 15px;
+}

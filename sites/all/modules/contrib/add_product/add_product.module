@@ -1,0 +1,40 @@
+<?php 
+
+function add_product_menu() {
+  $items['add_product/get/data'] = array(
+    'page callback' => 'add_product_get_data_ajax',
+    'type' => MENU_CALLBACK,
+    'access arguments' => array('access content'),
+  );
+  return $items;
+}
+  
+function add_product_get_data_ajax(){
+	
+	$product_id = (isset($_GET['id'])&&!empty($_GET['id'])) ? $_GET['id']: null;
+	$product = commerce_product_load($product_id);
+	$img = str_replace('/','_',$product->sku);
+	$img = strtolower($img);
+	
+	$query = new EntityFieldQuery;
+	$query->entityCondition('entity_type', 'node', '=')
+		->propertyCondition('type', 'lamp')
+		->fieldCondition('field_product', 'product_id', $product->product_id, '=')
+		->range(0, 1);
+		
+	if($result = $query->execute()) {
+		$nid = array_shift(array_keys($result['node']));
+		$node = node_load($nid);
+		$tid = $node->field_brand['und'][0]['tid'];
+		$brand = strtolower(taxonomy_term_load($tid)->name);
+		
+		$array = array();
+		$array['title'] = '<div class = "ttit">'.l($node->title, 'node/'.$node->nid).'</div>';
+		$array['img'] = "<img height = 80px src = '/goods/images/".$brand."/".$img.".jpg' style = 'float: left;' />";
+		$array['price'] = '<b>'.commerce_currency_format($product->commerce_price['und']['0']['amount'],$product->commerce_price['und']['0']['currency_code']).'</b><div style = "clear: both;"></div>';
+	}
+    drupal_json_output($array);
+}
+
+function add_product_init() {  
+}

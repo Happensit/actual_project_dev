@@ -1,0 +1,33 @@
+<?php
+/**
+ * Implements hook_menu().
+ */
+function get_count_menu() {
+  $items = array();
+ 
+  $items['filter/get_count'] = array(
+    'page callback' => 'get_count_callback',
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
+  );
+ 
+ 
+  return $items;
+}
+
+
+/**
+ * Provides ajax callback for form submit
+ */
+function get_count_callback() {
+
+  $view = views_get_view('product_filter');
+  $view->set_display('default');
+  $view->execute();
+  $total_rows = $view->total_rows;
+
+  print($total_rows);
+  
+  //return $count;
+
+}

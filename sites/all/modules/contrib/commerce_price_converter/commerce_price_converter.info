@@ -1,0 +1,9 @@
+;$Id$
+name = "Feeds DC price converter"
+description = "Implement Feeds Tamper plugin"
+package = Feeds
+core = 7.x
+php = 5.x
+
+files[] = "commerce_price_converter.module"
+files[] = "plugins/commerce_price_converter_dc_price_converter.inc"

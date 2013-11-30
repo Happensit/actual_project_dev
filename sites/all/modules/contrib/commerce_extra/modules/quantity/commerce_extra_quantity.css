@@ -1,0 +1,32 @@
+.commerce-quantity-plusminus-link a.buttons {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #fff;
+  margin-bottom: 1em;
+  margin-right:0;
+  padding: 4px 7px;
+  background: linear-gradient(to bottom,#f7f7f7 0%,#dedede 100%);
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fff;
+box-shadow: inset 0px 1px 0px 0px #fff;
+color: #585858;
+}
+.commerce-quantity-plusminus-link a.buttons:hover {
+  text-decoration: none;
+  background: #dedede;
+  color: #3a3a3a;
+}
+.commerce-quantity-plusminus-link.commerce-quantity-plusminus-link-decrease a {
+  border-right: none;
+  -khtml-border-radius: 10px 0px 0px 10px;
+  -moz-border-radius: 15px 0px 0px 15px;
+  -webkit-border-radius: 10px 0px 0px 10px;
+  border-radius: 10px 0px 0px 10px;
+}
+.commerce-quantity-plusminus-link.commerce-quantity-plusminus-link-increase a {
+  border-left: none;
+  -khtml-border-radius: 0px 10px 10px 0px;
+  -moz-border-radius: 0px 15px 15px 0px;
+  -webkit-border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 10px 10px 0px;
+}

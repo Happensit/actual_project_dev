@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_uninstall().
+ */
+function commerce_extra_quantity_uninstall() {
+  variable_del('commerce_extra_quantity_cardinality');
+}

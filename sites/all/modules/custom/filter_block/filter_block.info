@@ -1,0 +1,4 @@
+name = Filter Block 
+description = Custom exposed filters alter
+core = 7.x
+version = VERSION

@@ -1,0 +1,301 @@
+.slider-widget-wrapper, .slider-widget, #edit-count-lamp-wrapper,
+#edit-dlina-wrapper, #edit-shirina-wrapper, #edit-diametr-wrapper,
+#edit-price-wrapper, #edit-type-lamp-wrapper, #edit-capacity-value-wrapper {
+  width: 200px;
+}
+ 
+.slider-widget-wrapper .form-item:nth-child(1) {
+  float: left;
+  margin-left: 7px;
+}
+
+.slider-widget-wrapper .form-item:nth-child(2) {
+  float: right;
+}
+ 
+.slider-widget-wrapper .form-item:nth-child(2) label {
+  display: none;
+}
+ 
+.slider-widget-wrapper .form-item:nth-child(2) .form-text {
+  text-align: right;
+}
+
+.slider-widget-wrapper .form-text {
+  width: 60px;
+  margin: 0 0 5px 0;
+  padding: 0;
+  border: 0;
+  background: #F4F4F4;
+  border-bottom: 1px solid #E8E8E8;
+  border-left: 1px solid #A9A9A9;
+  border-radius: 4px;
+  border-right: 1px solid #E8E8E8;
+  border-top: 2px solid #A9A9A9;
+  box-shadow: inset 2px 2px 2px -2px #CFCFCF;
+  outline: medium none currentColor;
+  transition: border 0.2s cubic-bezier(0, 0, 1, 1) 0s, box-shadow 0.2s cubic-bezier(0, 0, 1, 1) 0s;
+}
+ 
+.slider-widget-wrapper .slider-widget {
+  clear: both;
+}
+
+.ui-slider-range.ui-widget-header {
+	background: #f95b1a;
+}
+
+.ui-slider .ui-slider-handle {
+	background: url('gui.png') no-repeat;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.4em !important;
+	margin-left: -.5em;
+}
+
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 22px !important;
+	height: 22px !important;
+	cursor: default;
+	border:none !important;
+}
+
+.ui-slider .ui-slider-handle:hover, .ui-slider .ui-slider-handle:active {
+	border:none !important;
+}
+
+.form-item.form-type-textfield.form-item-price-min:before {
+  content: "от "
+}
+.form-item.form-type-textfield.form-item-price-max:before {
+  content: "до "
+}
+
+.form-item.form-type-textfield.form-item-price-max:after {
+  content: " руб."
+}
+.form-item.form-type-textfield.form-item-count-lamp-min:before {
+  content: "от "
+}
+.form-item.form-type-textfield.form-item-count-lamp-max:before {
+  content: "до "
+}
+.form-item.form-type-textfield.form-item-dlina-min:before {
+  content: "от "
+}
+.form-item.form-type-textfield.form-item-dlina-max:before {
+  content: "до "
+}
+
+.form-item.form-type-textfield.form-item-shirina-min:before {
+  content: "от "
+}
+.form-item.form-type-textfield.form-item-shirina-max:before {
+  content: "до "
+}
+.form-item.form-type-textfield.form-item-diametr-min:before {
+  content: "от ";
+}
+.form-item.form-type-textfield.form-item-diametr-max:before {
+  content: "до "
+}
+.form-item.form-type-textfield.form-item-ot-steny-min:before {
+  content: "от "
+}
+.form-item.form-type-textfield.form-item-ot-steny-max:before {
+  content: "до "
+}
+.form-item.form-type-textfield.form-item-height-min:before {
+  content: "от "
+}
+.form-item.form-type-textfield.form-item-height-max:before {
+  content: "до "
+}
+
+
+
+#edit-count-lamp-min,
+#edit-count-lamp-max {
+  width: 68px !important;
+}
+
+.form-item-count-lamp-max label[for="edit-count-lamp-max"] {
+  display: none;
+}
+
+.form-item-count-lamp-min {
+  float: left;
+  
+}
+
+
+.form-item-count-lamp-max:after {
+   content: " шт"
+}
+
+#edit-dlina-min,
+#edit-dlina-max {
+  width: 68px !important;
+}
+
+.form-item-dlina-min {
+  float: left;
+}
+
+
+
+.form-item-dlina-max:after {
+  content: " см";
+}
+
+.form-item-dlina-max label[for="edit-dlina-max"] {
+  display: none;
+}
+
+#edit-shirina-min,
+#edit-shirina-max {
+  width: 68px !important;
+}
+
+.form-item-shirina-min {
+  float: left;
+}
+
+
+.form-item-shirina-max:after {
+  content: " см";
+}
+
+
+.form-item-shirina-max label[for="edit-shirina-max"] {
+  display: none;
+}
+
+#edit-diametr-min,
+#edit-diametr-max {
+  width: 68px !important;
+}
+
+.form-item-diametr-min {
+  float: left;
+}
+
+.form-item-diametr-max label[for="edit-diametr-max"] {
+  display: none;
+}
+.form-item-diametr-max:after {
+  content: " см";
+}
+
+#edit-field-komplektacija-value-wrapper label[for="edit-field-komplektacija-value"] {
+  display: none;
+}
+
+/*#edit-brand-wrapper {
+  padding: 10px 0 10px;
+}*/
+
+#edit-brand-wrapper .form-item-brand, #edit-material-abajura-wrapper .form-item-material-abajura, #edit-material-karkas-wrapper .form-item-material-karkas {
+  width: 200px;
+  margin-left: 7px;
+  max-height: 208px;
+  overflow-y: auto;
+}
+
+#edit-brand-wrapper label[for="edit-brand"] {
+    padding:3px 0 3px;
+
+}
+
+#edit-capacity-value-min,
+#edit-capacity-value-max {
+  width: 70px !important;
+}
+
+.form-item-capacity-value-max label[for="edit-capacity-value-max"] {
+  display: none;
+}
+
+.form-item-capacity-value-min {
+  float: left;
+  
+}
+
+/*+++++++++++++++++++++++*/
+
+#edit-ot-steny-min, #edit-ot-steny-max {
+  width: 70px !important;
+}
+.form-item-ot-steny-min {
+   float: left;
+}
+.form-item-ot-steny-max label[for="edit-ot-steny-max"] {
+  display: none;
+}
+.form-item-ot-steny-max:after {
+  content: " см";
+}
+
+/*+++ Высота +++*/
+
+#edit-height-min, #edit-height-max {
+  width: 70px !important;
+}
+
+.form-item-height-min {
+   float: left;
+}
+
+.form-item-height-max label[for="edit-height-max"] {
+  display: none;
+}
+
+.form-item-height-max:after {
+  content: " см";
+}
+
+
+
+
+
+
+
+/* Подсказки */
+
+.filtertip img {
+  height: 14px;
+  vertical-align: top;
+  width: 14px;
+}
+
+.views-exposed-widget.views-submit-button {
+  float: left;
+  margin-right: 7px;
+  
+}
+
+
+.views-exposed-form-product-filter-page .description {
+  float: right;
+}
+
+/* Выбор цветра */
+
+
+select#edit-color-abazhura {
+  width: 210px !important;
+  height: auto;
+}
+select#edit-color-abazhura option {
+  height: 21px !important;
+  width: 24px !important;
+  text-indent: -9999px;
+}
+
+/*#edit-category-wrapper .form-item-category {
+  max-height: 208px;
+  overflow-y: auto;
+}*/

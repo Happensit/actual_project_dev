@@ -1,0 +1,5 @@
+name = add_product
+description = add_product.
+package = Custom 
+version = VERSION 
+core = 7.x

@@ -1,0 +1,8 @@
+<?php
+
+function clearcacheform_cron() {
+
+	//db_query("TRUNCATE TABLE {cache_form} where 'expire' < UNIX_TIMESTAMP();");
+	cache_clear_all('*', 'cache', TRUE);
+    cache_clear_all('*', 'cache_form', TRUE);
+}

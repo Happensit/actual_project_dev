@@ -1,0 +1,1 @@
+<?php include $teaser ? 'node-lamp-teaser-without-li.tpl.php':'node-lamp-page.tpl.php';  ?>

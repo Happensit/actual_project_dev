@@ -1,0 +1,131 @@
+<?php
+
+
+function filter_block_form_views_exposed_form_alter(&$form, $form_state) {
+
+
+//debug($form['#id']);
+  if ( $form['#id'] == 'views-exposed-form-product-filter-page') {
+    
+    $query = db_select('field_data_commerce_price');
+    $query->addExpression('MIN(commerce_price_amount)', 'min');
+    $query->addExpression('MAX(commerce_price_amount)', 'max');
+    $limits = $query->execute()->fetch();
+
+    
+    $form['price']['#prefix'] = '<div class="slider-widget-wrapper" data-min="' . ($limits->min/100) . '" data-max="' . ($limits->max/100) . '">';
+    $form['price']['#suffix'] = '</div>';    
+
+ 
+    // Attach js and css
+    $form['#attached']['library'][] = array('system', 'ui.slider');
+    $form['#attached']['js'][] = drupal_get_path('module', 'filter_block') . '/commerce_slider.js';
+    $form['#attached']['css'][] = drupal_get_path('module', 'filter_block') . '/commerce_slider.css';
+
+   /* Скрываем дочерние термины в фильтрах "Мтериал абажура" и "Материал каркаса" */
+    foreach ($form['material_abajura']['#options'] as $term_key => $term) {
+        $term_value = reset($term->option);
+        if($term_value[0] == '-') {
+          unset($form['material_abajura']['#options'][$term_key]);
+        }
+      }
+
+      foreach ($form['material_karkas']['#options'] as $term_key => $term) {
+        $term_value = reset($term->option);
+        if($term_value[0] == '-') {
+          unset($form['material_karkas']['#options'][$term_key]);
+        }
+      }
+
+    if($form['color_abazhura']) {
+
+      /* Подключаем стили и js */
+
+      $form['#attached']['js'][] = drupal_get_path('module', 'filter_block') . '/filter_color.js';
+      $form['#attached']['css'][] = drupal_get_path('module', 'filter_block') . '/filter_color.css';
+
+       /* Выдёргиваем дополнительные поля таксономии color*/
+      $terms = taxonomy_term_load_multiple(array_keys($form['color_abazhura']['#options']));
+
+      foreach ($terms as $term){
+        $rgb = $term->field_hex_color['und'][0]['rgb'];
+        if(!empty($rgb)){
+            $color[$term->tid] = $rgb.'||'.$term->name;
+        }
+      }
+
+      $form['color_abazhura'] = array(
+            '#type' => 'select',
+            '#multiple' => TRUE,
+            '#options' => $color,
+         );
+
+      /* добавляем див для выбора цвета */
+       $form['color_abazhura']['#suffix'] = '<div class="colors"></div>';
+
+    }
+
+    if($form['color_karkas']) {
+
+      $termss = taxonomy_term_load_multiple(array_keys($form['color_karkas']['#options']));
+
+      foreach ($termss as $metall) {
+
+        //dprint_r($term);
+
+        if(!empty($metall->field_hex_metall['und'][0]['rgb'])){
+            $color_metall[$metall->tid] = $metall->field_hex_metall['und'][0]['rgb'].'||'.$metall->name;
+        }
+      }
+
+      $form['color_karkas'] = array(
+            '#type' => 'select',
+            '#multiple' => TRUE,
+            '#options' => $color_metall,
+         );
+
+       $form['color_karkas']['#suffix'] = '<div class="colors2"></div>';
+
+      }
+
+      $form['type_lamp']['#type'] = 'checkboxes';
+
+      /* Дескрипшны */
+
+       //$form['#info']['filter-commerce_price_amount']['description'] = ('');
+       $form['#info']['filter-field_brand_tid']['description'] = ('Выбор товаров определенного производителя светильников.');
+       // $form['#info']['filter-field_dlina_value']['description']
+       // $form['#info']['filter-field_shirina_value']['description']
+       $form['#info']['filter-field_count_lamp_cult_value']['description'] = ('от количества ламп и их мощности зависит уровень освещенности помещения. Общепринятая норма освещения для ламп накаливания составляет 15-20 Вт на квадратный метр. 
+
+Количество ламп может существенно повлиять на облик помещения. Одна яркая лампа освещает ограниченное пространство, но если дизайн люстры продуман таким образом, что рассеивает свет, то вся комната наполняется светом. Несколько ламп в люстре тоже могут дать разный эффект в зависимости от их расположения и направления света.
+
+Светильники с большим количеством ламп позволяют создать равномерное освещение комнаты. Если помещение вытянутое, то можно использовать несколько люстр с одной лампой.');
+       
+        // $form['#info']['filter-field_stil_value']['description']
+
+       $form['#info']['filter-term_node_tid_depth']['description'] = ('Выбирая цвет плафонов и подвесок ориентируются на интерьер. Цветные плафоны подкрашивают свет.
+
+Однако это может давать дополнительную нагрузку на глаза. Теплые цвета помогут создать уютную атмосферу в освещаемом помещении.');
+       $form['#info']['filter-term_node_tid_depth_1']['description'] = ('Цвет металла необходимо подбирать в соответствии с цветовым решением и стилем помещения, для которого приобретается светильник.');
+       $form['#info']['filter-field_strana_proishozhdenija_tid']['description'] = ('Выбор светильника по стране производителя.');
+
+       $form['#info']['filter-type_lamp']['description'] = 'Описание  типа лампы';
+       $form['#info']['filter-tsok_type']['description'] = 'Описание  типа цоколей';
+       $form['#info']['filter-term_node_tid_depth_2']['description'] = ('от материала, из которого сделаны плафоны, зависит степень и насыщенность освещения помещения. Чем больше плотность материала плафона, тем менее интенсивным будет освещение. В зависимости от того, в каких условиях будет использоваться светильник, нужно учитывать прочность материала плафона и его стойкость к ультрафиолету.');
+       
+       $form['#info']['filter-term_node_tid_depth_3']['description'] =('Материал каркаса подбирается в зависимости от требований к прочности и стилю светильников.');
+       
+       $form['#info']['filter-voltage']['description'] = ('Описание Напряжение');
+       $form['#info']['filter-field_rast_ot_steny_value']['description'] = 'Описание Выступ';
+       $form['#info']['filter-field_vysota_value']['description'] = 'Описание Высоты';
+       $form['#info']['filter-led']['description'] = 'Описание Светодиодные';
+       $form['#info']['filter-dotted']['description'] = 'Описание Точечные';
+       $form['#info']['filter-christal']['description'] = 'Описание Хрустальные';
+       $form['#info']['filter-children']['description'] = 'Описание Детские';
+       $form['#info']['filter-forged']['description'] = 'Описание Кованые';
+       $form['#info']['filter-solar']['description'] = 'Описание На солнечных батареях';
+       $form['#info']['filter-protect']['description'] = 'Описание Влагозащищённые';
+       $form['#info']['filter-floristics']['description'] = 'Описание Флористика';
+  }
+}  
