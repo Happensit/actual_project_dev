@@ -1,5 +1,9 @@
-<?php 
-
+<?php
+/**
+ * Created by: Happensit
+ * http://happensit.ru/
+ *
+ */
 drupal_add_css('/highslide/highslide-min.css', array('every_page' => FALSE));
 drupal_add_js('highslide/highslide-full.min.js');
 drupal_add_css(path_to_theme() . '/style/skin.css');
@@ -78,10 +82,12 @@ $product = $node->field_product;
 			<img src="<?php print $big_image; ?>" alt="<?php print $producer_name; ?>">
 		</a>	
 		<div class="left big_pic">
-			<?php if ($show_icons): ?>
-				<img class="prim" src="<?php echo path_to_theme();?>/img/at_home.png" alt="" title="Можно примерить у себя дома">
-				<img src="<?php echo  path_to_theme();?>/img/in.png" alt="" title="Можно посмотреть в нашем магазине">
-			<?php endif; ?>
+            <?php /** @var $show_icons boolean */
+            if ($show_icons) {
+                 print theme('image', array('path' => path_to_theme() . '/img/at_home.png', 'alt' => 'Home', 'title' => 'Можно примерить у себя дома', 'attributes' => array('class' => 'prim')));
+                 print theme('image', array('path' => path_to_theme() . '/img/in.png', 'alt' => 'Shop', 'title' => 'Можно посмотреть в нашем магазине'));
+			    }
+            ?>
 		</div>
 		<div class="status <?php $status_preorder ? print 'no' :  print 'yes'; ?>">
 			<?php 
@@ -99,54 +105,45 @@ $product = $node->field_product;
 		</div>
 	</div>
 	<div class="item_content">
-		
-		<h1><?php print $title; ?></h1>
-
-		<?php if(!$status_preorder): ?>
-			<div class="item_price">
-				Цена: <span><?php print $content['product:commerce_price'][0]['#markup'] ?></span>
-			</div>
-		
-			<div class="item_buttons">
-				<?php print render($content['field_product']); ?>
-				<div class="clear"></div>
-			</div>
-		<?php endif; ?>
-
-		<?php if ($show_icons) echo "<p> Можно посмотреть в нашем магазине или примерить дома. Если не подойдет, то можно легко вернуть</p>";  ?>	
-
-		<p>Появились вопросы? Мы с радостью ответим на них по телефону 8-495-961-73-84 с 10-00 до 20-00. Мы работаем без выходных.</p>	
+			<h1><?php print $title; ?></h1>
+        		<?php if(!$status_preorder): ?>
+                    <div class="item_price">
+                        Цена: <span><?php print $content['product:commerce_price'][0]['#markup'] ?></span>
+                    </div>
+                    <div class="item_buttons">
+                        <?php print render($content['field_product']); ?>
+                        <div class="clear"></div>
+                    </div>
+                <?php endif; ?>
+		<?php if ($show_icons) echo "<p> Можно посмотреть в нашем магазине или примерить дома. Если не подойдет, то можно легко вернуть</p>";  ?>
+		<p>Появились вопросы? Мы с радостью ответим на них по телефону 8-495-961-73-84 с 10-00 до 20-00. Мы работаем без выходных.</p>
 
 		<div class="second_img">
-		<?php if(!empty($second_image)) {?>
-
-                    <ul id="second_image_carousel" class="jcarousel-skin-tango">	 	 
-
-               <?php foreach ($second_image as $gallery) : ?>
-				
-                        <li><a href="<?php echo $gallery;?>" onclick="return hs.expand(this);"><img src="<?php echo $gallery; ?>"></img></a></li>
-               
-
-			<?php  endforeach; } ?>
-			
-			</ul>
-
+		<?php if(!empty($second_image)) :?>
+                   <ul id="second_image_carousel" class="jcarousel-skin-tango">
+                     <?php foreach ($second_image as $gallery) : ?>
+				       <li><a href="<?php echo $gallery;?>" onclick="return hs.expand(this);">
+                               <img src="<?php /** @var $gallery string */
+                               echo $gallery; ?>"></img>
+                           </a>
+                       </li>
+             		<?php endforeach; ?>
+	     	       </ul>
+            <?php endif; ?>
 		</div>
-
 	</div>
 	<div class="clear"></div>
-
 </div>
 
 <div class="item_info">
 	<div class="block_header">Технические характеристики</div>
-	<div class="props" style="float:left;margin-right:25px;">
+	<div class="props" style="float:left; margin-right:25px;">
 		<ul>
 			<?php
-				echo render(field_view_field('node', $node, 'field_artikul_fabriki', array('default')));
-				echo render(field_view_field('node', $node, 'field_serie', array('default')));
-				echo render(field_view_field('node', $node, 'field_brand', array('default')));
-				echo render(field_view_field('node', $node, 'field_strana_proishozhdenija', array('default')));
+				print render(field_view_field('node', $node, 'field_artikul_fabriki', array('default')));
+				print render(field_view_field('node', $node, 'field_serie', array('default')));
+				print render(field_view_field('node', $node, 'field_brand', array('default')));
+				print render(field_view_field('node', $node, 'field_strana_proishozhdenija', array('default')));
 			?>							
 		</ul>
 	</div>
@@ -163,7 +160,7 @@ $product = $node->field_product;
 	</div>
 </div>	
 
-<div style = "position: relative;"><!-- Тут были табы --></div>	
+<div style = "position: relative;"><!-- Тут были табы --> </div>
 
 <div id="tabs">
 	<ul>
