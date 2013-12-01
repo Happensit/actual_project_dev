@@ -17,7 +17,7 @@
 }
 
 .colors a.select, .colors2 a.select{
-	background-image:url('color-selector.png');
+	background-image:url('../color-selector.png');
 	background-position: 100% 0%;
 	background-repeat:no-repeat;
 	/*border: 1px solid red;*/
@@ -25,26 +25,26 @@
 
 /* Разноцветный*/
 #a-edit-color-karkas-9582, #a-edit-color-abazhura-9538 {
-  background:url('color_sprait.png') -1px 0px;
+  background:url('../color_sprait.png') -1px 0px;
 }
 #a-edit-color-karkas-9582.select, #a-edit-color-abazhura-9538.select {
-	background:url('color_sprait.png') 22px 0px;
+	background:url('../color_sprait.png') 22px 0px;
 }
 
 /* Прозрачный */
 #a-edit-color-karkas-9716, #a-edit-color-abazhura-9494 {
-	background:url('color_sprait.png') 0px 22px;
+	background:url('../color_sprait.png') 0px 22px;
 }
 #a-edit-color-karkas-9716.select, #a-edit-color-abazhura-9494.select {
-	background:url('color_sprait.png') 22px 22px;
+	background:url('../color_sprait.png') 22px 22px;
 }
 
 /* Без плафона/абажура */
 #a-edit-color-abazhura-9718, #a-edit-color-karkas-9717 {
-    background: url("less.png") -1px 21px;
+    background: url("../less.png") -1px 21px;
 }
 #a-edit-color-abazhura-9718.select, #a-edit-color-karkas-9717.select {
-    background: url("less.png") 22px -1px;
+    background: url("../less.png") 22px -1px;
 }
 /* Тултипы дескрипшнов */
 
@@ -202,11 +202,11 @@ box-shadow: inset -1px 0px 0px #d2d2d2;
 	display: none;
 }
 
-.title_widget {padding-left: 10px; background: url(f-plus.png) no-repeat scroll left center transparent;}
+.title_widget {padding-left: 10px; background: url(../f-plus.png) no-repeat scroll left center transparent;}
 
 .title_widget.show  {
 	padding-left: 13px;
-	background: url(f-minus.png) no-repeat scroll left center transparent !important;
+	background: url(../f-minus.png) no-repeat scroll left center transparent !important;
 }
 
 input[type="text"], input[type="text"]:focus, textarea:focus { 
