@@ -79,13 +79,13 @@ function filter_block_form_views_exposed_form_alter(&$form, $form_state) {
      $form['type_lamp']['#type'] = 'checkboxes';
 
      // Attach js and css
-     drupal_add_css(drupal_get_path('module', 'filter_block').'/assets/filter_color.css', array(
+     drupal_add_css(drupal_get_path('module', 'filter_block').'/assets/filters.css', array(
              'group' => CSS_THEME,
              'media' => 'All',
              'preprocess' => TRUE,
          ));
 
-     drupal_add_js(drupal_get_path('module', 'filter_block').'/assets/filter_color.js', array(
+     drupal_add_js(drupal_get_path('module', 'filter_block').'/assets/filters.js', array(
              'type' => 'file',
              'scope' => 'footer',
              'group' => JS_THEME,

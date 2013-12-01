@@ -73,7 +73,7 @@
  * @var $producer_name string
  * @var $serie_name string
  * @var $field_brand array
- * @var $big_image resource
+ * @var $big_image string
  * @var $title string
  * @var $content array
  */

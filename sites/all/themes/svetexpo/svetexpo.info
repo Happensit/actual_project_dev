@@ -17,7 +17,18 @@ regions[related_products] = Связанные товары
 
 ; STYLESHEETS
 ;---------------------------------
-stylesheets[all][] = style/style.css
+;stylesheets[all][] = style/style.css
+stylesheets[all][] = style/app.css
 stylesheets[all][] = style/style-add.css
 
 scripts[] = js/scripts.min.js
+
+; Unset system stylesheet files
+;----------------------------------
+
+stylesheets[all][] = contextual.css
+stylesheets[all][] = node.css
+stylesheets[all][] = comment.css
+stylesheets[all][] = user.css
+stylesheets[all][] = date.css
+stylesheets[all][] = field.css

@@ -27,12 +27,6 @@
                     var hex = $(this).text().split('||')[0];
                     var title = $(this).text().split('||')[1];
 
-                    // if(hex == '#multy') {
-                    //   hex = 'url(sites/all/modules/custom/filter_block/multicolor.png)';
-                    // } if (hex == '#trans') {
-                    //   hex = 'url(sites/all/modules/custom/filter_block/transparent.png)';
-                    // }  
-
                     $(targetBlock).append($('<a id="a-'+ $(selectControl).attr('id')+'-'+val+'" href="#"' + selectClass + ' title="'+title+'" style="background-color:' + hex + '" data-value="'+ val +'">' + val + '</a>').click(clickHandle));
 
                 });
@@ -40,7 +34,6 @@
 
             applyHandlers('.form-item-color-abazhura select', '.colors');
             applyHandlers('.form-item-color-karkas select', '.colors2');
-
 
             /* Подсказки фильтров */
 

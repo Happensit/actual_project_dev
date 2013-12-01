@@ -1,5 +1,6 @@
-<?php if ($content): ?>
-  
-    <?php print $content; ?>
-  
-<?php endif; ?>
+<?php
+/**
+ * @var $content array
+ */
+
+if ($content) print $content; ?>

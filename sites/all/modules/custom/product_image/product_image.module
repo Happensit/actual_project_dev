@@ -12,29 +12,22 @@
 function product_image_preprocess_node(&$variables) {
 
 	if ($variables['node']->type == "lamp") {
+        module_load_include('inc', 'pathauto', 'pathauto');
         $img_path_root = "http://new.svetexpo.ru";
         $IMAGE_PATH = $img_path_root . '/goods/images/';
     	$IMAGE_REALPATH = $_SERVER['DOCUMENT_ROOT'].'/goods/images/';
         $sku = $variables['content']['product:commerce_price']['#object']->sku;
         $img = str_replace(array('/', '.', '(', ')','№', '=', ' '), '_', trim($sku));
-        $search  = array('А', 'Т');
-        $replace = array('a', 't');
-        $img = str_replace($search, $replace, $img);
- 	    $img = strtolower($img);
+        $img = pathauto_cleanstring($img);
  	    $base = 'interior/'.$img;
  	    $img .= '.jpg';
     	$brand_name = $variables['content']['field_product']['#object']->field_brand['und'][0]['taxonomy_term']->name;
 
         if (!empty($brand_name)) {
-            $brand_name = strtolower($brand_name);
-              if($brand_name == 'ЭЛАТА') $brand_name = 'elata';
+            $brand_name = pathauto_cleanstring($brand_name);
+            $variables['big_image'] =  $IMAGE_PATH.$brand_name.'/'.$img;
+            $base = $brand_name.'/'.$base;
 
-                $variables['big_image'] = $IMAGE_PATH.$brand_name.'/'.$img;
-                $base = $brand_name.'/'.$base;
-
-        } else {
-
-            $variables['big_image'] = $IMAGE_PATH.$img;
         }
 
         $i = 0;
@@ -53,6 +46,7 @@ function product_image_preprocess_node(&$variables) {
 	}
 
     return $variables;
+
 } 
 
 function product_image_preprocess_page(&$vars) {
@@ -63,3 +57,4 @@ function product_image_preprocess_page(&$vars) {
 //dsm($vars['node']);
 }
 
+// @todo Прописать в $IMAGE_REALPATH полный путь о поддомена

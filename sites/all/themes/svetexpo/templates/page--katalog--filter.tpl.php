@@ -37,7 +37,7 @@
 	<div class="light">
 		<div class="site">
 			<header>
-				<a href="/" class="logo"></a>
+                <a href="<?php print $front_page; ?>" class="logo"></a>
 				<div class="header_box">
 					<div class="header_box_phone">
 						<span>
@@ -50,8 +50,9 @@
 					</div>
 				</div>
 				<div class="cart_box">
-					<a href = "/cart">
-						<img src = "/sites/all/themes/svetexpo/img/cart.png"/><span>Корзина</span>
+					<a href = "<?php echo ($base_url .'/cart'); ?>">
+                        <?php print theme('image', array('path' => path_to_theme() . '/img/cart.png')); ?>
+                        <span>Корзина</span>
 						<div class="cart_content">
 							<?php print render($page['top_cart']); ?>
 						</div>			
@@ -81,28 +82,24 @@
 				</form>
 			</nav>
 			<div class="content">
-			<?php if ($_SERVER['REQUEST_URI']=='/') print render($page['takeathome']); ?>
-
-<?php print $breadcrumb; // if ($_SERVER['REMOTE_ADDR']=='89.169.186.44') print $breadcrumb; ?>
-<?php if ($messages): ?>
-    <div id="messages"><div class="section clearfix">
-      <?php print $messages; ?>
-    </div></div> <!-- /.section, /#messages -->
-  <?php endif; ?>			
-<?php if ($page && !(isset($node) && $node && ($node->type=='lamp' || $node->type == 'streetlamp' ))): ?>
-<h1 class="title"><?php print $title; ?></h1>
-<?php endif; ?>
+            <?php print $breadcrumb; ?>
+            <?php if ($messages): ?>
+                <div id="messages"><div class="section clearfix">
+                  <?php print $messages; ?>
+                </div></div> <!-- /.section, /#messages -->
+              <?php endif; ?>
+            <?php if ($page && !(isset($node) && $node && ($node->type=='lamp' || $node->type == 'streetlamp' ))): ?>
+            <h1 class="title"><?php print $title; ?></h1>
+            <?php endif; ?>
 
 			<?php print render($page['content']); ?>
-			
-			<?php if ($_SERVER['REQUEST_URI']=='/') print render($page['takeathome']); ?>
-			
-<?php $current = taxonomy_term_load(arg(2)); ?>
-<?php if ($current): ?>
-    <div class="taxonomy-description">
-        <?php echo $current->description; ?>
-    </div>
-<?php endif; ?>				
+
+            <?php $current = taxonomy_term_load(arg(2)); ?>
+            <?php if ($current): ?>
+                <div class="taxonomy-description">
+                    <?php echo $current->description; ?>
+                </div>
+            <?php endif; ?>
 
 			</div>
 			<aside>
@@ -126,7 +123,7 @@
 						Приходите к нам в магазин
 					</div>
 					<p>
-						Все светильники отмеченные значком <img src="/sites/all/themes/svetexpo/img/in.png" alt=""> можно посмотреть в нашем магазине 
+						Все светильники отмеченные значком <?php print "<img src='" . $base_path . path_to_theme() . "/img/in.png' />"; ?> можно посмотреть в нашем магазине
 						по адресу: <span>Нахимовский проспект, дом 24, павильон № 3, этаж 1, сектор B, место 338</span>
 					</p>
 	
@@ -136,16 +133,14 @@
 					<p>
 						Скажите что пришли по объявлению на сайте и получите <span>ПРИЯТНЫЙ СЮРПРИЗ</span>
 					</p>
-					<img src="/sites/all/themes/svetexpo/img/present.png" class="bottom_image" alt="">
+                    <?php print theme('image', array('path' => path_to_theme() . '/img/present.png', 'attributes' => array('class' => 'bottom_image'), 'alt' => 'Present')); ?>
 				</div>
 				<div class="banner_box">
 					<a href="/delivery.html">
-						<img src="/sites/all/themes/svetexpo/img/free_delivery.png" alt="">
+                        <?php print theme('image', array('path' => path_to_theme() . '/img/free_delivery.png','alt' => 'Free')); ?>
 					</a>
 				</div>
-				<!-- <div class="list_header">
-					Бренды
-				</div> -->
+				<!-- <div class="list_header">Бренды</div> -->
 				</aside>
 			<div class="clear"></div>
 		</div>
