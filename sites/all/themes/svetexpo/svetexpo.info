@@ -21,7 +21,7 @@ regions[related_products] = Связанные товары
 stylesheets[all][] = style/app.css
 stylesheets[all][] = style/style-add.css
 
-scripts[] = js/scripts.min.js
+scripts[] = js/scripts.js
 
 ; Unset system stylesheet files
 ;----------------------------------
