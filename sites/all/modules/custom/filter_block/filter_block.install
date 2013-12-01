@@ -1,0 +1,42 @@
+<?php
+
+/**
+ * Created by PhpStorm.
+ * Developer: Happensit
+ * Date: 01.12.13
+ * Time: 3:11
+ */
+ 
+ /**
+  * Implements hook_uninstall().
+  */
+  
+function filter_block_uninstall() {
+
+    variable_del('brands');
+    variable_del('dlina');
+    variable_del('shirina');
+    variable_del('diametrs');
+    variable_del('count_lamp');
+    variable_del('styles');
+    variable_del('color_plafons');
+    variable_del('color_metalls');
+    variable_del('strana');
+    variable_del('type_lamp');
+    variable_del('tsokol');
+    variable_del('material_abajura');
+    variable_del('material_karkasa');
+    variable_del('voltage');
+    variable_del('vistups');
+    variable_del('visota');
+    variable_del('leds');
+    variable_del('dotteds');
+    variable_del('christals');
+    variable_del('childrens');
+    variable_del('forgeds');
+    variable_del('solars');
+    variable_del('protects');
+    variable_del('floristics');
+
+    cache_clear_all('*', 'cache', TRUE);
+}

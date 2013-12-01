@@ -27,7 +27,7 @@ function filter_foreach_colors(&$array) {
         }
 
         if(!empty($rgb)){
-            $term_color[$term->tid] = $rgb.'||'.$term->name;
+           $term_color[$term->tid] = $rgb.'||'.$term->name;
         }
     }
     return $term_color;

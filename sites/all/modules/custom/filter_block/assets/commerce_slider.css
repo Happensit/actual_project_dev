@@ -46,7 +46,7 @@
 }
 
 .ui-slider .ui-slider-handle {
-	background: url('../gui.png') no-repeat;
+	background: url('img/gui.png') no-repeat;
 }
 
 .ui-slider-horizontal .ui-slider-handle {
