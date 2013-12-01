@@ -17,6 +17,7 @@ function filter_foreach_termins(&$array) {
 
 function filter_foreach_colors(&$array) {
     /** @var $terms array */
+    $term_color = array();
     $terms = taxonomy_term_load_multiple(array_keys($array));
 
     foreach ($terms as $term){

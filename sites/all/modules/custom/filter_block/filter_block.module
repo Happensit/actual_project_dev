@@ -38,7 +38,7 @@ function filter_block_form_views_exposed_form_alter(&$form, $form_state) {
     $form['#attached']['css'][] = drupal_get_path('module', 'filter_block') . '/assets/commerce_slider.css';
 
    /* Скрываем дочерние термины в фильтрах "Мтериал абажура" и "Материал каркаса" */
-    module_load_include('inc', 'filter_block', 'filter_foreach');
+    module_load_include('php', 'filter_block', 'filter_foreach');
 
      filter_foreach_termins($form['material_abajura']['#options']);
      filter_foreach_termins($form['material_karkas']['#options']);
