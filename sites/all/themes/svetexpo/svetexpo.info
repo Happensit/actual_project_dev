@@ -20,4 +20,4 @@ regions[related_products] = Связанные товары
 stylesheets[all][] = style/style.css
 stylesheets[all][] = style/style-add.css
 
-scripts[] = js/scripts.js
+scripts[] = js/scripts.min.js

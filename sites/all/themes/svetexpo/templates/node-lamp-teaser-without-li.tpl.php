@@ -128,7 +128,7 @@ if($ff_price_amount == 0){
 </div> <!-- end catalog_name -->
 <div class="catalog_box">
 	<a href="<?php print $node_url; ?>" class="catalog_ilink">
-        <?php if(isset($big_image)) print theme('image', array('path' => $big_image, 'alt' => $producer_name, 'attributes' => array('class' => 'catalog_image'))); ?>
+        <?php if(isset($big_image)) print theme('image', array('path' => $big_image, 'alt' => $producer_name, 'attributes' => array('class' => 'catalog_image lazy'))); ?>
 	</a>
 	<div class="left">
         <?php if ($show_icons) {
