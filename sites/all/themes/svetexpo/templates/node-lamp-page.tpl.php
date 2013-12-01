@@ -79,7 +79,7 @@
  */
 
 drupal_add_css('/highslide/highslide-min.css', array('every_page' => FALSE));
-drupal_add_js('/highslide/highslide-full.min.js');
+drupal_add_js('highslide/highslide-full.min.js');
 drupal_add_css(path_to_theme() . '/style/skin.css');
 drupal_add_js(path_to_theme() . '/js/jquery.jcarousel.min.js');
 drupal_add_library('system', 'ui.tabs');
