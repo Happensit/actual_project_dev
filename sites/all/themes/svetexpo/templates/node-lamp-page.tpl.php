@@ -112,10 +112,10 @@ JS;
 drupal_add_js($js,'inline');
 
 $show_icons = false;
-if (isset ($node->field_brand) && $field = $node->field_brand)
-if ($field['und'][0]['taxonomy_term']) {		
-	$producer_name = $field['und'][0]['taxonomy_term']->name;//['name']
-	//$show_icons = svetexpo_show_icons($producer_name);	
+if (isset ($node->field_brand)) {
+    /* @var $producer_name string */
+    $producer_name = $node->field_brand['und'][0]['taxonomy_term']->name;
+	$show_icons = svetexpo_show_icons($producer_name);
 }	
 
 hide($content['field_ostatki']);
