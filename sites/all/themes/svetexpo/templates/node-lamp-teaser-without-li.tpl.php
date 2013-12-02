@@ -98,7 +98,7 @@ if(isset ($node->field_brand['und'][0])){
 
 if(isset($node->field_serie)){
    $tid = $node->field_serie['und'][0]['tid'];
-    /** @var $tid string */
+    /** @var $tid integer */
     /** @var $series_name object */
     $series_name = taxonomy_term_load($tid);
     /** @var $serie_name string */
