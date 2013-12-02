@@ -146,8 +146,7 @@ if($ff_price_amount == 0){
 	$text_status = 'Нет в наличии';
 	$status_preorder = true;
 }	
-$product = $node->field_product;	
-
+$product = $node->field_product;
 ?>	
 				
 <div class="item">
