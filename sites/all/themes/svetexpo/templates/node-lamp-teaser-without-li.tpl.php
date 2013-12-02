@@ -98,8 +98,11 @@ if(isset ($node->field_brand['und'][0])){
 
 if(isset($node->field_serie)){
    $tid = $node->field_serie['und'][0]['tid'];
-   $serie_name = taxonomy_term_load($tid);
-   $serie_name = $serie_name->name;
+    /** @var $tid string */
+    /** @var $serie_name array */
+    $serie_name = taxonomy_term_load($tid);
+    /** @var $serie_name string */
+    $serie_name = $serie_name->name;
 }
 	
 $content['field_product'][0]['label_hidden'] = 1;

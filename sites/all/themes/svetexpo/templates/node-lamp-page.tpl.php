@@ -147,6 +147,12 @@ if($ff_price_amount == 0){
 	$status_preorder = true;
 }	
 $product = $node->field_product;
+
+if(isset($node->field_dlina['und'][0]['value'])){
+    $new_num = $node->field_dlina['und'][0]['value'];
+    $node->field_dlina['und'][0]['value'] = trim(trim($new_num, '0'), '.');
+}
+   dsm($node->field_dlina['und'][0]['value']);
 ?>	
 				
 <div class="item">

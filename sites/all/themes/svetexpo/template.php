@@ -22,7 +22,7 @@ function svetexpo_commerce_cart_empty_block() {
 }
 
 // блок с корзиной полный
-function svetexpo_commerce_cart_block($variables=array()) {
+function svetexpo_commerce_cart_block($variables) {
 	global $user;
 	$suff = "ов";
 	$order = commerce_cart_order_load($user->uid);
@@ -45,9 +45,9 @@ function svetexpo_field__lamp(&$variables) {
 
 	 $value = '';
 		foreach ($variables['items'] as $key => $item) {
-      if($key > 0) {
-           $value .= (', '.$items);
-     }
+          if($key > 0) {
+               $value .= (', '.$item);
+         }
 
 			$value .= drupal_render($item);
 
@@ -108,8 +108,9 @@ function svetexpo_breadcrumb($variables) {
 	$breadcrumb = $variables['breadcrumb'];
     if ( arg(0) == 'node' && is_numeric(arg(1)) ) {
         $node = node_load(arg(1));
-        if ($node->type=='lamp') {            
-            if ($current = taxonomy_term_load($node->field_category['und'][0]['tid'])) { // taxonomy_term_load()) {
+        if ($node->type=='lamp') {
+            $current = taxonomy_term_load($node->field_category['und'][0]['tid']);
+            if ($current) {
 				$breadcrumb = array();
 				$breadcrumb[] = $node->title;
                 $breadcrumb[] = l($current->name, 'taxonomy/term/' . $current->tid);
