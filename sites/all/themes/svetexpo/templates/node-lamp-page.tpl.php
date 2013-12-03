@@ -125,8 +125,8 @@ hide($content['field_obshhee_opisanie']);
 hide($content['field_serie']);
 hide($content['field_product']);
 $ost = isset($node->field_ostatki['und'][0]['value'])?$node->field_ostatki['und'][0]['value']:0;
-$content['field_product'][0]['label_hidden'] = 1;	
-$content['field_product'][0]['submit']['#value'] = 'В корзину'; 
+$content['field_product'][0]['label_hidden'] = 1;
+
 if(isset($node->field_status['und'][0]['value'])){
 	$status = end($node->field_status['und']);
 	$text_status = $status['value'];

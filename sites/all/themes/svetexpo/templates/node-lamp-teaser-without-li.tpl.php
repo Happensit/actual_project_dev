@@ -106,7 +106,6 @@ if(isset($node->field_serie)){
 }
 	
 $content['field_product'][0]['label_hidden'] = 1;
-$content['field_product'][0]['submit']['#value'] = 'В корзину';
 $ost = isset($node->field_ostatki['und'][0]['value'])?$node->field_ostatki['und'][0]['value']:0;
 
 if(isset($node->field_status['und'][0]['value'])){
