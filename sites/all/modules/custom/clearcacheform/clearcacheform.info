@@ -1,5 +1,5 @@
 name = Clear Cache_form
 description = Clear expired cache_form table from database
-package = Commerce (contrib)
+package = Svetexposhop
 core = 7.x
 version = VERSION

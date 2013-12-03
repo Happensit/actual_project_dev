@@ -147,7 +147,6 @@ if($ff_price_amount == 0){
 	$status_preorder = true;
 }	
 $product = $node->field_product;
-
 ?>	
 				
 <div class="item">

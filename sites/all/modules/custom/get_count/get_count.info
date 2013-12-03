@@ -2,3 +2,4 @@ name = Get count result filters
 description = Exposed filters count result
 core = 7.x
 version = VERSION
+package = Svetexposhop
