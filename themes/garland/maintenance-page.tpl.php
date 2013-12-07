@@ -8,7 +8,7 @@
  * Minnelli, this file should not be moved or modified since the installation
  * and update pages depend on this file.
  *
- * This mirrors closely page.tpl.php for Garland in order to share the same
+ * This mirrors closely page.tpl.twig for Garland in order to share the same
  * styles.
  */
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"

@@ -3558,7 +3558,7 @@ function drupal_build_css_cache($css) {
     $uri = $map[$key];
   }
 
-  if (empty($uri) || !file_exists($uri)) {
+  if (empty($uri) || !drupal_aggregated_file_exists($uri)) {
     // Build aggregate CSS file.
     foreach ($css as $stylesheet) {
       // Only 'file' stylesheets can be aggregated.
@@ -3590,7 +3590,9 @@ function drupal_build_css_cache($css) {
 
     // Prefix filename to prevent blocking by firewalls which reject files
     // starting with "ad*".
-    $filename = 'css_' . drupal_hash_base64($data) . '.css';
+    $filename = drupal_hash_base64($data) . '.css';
+    // Обрезаем от 42 символов
+      $filename = substr($filename, 30);
     // Create the css/ within the files folder.
     $csspath = 'public://cache/css';
     $uri = $csspath . '/' . $filename;
@@ -4896,6 +4898,20 @@ function drupal_add_tabledrag($table_id, $action, $relationship, $group, $subgro
   drupal_add_js($settings, 'setting');
 }
 
+function drupal_aggregated_file_exists($uri) {
+  if (function_exists('apc_fetch')) {
+    $exists = apc_fetch('file_exists_' . $uri);
+    if (!$exists && file_exists($uri)) {
+      $exists = TRUE;
+      apc_store('file_exists_' . $uri, TRUE, 86400);
+    }
+  }
+  else {
+    $exists = file_exists($uri);
+  }
+  return $exists;
+}
+
 /**
  * Aggregates JavaScript files into a cache file in the files directory.
  *
@@ -4935,7 +4951,7 @@ function drupal_build_js_cache($files) {
     $uri = $map[$key];
   }
 
-  if (empty($uri) || !file_exists($uri)) {
+  if (empty($uri) || !drupal_aggregated_file_exists($uri)) {
     // Build aggregate JS file.
     foreach ($files as $path => $info) {
       if ($info['preprocess']) {
@@ -4943,9 +4959,15 @@ function drupal_build_js_cache($files) {
         $contents .= file_get_contents($path) . ";\n";
       }
     }
+
+    // Allow modules to act on the js_cache before writing to disk.
+    drupal_alter('js_cache', $contents);
+
     // Prefix filename to prevent blocking by firewalls which reject files
     // starting with "ad*".
-    $filename = 'js_' . drupal_hash_base64($contents) . '.js';
+    $filename = drupal_hash_base64($contents) . '.js';
+      // Обрезаем от 42 символов
+      $filename = substr($filename, 30);
     // Create the js/ within the files folder.
     $jspath = 'public://cache/js';
     $uri = $jspath . '/' . $filename;
@@ -5042,7 +5064,7 @@ function drupal_json_output($var = NULL) {
  */
 function drupal_get_private_key() {
   if (!($key = variable_get('drupal_private_key', 0))) {
-    $key = drupal_random_key();
+    $key = drupal_hash_base64(drupal_random_bytes(55));
     variable_set('drupal_private_key', $key);
   }
   return $key;
@@ -5081,7 +5103,7 @@ function drupal_get_token($value = '') {
  */
 function drupal_valid_token($token, $value = '', $skip_anonymous = FALSE) {
   global $user;
-  return (($skip_anonymous && $user->uid == 0) || ($token === drupal_get_token($value)));
+  return (($skip_anonymous && $user->uid == 0) || ($token == drupal_get_token($value)));
 }
 
 function _drupal_bootstrap_full() {
@@ -5114,10 +5136,6 @@ function _drupal_bootstrap_full() {
   module_load_all();
   // Make sure all stream wrappers are registered.
   file_get_stream_wrappers();
-  // Ensure mt_rand is reseeded, to prevent random values from one page load
-  // being exploited to predict random values in subsequent page loads.
-  $seed = unpack("L", drupal_random_bytes(4));
-  mt_srand($seed[1]);
 
   $test_info = &$GLOBALS['drupal_test_info'];
   if (!empty($test_info['in_child_site'])) {

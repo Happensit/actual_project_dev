@@ -903,7 +903,7 @@ function drupal_find_base_themes($themes, $key, $used_keys = array()) {
  * structure that follows the template naming structure used by the theme's
  * rendering engine (for example, since the Bartik theme uses the PHPTemplate
  * rendering engine, it overrides the default implementation of the 'page' theme
- * hook by containing a 'page.tpl.php' file within its folder structure).
+ * hook by containing a 'page.tpl.twig' file within its folder structure).
  *
  * @subsection sub_preprocess_templates Preprocessing for Template Files
  * If the implementation is a template file, several functions are called
@@ -1416,7 +1416,7 @@ function theme_get_setting($setting_name, $theme = NULL) {
       'default_favicon'                  =>  1,
       'favicon_path'                     =>  '',
       // Use the IANA-registered MIME type for ICO files as default.
-      'favicon_mimetype'                 =>  'image/vnd.microsoft.icon',
+      'favicon_mimetype'                 =>  'image/x-icon',
     );
     // Turn on all default features.
     $features = _system_default_theme_features();
@@ -1465,7 +1465,7 @@ function theme_get_setting($setting_name, $theme = NULL) {
       // Generate the path to the logo image.
       if ($cache[$theme]['toggle_logo']) {
         if ($cache[$theme]['default_logo']) {
-          $cache[$theme]['logo'] = file_create_url(dirname($theme_object->filename) . '/logo.png');
+          $cache[$theme]['logo'] = file_create_url('/public/theme/img/logo.png');
         }
         elseif ($cache[$theme]['logo_path']) {
           $cache[$theme]['logo'] = file_create_url($cache[$theme]['logo_path']);
@@ -1479,7 +1479,7 @@ function theme_get_setting($setting_name, $theme = NULL) {
             $cache[$theme]['favicon'] = file_create_url($favicon);
           }
           else {
-            $cache[$theme]['favicon'] = file_create_url('misc/favicon.ico');
+            $cache[$theme]['favicon'] = file_create_url('/favicon.ico');
           }
         }
         elseif ($cache[$theme]['favicon_path']) {
@@ -2500,21 +2500,15 @@ function template_preprocess_html(&$variables) {
   if (theme_get_setting('toggle_favicon')) {
     $favicon = theme_get_setting('favicon');
     $type = theme_get_setting('favicon_mimetype');
-    drupal_add_html_head_link(array('rel' => 'shortcut icon', 'href' => drupal_strip_dangerous_protocols($favicon), 'type' => $type));
+    drupal_add_html_head_link(array('rel' => 'icon', 'href' => drupal_strip_dangerous_protocols($favicon), 'type' => $type));
   }
 
   // Construct page title.
   if (drupal_get_title()) {
     $head_title = array(
       'title' => strip_tags(drupal_get_title()),
-      'name' => check_plain(variable_get('site_name', 'Drupal')),
+      //'name' => check_plain(variable_get('site_name', 'Drupal')),
     );
-  }
-  else {
-    $head_title = array('name' => check_plain(variable_get('site_name', 'Drupal')));
-    if (variable_get('site_slogan', '')) {
-      $head_title['slogan'] = filter_xss_admin(variable_get('site_slogan', ''));
-    }
   }
   $variables['head_title_array'] = $head_title;
   $variables['head_title'] = implode(' | ', $head_title);
@@ -2526,10 +2520,10 @@ function template_preprocess_html(&$variables) {
 }
 
 /**
- * Preprocess variables for page.tpl.php
+ * Preprocess variables for page.tpl.twig
  *
- * Most themes utilize their own copy of page.tpl.php. The default is located
- * inside "modules/system/page.tpl.php". Look in there for the full list of
+ * Most themes utilize their own copy of page.tpl.twig. The default is located
+ * inside "modules/system/page.tpl.twig". Look in there for the full list of
  * variables.
  *
  * Uses the arg() function to generate a series of page template suggestions
@@ -2540,7 +2534,7 @@ function template_preprocess_html(&$variables) {
  *
  * @see drupal_render_page()
  * @see template_process_page()
- * @see page.tpl.php
+ * @see page.tpl.twig
  */
 function template_preprocess_page(&$variables) {
   // Move some variables to the top level for themer convenience and template cleanliness.
@@ -2585,13 +2579,13 @@ function template_preprocess_page(&$variables) {
 }
 
 /**
- * Process variables for page.tpl.php
+ * Process variables for page.tpl.twig
  *
  * Perform final addition of variables before passing them into the template.
  * To customize these variables, simply set them in an earlier step.
  *
  * @see template_preprocess_page()
- * @see page.tpl.php
+ * @see page.tpl.twig
  */
 function template_process_page(&$variables) {
   if (!isset($variables['breadcrumb'])) {
@@ -2706,7 +2700,7 @@ function theme_get_suggestions($args, $base, $delimiter = '__') {
 }
 
 /**
- * Process variables for maintenance-page.tpl.php.
+ * Process variables for maintenance-page.tpl.twig.
  *
  * The variables array generated here is a mirror of
  * template_preprocess_page(). This preprocessor will run its course when
@@ -2717,7 +2711,7 @@ function theme_get_suggestions($args, $base, $delimiter = '__') {
  * The $variables array contains the following arguments:
  * - $content
  *
- * @see maintenance-page.tpl.php
+ * @see maintenance-page.tpl.twig
  */
 function template_preprocess_maintenance_page(&$variables) {
   // Add favicon
@@ -2811,7 +2805,7 @@ function template_preprocess_maintenance_page(&$variables) {
  * The variables array generated here is a mirror of template_process_html().
  * This processor will run its course when theme_maintenance_page() is invoked.
  *
- * @see maintenance-page.tpl.php
+ * @see maintenance-page.tpl.twig
  * @see template_process_html()
  */
 function template_process_maintenance_page(&$variables) {

@@ -1492,10 +1492,10 @@ function node_is_page($node) {
 }
 
 /**
- * Processes variables for node.tpl.php
+ * Processes variables for node.tpl.php.twig
  *
- * Most themes utilize their own copy of node.tpl.php. The default is located
- * inside "modules/node/node.tpl.php". Look in there for the full list of
+ * Most themes utilize their own copy of node.tpl.php.twig. The default is located
+ * inside "modules/node/node.tpl.php.twig". Look in there for the full list of
  * variables.
  *
  * The $variables array contains the following arguments:
@@ -1503,7 +1503,7 @@ function node_is_page($node) {
  * - $view_mode
  * - $page
  *
- * @see node.tpl.php
+ * @see node.tpl.php.twig
  */
 function template_preprocess_node(&$variables) {
   $variables['view_mode'] = $variables['elements']['#view_mode'];

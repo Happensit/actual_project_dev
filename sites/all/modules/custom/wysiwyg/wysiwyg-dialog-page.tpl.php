@@ -30,7 +30,7 @@
  * - $site_name: The name of the site, empty when display has been disabled
  *   in theme settings.
  *
- * Page content (in order of occurrance in the default page.tpl.php):
+ * Page content (in order of occurrance in the default page.tpl.twig):
  * - $breadcrumb: The breadcrumb trail for the current page.
  * - $title: The page title, for use in the actual HTML content.
  * - $help: Dynamic help text, mostly for admin pages.

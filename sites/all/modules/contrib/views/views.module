@@ -563,7 +563,7 @@ function views_preprocess_html(&$variables) {
   // associated with. This we don't want; for better visual highlighting, we
   // prefer a smaller region to be chosen. The region we prefer differs from
   // theme to theme and depends on the details of the theme's markup in
-  // page.tpl.php, so we can only find it using JavaScript. We therefore remove
+  // page.tpl.twig, so we can only find it using JavaScript. We therefore remove
   // the "contextual-links-region" class from the <body> tag here and add
   // JavaScript that will insert it back in the correct place.
   if (!empty($variables['page']['#views_contextual_links_info'])) {

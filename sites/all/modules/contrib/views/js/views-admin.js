@@ -493,7 +493,7 @@ Drupal.viewsUi.rearrangeFilterHandler.prototype.insertAddRemoveFilterGroupLinks 
   var $ = jQuery;
 
   // Insert a link for adding a new group at the top of the page, and make it
-  // match the action links styling used in a typical page.tpl.php. Note that
+  // match the action links styling used in a typical page.tpl.twig. Note that
   // Drupal does not provide a theme function for this markup, so this is the
   // best we can do.
   $('<ul class="action-links"><li><a id="views-add-group-link" href="#">' + this.addGroupButton.val() + '</a></li></ul>')

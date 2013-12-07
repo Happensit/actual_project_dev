@@ -34,7 +34,7 @@ function wysiwyg_dialog($plugin, $instance) {
  * Template preprocess function for theme_wysiwyg_dialog_page().
  *
  * @see wysiwyg_dialog()
- * @see wysiwyg-dialog-page.tpl.php
+ * @see wysiwyg-dialog-page.tpl.twig
  * @see template_preprocess()
  */
 function template_preprocess_wysiwyg_dialog_page(&$variables) {
