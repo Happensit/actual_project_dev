@@ -85,7 +85,7 @@
                 <?php if(drupal_is_front_page()) print render($page['takeathome']); ?>
 
 <?php if (isset($breadcrumb)) {
-    print $breadcrumb;
+    print render($breadcrumb);
 } ?>
 
 <?php if ($messages): ?>

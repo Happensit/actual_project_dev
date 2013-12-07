@@ -1,6 +1,6 @@
 <?php
 /**
- * @file taxonomy_title.theme.inc
+ * @file taxonomy_title.pager.inc
  * Theme functions for the taxonomy title module.
  */
 

@@ -8,7 +8,7 @@
 function ctools_wizard_theme(&$theme) {
   $theme['ctools_wizard_trail'] = array(
     'variables' => array('trail' => NULL),
-    'file' => 'includes/wizard.theme.inc',
+    'file' => 'includes/wizard.pager.inc',
   );
 }
 

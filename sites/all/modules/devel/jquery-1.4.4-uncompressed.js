@@ -3699,62 +3699,51 @@ var Expr = Sizzle.selectors = {
 			var type = match[1],
 				node = elem;
 
-			switch ( type ) {
-				case "only":
-				case "first":
-					while ( (node = node.previousSibling) )	 {
-						if ( node.nodeType === 1 ) { 
-							return false; 
-						}
-					}
+            if (type == "only" || type == "first") {
+                while ((node = node.previousSibling)) {
+                    if (node.nodeType === 1) {
+                        return false;
+                    }
+                }
+                if (type === "first") {
+                    return true;
+                }
+                node = elem;
+                while ((node = node.nextSibling)) {
+                    if (node.nodeType === 1) {
+                        return false;
+                    }
+                }
+                return true;
+            } else if (type == "last") {
+                while ((node = node.nextSibling)) {
+                    if (node.nodeType === 1) {
+                        return false;
+                    }
+                }
+                return true;
+            } else if (type == "nth") {
+                if (first === 1 && last === 0) {
+                    return true;
+                }
+                if (parent && (parent.sizcache !== doneName || !elem.nodeIndex)) {
+                    var count = 0;
 
-					if ( type === "first" ) { 
-						return true; 
-					}
+                    for (node = parent.firstChild; node; node = node.nextSibling) {
+                        if (node.nodeType === 1) {
+                            node.nodeIndex = ++count;
+                        }
+                    }
 
-					node = elem;
+                    parent.sizcache = doneName;
+                }
+                if (first === 0) {
+                    return diff === 0;
 
-				case "last":
-					while ( (node = node.nextSibling) )	 {
-						if ( node.nodeType === 1 ) { 
-							return false; 
-						}
-					}
-
-					return true;
-
-				case "nth":
-					var first = match[2],
-						last = match[3];
-
-					if ( first === 1 && last === 0 ) {
-						return true;
-					}
-					
-					var doneName = match[0],
-						parent = elem.parentNode;
-	
-					if ( parent && (parent.sizcache !== doneName || !elem.nodeIndex) ) {
-						var count = 0;
-						
-						for ( node = parent.firstChild; node; node = node.nextSibling ) {
-							if ( node.nodeType === 1 ) {
-								node.nodeIndex = ++count;
-							}
-						} 
-
-						parent.sizcache = doneName;
-					}
-					
-					var diff = elem.nodeIndex - last;
-
-					if ( first === 0 ) {
-						return diff === 0;
-
-					} else {
-						return ( diff % first === 0 && diff / first >= 0 );
-					}
-			}
+                } else {
+                    return ( diff % first === 0 && diff / first >= 0 );
+                }
+            }
 		},
 
 		ID: function( elem, match ) {

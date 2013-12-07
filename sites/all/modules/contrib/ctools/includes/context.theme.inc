@@ -11,20 +11,20 @@
 function ctools_context_theme(&$theme) {
   $theme['ctools_context_list'] = array(
     'variables' => array('object' => NULL),
-    'file' => 'includes/context.theme.inc',
+    'file' => 'includes/context.pager.inc',
   );
   $theme['ctools_context_list_no_table'] = array(
     'variables' => array('object' => NULL),
-    'file' => 'includes/context.theme.inc',
+    'file' => 'includes/context.pager.inc',
   );
   $theme['ctools_context_item_form'] = array(
     'render element' => 'form',
 //    'variables' => array('form' => NULL),
-    'file' => 'includes/context.theme.inc',
+    'file' => 'includes/context.pager.inc',
   );
   $theme['ctools_context_item_row'] = array(
     'variables' => array('type' => NULL, 'form' => NULL, 'position' => NULL, 'count' => NULL, 'with_tr' => TRUE),
-    'file' => 'includes/context.theme.inc',
+    'file' => 'includes/context.pager.inc',
   );
 
   // For the access plugin

@@ -981,43 +981,43 @@ function rules_theme() {
   return array(
     'rules_elements' => array(
       'render element' => 'element',
-      'file' => 'ui/ui.theme.inc',
+      'file' => 'ui/ui.pager.inc',
     ),
     'rules_content_group' => array(
       'render element' => 'element',
-      'file' => 'ui/ui.theme.inc',
+      'file' => 'ui/ui.pager.inc',
     ),
     'rules_parameter_configuration' => array(
       'render element' => 'element',
-      'file' => 'ui/ui.theme.inc',
+      'file' => 'ui/ui.pager.inc',
     ),
     'rules_variable_view' => array(
       'render element' => 'element',
-      'file' => 'ui/ui.theme.inc',
+      'file' => 'ui/ui.pager.inc',
     ),
     'rules_data_selector_help' => array(
       'variables' => array('parameter' => NULL, 'variables' => NULL),
-      'file' => 'ui/ui.theme.inc',
+      'file' => 'ui/ui.pager.inc',
     ),
     'rules_ui_variable_form' => array(
       'render element' => 'element',
-      'file' => 'ui/ui.theme.inc',
+      'file' => 'ui/ui.pager.inc',
     ),
     'rules_log' => array(
       'render element' => 'element',
-      'file' => 'ui/ui.theme.inc',
+      'file' => 'ui/ui.pager.inc',
     ),
     'rules_autocomplete' => array(
       'render element' => 'element',
-      'file' => 'ui/ui.theme.inc',
+      'file' => 'ui/ui.pager.inc',
     ),
     'rules_debug_element' => array(
       'render element' => 'element',
-      'file' => 'ui/ui.theme.inc',
+      'file' => 'ui/ui.pager.inc',
     ),
     'rules_settings_help' => array(
       'variables' => array('text' => '', 'heading' => ''),
-      'file' => 'ui/ui.theme.inc',
+      'file' => 'ui/ui.pager.inc',
     ),
   );
 }

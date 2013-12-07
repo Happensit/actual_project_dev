@@ -13,7 +13,7 @@ function mimemail_theme_theme() {
       'variables' => array('key' => NULL, 'recipient' => NULL, 'subject' => NULL, 'body' => NULL),
       'template' => 'mimemail-message',
       'pattern' => 'mimemail_message__',
-      'file' => 'mimemail.theme.inc',
+      'file' => 'mimemail.pager.inc',
       'mail theme' => TRUE,
       'path' => $path,
     )

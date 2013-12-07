@@ -2,12 +2,11 @@ name = Commerce Svetexpo
 description = Svetexpo functions @Lev
 core = 7.x
 dependencies[] = commerce
-package = Svetexposhop
+package = Commerce
 
-#files[] = svetexpo2.inc
+#files[] = svetexpo2.admin.inc
 files[] = svetexpo2.module
 configure=admin/commerce/svetexpo2/settings
 
 version = "7.x-1.2"
-core = "7.x"
 project = "svetexpo2"

@@ -48,7 +48,7 @@
 function ctools_dropbutton_theme(&$items) {
   $items['links__ctools_dropbutton'] = array(
     'variables' => array('title' => NULL, 'links' => NULL, 'image' => FALSE, 'class' => NULL),
-    'file' => 'includes/dropbutton.theme.inc',
+    'file' => 'includes/dropbutton.pager.inc',
   );
 }
 

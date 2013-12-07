@@ -117,19 +117,19 @@ function simplemeta_theme() {
   return array(
     'simplemeta_meta_list' => array(
       'render element' => 'items',
-      'file' => 'simplemeta.theme.inc',
+      'file' => 'simplemeta.pager.inc',
     ),
     'simplemeta_meta_title' => array(
       'render element' => 'meta',
-      'file' => 'simplemeta.theme.inc',
+      'file' => 'simplemeta.pager.inc',
     ),
     'simplemeta_meta_description' => array(
       'render element' => 'meta',
-      'file' => 'simplemeta.theme.inc',
+      'file' => 'simplemeta.pager.inc',
     ),
     'simplemeta_meta_keywords' => array(
       'render element' => 'meta',
-      'file' => 'simplemeta.theme.inc',
+      'file' => 'simplemeta.pager.inc',
     ),
   );
 }

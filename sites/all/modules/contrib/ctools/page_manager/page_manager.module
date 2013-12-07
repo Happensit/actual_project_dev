@@ -229,7 +229,7 @@ function page_manager_theme() {
 
   $base = array(
     'path' => drupal_get_path('module', 'page_manager') . '/theme',
-    'file' => 'page_manager.theme.inc',
+    'file' => 'page_manager.pager.inc',
   );
 
   $items = array(

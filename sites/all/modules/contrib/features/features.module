@@ -204,7 +204,7 @@ function features_menu() {
 function features_theme() {
   $base = array(
     'path' => drupal_get_path('module', 'features') . '/theme',
-    'file' => 'theme.inc',
+    'file' => 'pager.inc',
   );
 
   $items = array();

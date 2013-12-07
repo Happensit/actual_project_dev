@@ -2266,7 +2266,7 @@ function date_api_element_info() {
  */
 function date_api_theme($existing, $type, $theme, $path) {
   $base = array(
-    'file' => 'theme.inc',
+    'file' => 'pager.inc',
     'path' => "$path/theme",
   );
   return array(

@@ -37,7 +37,7 @@
 function ctools_dropdown_theme(&$items) {
   $items['ctools_dropdown'] = array(
     'variables' => array('title' => NULL, 'links' => NULL, 'image' => FALSE, 'class' => ''),
-    'file' => 'includes/dropdown.theme.inc',
+    'file' => 'includes/dropdown.pager.inc',
   );
 }
 

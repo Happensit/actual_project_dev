@@ -125,7 +125,7 @@ function entityreference_views_plugins() {
         'handler' => 'entityreference_plugin_row_fields',
         'theme' => 'views_view_fields',
         'theme path' => drupal_get_path('module', 'views') . '/theme',
-        'theme file' => 'theme.inc',
+        'theme file' => 'pager.inc',
         'uses fields' => TRUE,
         'uses options' => TRUE,
         'type' => 'entityreference',

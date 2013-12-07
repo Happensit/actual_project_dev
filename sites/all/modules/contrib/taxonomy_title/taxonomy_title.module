@@ -255,7 +255,7 @@ function taxonomy_title_theme($existing, $type, $theme, $path) {
   $theme = array(
     'taxonomy_title_admin_settings' => array(
       'render element' => 'form',
-      'file' => 'taxonomy_title.theme.inc',
+      'file' => 'taxonomy_title.pager.inc',
     ),
   );
 

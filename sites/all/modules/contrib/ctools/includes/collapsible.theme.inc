@@ -15,11 +15,11 @@
 function ctools_collapsible_theme(&$items) {
   $items['ctools_collapsible'] = array(
     'variables' => array('handle' => NULL, 'content' => NULL, 'collapsed' => FALSE),
-    'file' => 'includes/collapsible.theme.inc',
+    'file' => 'includes/collapsible.pager.inc',
   );
   $items['ctools_collapsible_remembered'] = array(
     'variables' => array('id' => NULL, 'handle' => NULL, 'content' => NULL, 'collapsed' => FALSE),
-    'file' => 'includes/collapsible.theme.inc',
+    'file' => 'includes/collapsible.pager.inc',
   );
 }
 

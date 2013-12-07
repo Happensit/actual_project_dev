@@ -420,7 +420,7 @@ function views_discover_plugins() {
     // Setup automatic path/file finding for theme registration
     if ($module_dir == 'views') {
       $theme_path = drupal_get_path('module', $module_dir) . '/theme';
-      $theme_file = 'theme.inc';
+      $theme_file = 'pager.inc';
       $path = drupal_get_path('module', $module_dir) . '/plugins';
     }
     else {

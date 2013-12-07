@@ -242,7 +242,7 @@ function views_ui_theme() {
     // is not desired.
     'views_container' => array(
       'render element' => 'element',
-      'file' => 'theme/theme.inc',
+      'file' => 'theme/pager.inc',
     ),
   );
 }
@@ -389,7 +389,7 @@ function views_ui_preprocess_views_view(&$vars) {
  * Theme preprocess for theme_views_ui_view_preview_section().
  *
  * @TODO
- *    Perhaps move this to includes/admin.inc or theme/theme.inc
+ *    Perhaps move this to includes/admin.inc or theme/pager.inc
  */
 function template_preprocess_views_ui_view_preview_section(&$vars) {
   switch ($vars['section']) {

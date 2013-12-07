@@ -10,7 +10,7 @@
 function ctools_action_links_theme(&$items) {
   $items['ctools_menu_local_actions_wrapper'] = array(
     'render element' => 'links',
-    'file' => 'includes/action-links.theme.inc',
+    'file' => 'includes/action-links.pager.inc',
   );
 }
 

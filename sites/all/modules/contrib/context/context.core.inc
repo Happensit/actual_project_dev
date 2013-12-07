@@ -28,34 +28,34 @@ function context_theme() {
   $items['context_block_form'] = array(
     'render element' => 'form',
     'path' => drupal_get_path('module', 'context') . '/theme',
-    'file' => 'context_reaction_block.theme.inc',
+    'file' => 'context_reaction_block.pager.inc',
   );
   $items['context_block_regions_form'] = array(
     'render element' => 'form',
     'path' => drupal_get_path('module', 'context') . '/theme',
-    'file' => 'context_reaction_block.theme.inc',
+    'file' => 'context_reaction_block.pager.inc',
   );
   $items['context_block_editor'] = array(
     'render element' => 'form',
     'path' => drupal_get_path('module', 'context') . '/theme',
-    'file' => 'context_reaction_block.theme.inc',
+    'file' => 'context_reaction_block.pager.inc',
   );
   $items['context_block_browser'] = array(
     'variables' => array('blocks' => array(), 'context' => array()),
     'path' => drupal_get_path('module', 'context') . '/theme',
     'template' => 'context-block-browser',
-    'file' => 'context_reaction_block.theme.inc',
+    'file' => 'context_reaction_block.pager.inc',
   );
   $items['context_block_browser_item'] = array(
     'variables' => array('block' => array()),
     'path' => drupal_get_path('module', 'context') . '/theme',
     'template' => 'context-block-browser-item',
-    'file' => 'context_reaction_block.theme.inc',
+    'file' => 'context_reaction_block.pager.inc',
   );
   $items['context_block_script_placeholder'] = array(
     'variables' => array('text' => NULL),
     'path' => drupal_get_path('module', 'context') . '/theme',
-    'file' => 'context_reaction_block.theme.inc',
+    'file' => 'context_reaction_block.pager.inc',
   );
   return $items;
 }

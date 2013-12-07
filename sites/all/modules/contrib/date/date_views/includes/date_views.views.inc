@@ -70,7 +70,7 @@ function date_views_views_plugins() {
         'handler' => 'date_navigation_plugin_style',
         'path' => "$path/includes",
         'theme' => 'date_navigation',
-        'theme file' => 'theme.inc',
+        'theme file' => 'pager.inc',
         'theme path' => "$path/theme",
         'uses row plugin' => FALSE,
         'uses fields' => FALSE,

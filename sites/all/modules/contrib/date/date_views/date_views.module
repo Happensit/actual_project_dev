@@ -8,7 +8,7 @@
 function date_views_theme() {
   $path = drupal_get_path('module', 'date_views');
   $base = array(
-    'file' => 'theme.inc',
+    'file' => 'pager.inc',
     'path' => "$path/theme",
   );
   return array(

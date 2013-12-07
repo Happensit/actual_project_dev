@@ -40,7 +40,7 @@ $includes = array(
   $include_dir . '/module.inc',
   $include_dir . '/menu.inc',
   $include_dir . '/file.inc',
-  $include_dir . '/theme.inc',
+  $include_dir . '/pager.inc',
 );
 
 if (function_exists('registry_rebuild')) { // == D7

@@ -63,7 +63,7 @@ function views_theme($existing, $type, $theme, $path) {
 
   // Some quasi clever array merging here.
   $base = array(
-    'file' => 'theme.inc',
+    'file' => 'pager.inc',
     'path' => $path . '/theme',
   );
 
@@ -2120,7 +2120,7 @@ function views_exposed_form_cache($views_name, $display_name, $form_output = NUL
  * Build a list of theme function names for use most everywhere.
  */
 function views_theme_functions($hook, $view, $display = NULL) {
-  require_once DRUPAL_ROOT . '/' . drupal_get_path('module', 'views') . "/theme/theme.inc";
+  require_once DRUPAL_ROOT . '/' . drupal_get_path('module', 'views') . "/theme/pager.inc";
   return _views_theme_functions($hook, $view, $display);
 }
 

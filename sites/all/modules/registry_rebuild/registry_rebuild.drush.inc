@@ -79,7 +79,7 @@ function drush_registry_rebuild() {
     $include_dir . '/module.inc',
     $include_dir . '/menu.inc',
     $include_dir . '/file.inc',
-    $include_dir . '/theme.inc',
+    $include_dir . '/pager.inc',
   );
 
   if (drush_drupal_major_version() == 7) {

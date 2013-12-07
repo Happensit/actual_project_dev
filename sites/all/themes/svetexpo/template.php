@@ -22,7 +22,7 @@ function svetexpo_commerce_cart_empty_block() {
 }
 
 // блок с корзиной полный
-function svetexpo_commerce_cart_block($variables) {
+function svetexpo_commerce_cart_block($variables=array()) {
 	global $user;
 	$suff = "ов";
 	$order = commerce_cart_order_load($user->uid);
@@ -45,9 +45,9 @@ function svetexpo_field__lamp(&$variables) {
 
 	 $value = '';
 		foreach ($variables['items'] as $key => $item) {
-          if($key > 0) {
-               $value .= (', '.$item);
-         }
+      if($key > 0) {
+           $value .= (', '.$items);
+     }
 
 			$value .= drupal_render($item);
 
@@ -108,9 +108,8 @@ function svetexpo_breadcrumb($variables) {
 	$breadcrumb = $variables['breadcrumb'];
     if ( arg(0) == 'node' && is_numeric(arg(1)) ) {
         $node = node_load(arg(1));
-        if ($node->type=='lamp') {
-            $current = taxonomy_term_load($node->field_category['und'][0]['tid']);
-            if ($current) {
+        if ($node->type=='lamp') {            
+            if ($current = taxonomy_term_load($node->field_category['und'][0]['tid'])) { // taxonomy_term_load()) {
 				$breadcrumb = array();
 				$breadcrumb[] = $node->title;
                 $breadcrumb[] = l($current->name, 'taxonomy/term/' . $current->tid);
@@ -348,7 +347,7 @@ function svetexpo_pager($variables) {
         'data' => $li_next,
       );
     }
-      if ($li_last  && $pager_total[$element] > 5 && $pager_current + 3 < $pager_total[$element]) {
+      if ($li_last){  //&& $pager_total[$element] > 5 && $pager_current + 3 < $pager_total[$element]) {
       $items[] = array(
         'class' => array('pager-last'),
         'data' => $li_last,
@@ -361,3 +360,34 @@ function svetexpo_pager($variables) {
     ));
   }
 }
+//
+//function svetexpo_pager_first($variables) {
+//    $text = 1;
+//    $element = $variables['element'];
+//    $parameters = $variables['parameters'];
+//    global $pager_page_array;
+//    $output = '';
+//
+//    // If we are anywhere but the first page
+//    if ($pager_page_array[$element] > 0) {
+//        $output = theme('pager_link', array('text' => $text, 'page_new' => pager_load_array(0, $element, $pager_page_array), 'element' => $element, 'parameters' => $parameters));
+//    }
+//
+//    return $output;
+//}
+//
+//function svetexpo_pager_last($variables) {
+//    $element = $variables['element'];
+//    $parameters = $variables['parameters'];
+//    global $pager_page_array, $pager_total;
+//    $text = $pager_total[$element]-1;
+//    $pager_current = $pager_page_array[$element];
+//    $output = '';
+//
+//    // If we are anywhere but the last page
+//    if ($pager_page_array[$element] < ($pager_total[$element] - 1) && $pager_total[$element] > 5 && $pager_current + 3 < $pager_total[$element]) {
+//        $output = theme('pager_link', array('text' => $text, 'page_new' => pager_load_array($pager_total[$element] - 1, $element, $pager_page_array), 'element' => $element, 'parameters' => $parameters));
+//    }
+//
+//    return $output;
+//}
