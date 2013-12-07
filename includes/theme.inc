@@ -1465,7 +1465,7 @@ function theme_get_setting($setting_name, $theme = NULL) {
       // Generate the path to the logo image.
       if ($cache[$theme]['toggle_logo']) {
         if ($cache[$theme]['default_logo']) {
-          $cache[$theme]['logo'] = file_create_url('/public/theme/img/logo.png');
+          $cache[$theme]['logo'] = file_create_url(dirname($theme_object->filename) . '/logo.png');
         }
         elseif ($cache[$theme]['logo_path']) {
           $cache[$theme]['logo'] = file_create_url($cache[$theme]['logo_path']);
