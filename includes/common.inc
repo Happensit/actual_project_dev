@@ -1134,7 +1134,7 @@ function _fix_gpc_magic(&$item) {
  * @param $key
  *   The key for the item within $_FILES.
  *
- * @see http://php.net/manual/features.file-upload.php#42280
+ * @see http://php.net/manual/en/features.file-upload.php#42280
  */
 function _fix_gpc_magic_files(&$item, $key) {
   if ($key != 'tmp_name') {
@@ -1950,7 +1950,7 @@ function format_interval($interval, $granularity = 2, $langcode = NULL) {
  *   get interpreted as date format characters.
  * @param $timezone
  *   (optional) Time zone identifier, as described at
- *   http://php.net/manual/timezones.php Defaults to the time zone used to
+ *   http://php.net/manual/en/timezones.php Defaults to the time zone used to
  *   display the page.
  * @param $langcode
  *   (optional) Language code to translate to. Defaults to the language used to
@@ -3719,7 +3719,7 @@ function drupal_load_stylesheet_content($contents, $optimize = FALSE) {
     // Remove certain whitespace.
     // There are different conditions for removing leading and trailing
     // whitespace.
-    // @see http://php.net/manual/regexp.reference.subpatterns.php
+    // @see http://php.net/manual/en/regexp.reference.subpatterns.php
     $contents = preg_replace('<
       # Strip leading and trailing whitespace.
         \s*([@{};,])\s*
@@ -4097,7 +4097,7 @@ function drupal_region_class($region) {
  *       else being the same, JavaScript added by a call to drupal_add_js() that
  *       happened later in the page request gets added to the page after one for
  *       which drupal_add_js() happened earlier in the page request.
- *   - defer: If set to TRUE, the defer attribute is set on the <script>
+ *   - defer: If set to TRUE, the defer attribute is set on the &lt;script&gt;
  *     tag. Defaults to FALSE.
  *   - cache: If set to FALSE, the JavaScript file is loaded anew on every page
  *     call; in other words, it is not cached. Used only when 'type' references
@@ -5155,7 +5155,7 @@ function _drupal_bootstrap_full() {
  * client without gzip support.
  *
  * Page compression requires the PHP zlib extension
- * (http://php.net/manual/ref.zlib.php).
+ * (http://php.net/manual/en/ref.zlib.php).
  *
  * @see drupal_page_header()
  */
@@ -6696,7 +6696,7 @@ function drupal_array_nested_key_exists(array $array, array $parents) {
  */
 function drupal_common_theme() {
   return array(
-    // From theme.inc.
+    // From pager.inc.
     'html' => array(
       'render element' => 'page',
       'template' => 'html',

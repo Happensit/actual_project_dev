@@ -2,11 +2,634 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29cb9713-98d9-4def-9127-40e786657cdb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.txt" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\UPGRADE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\test.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/CHANGELOG.txt" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/CHANGELOG.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/LICENSE.txt" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/adminimal_admin_menu/LICENSE.txt" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/adminimal_admin_menu/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/minimal/translations/README.txt" afterPath="$PROJECT_DIR$/profiles/minimal/translations/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/standard/translations/README.txt" afterPath="$PROJECT_DIR$/profiles/standard/translations/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/adminimal_admin_menu/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/adminimal_admin_menu/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/tests/UnicodeTest.txt" afterPath="$PROJECT_DIR$/modules/search/tests/UnicodeTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/aaa_update_test.1_0.xml" afterPath="$PROJECT_DIR$/modules/update/tests/aaa_update_test.1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/aaa_update_test.info" afterPath="$PROJECT_DIR$/modules/update/tests/aaa_update_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/aaa_update_test.module" afterPath="$PROJECT_DIR$/modules/update/tests/aaa_update_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/aaa_update_test.no-releases.xml" afterPath="$PROJECT_DIR$/modules/update/tests/aaa_update_test.no-releases.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/actions.inc" afterPath="$PROJECT_DIR$/includes/actions.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_devel/admin_devel.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_devel/admin_devel.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_devel/admin_devel.js" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_devel/admin_devel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_devel/admin_devel.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_devel/admin_devel.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu-rtl.css" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.admin.js" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.api.php" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.color.css" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.color.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.css" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.install" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.js" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.map.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.map.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/tests/admin_menu.test" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/tests/admin_menu.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.uid1.css" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu.uid1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu_toolbar/admin_menu_toolbar.css" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu_toolbar/admin_menu_toolbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu_toolbar/admin_menu_toolbar.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu_toolbar/admin_menu_toolbar.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu_toolbar/admin_menu_toolbar.install" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu_toolbar/admin_menu_toolbar.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu_toolbar/admin_menu_toolbar.js" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu_toolbar/admin_menu_toolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu_toolbar/admin_menu_toolbar.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/admin_menu/admin_menu_toolbar/admin_menu_toolbar.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/adminimal_admin_menu/adminimal_admin_menu.css" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/adminimal_admin_menu/adminimal_admin_menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/adminimal_admin_menu/adminimal_admin_menu.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/adminimal_admin_menu/adminimal_admin_menu.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/adminimal_admin_menu/adminimal_admin_menu.install" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/adminimal_admin_menu/adminimal_admin_menu.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/adminimal_admin_menu/adminimal_admin_menu.js" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/adminimal_admin_menu/adminimal_admin_menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/adminimal_admin_menu/adminimal_admin_menu.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/adminimal_admin_menu/adminimal_admin_menu.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/adminimal_admin_menu/adminimal_menu_settings.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/adminimal_admin_menu/adminimal_menu_settings.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator-feed-source.tpl.php" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator-feed-source.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator-item.tpl.php" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator-item.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator-rtl.css" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator-summary-item.tpl.php" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator-summary-item.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator-summary-items.tpl.php" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator-summary-items.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator-wrapper.tpl.php" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator-wrapper.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator.admin.inc" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator.api.php" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator.css" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator.fetcher.inc" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator.fetcher.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator.info" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator.install" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator.module" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator.pages.inc" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator.pages.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator.parser.inc" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator.parser.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator.processor.inc" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator.processor.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator.test" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/tests/aggregator_test.info" afterPath="$PROJECT_DIR$/modules/aggregator/tests/aggregator_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/tests/aggregator_test.module" afterPath="$PROJECT_DIR$/modules/aggregator/tests/aggregator_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/tests/aggregator_test_atom.xml" afterPath="$PROJECT_DIR$/modules/aggregator/tests/aggregator_test_atom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/tests/aggregator_test_rss091.xml" afterPath="$PROJECT_DIR$/modules/aggregator/tests/aggregator_test_rss091.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/ajax.inc" afterPath="$PROJECT_DIR$/includes/ajax.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ajax.js" afterPath="$PROJECT_DIR$/misc/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/archiver.inc" afterPath="$PROJECT_DIR$/includes/archiver.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/authorize.inc" afterPath="$PROJECT_DIR$/includes/authorize.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/authorize.js" afterPath="$PROJECT_DIR$/misc/authorize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authorize.php" afterPath="$PROJECT_DIR$/authorize.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/autocomplete.js" afterPath="$PROJECT_DIR$/misc/autocomplete.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/batch.inc" afterPath="$PROJECT_DIR$/includes/batch.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/batch.js" afterPath="$PROJECT_DIR$/misc/batch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/batch.queue.inc" afterPath="$PROJECT_DIR$/includes/batch.queue.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/bbb_update_test.1_0.xml" afterPath="$PROJECT_DIR$/modules/update/tests/bbb_update_test.1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/bbb_update_test.info" afterPath="$PROJECT_DIR$/modules/update/tests/bbb_update_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/bbb_update_test.module" afterPath="$PROJECT_DIR$/modules/update/tests/bbb_update_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/block-admin-display-form.tpl.php" afterPath="$PROJECT_DIR$/modules/block/block-admin-display-form.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/block.admin.inc" afterPath="$PROJECT_DIR$/modules/block/block.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/block.api.php" afterPath="$PROJECT_DIR$/modules/block/block.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/block.css" afterPath="$PROJECT_DIR$/modules/block/block.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/block.info" afterPath="$PROJECT_DIR$/modules/block/block.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/block.install" afterPath="$PROJECT_DIR$/modules/block/block.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/block.js" afterPath="$PROJECT_DIR$/modules/block/block.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/block.module" afterPath="$PROJECT_DIR$/modules/block/block.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/block.test" afterPath="$PROJECT_DIR$/modules/block/block.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/block.tpl.php" afterPath="$PROJECT_DIR$/modules/block/block.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/tests/block_test.info" afterPath="$PROJECT_DIR$/modules/block/tests/block_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/tests/block_test.module" afterPath="$PROJECT_DIR$/modules/block/tests/block_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/tests/themes/block_test_theme/block_test_theme.info" afterPath="$PROJECT_DIR$/modules/block/tests/themes/block_test_theme/block_test_theme.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/bootstrap.inc" afterPath="$PROJECT_DIR$/includes/bootstrap.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/cache-install.inc" afterPath="$PROJECT_DIR$/includes/cache-install.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/cache.inc" afterPath="$PROJECT_DIR$/includes/cache.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/ccc_update_test.1_0.xml" afterPath="$PROJECT_DIR$/modules/update/tests/ccc_update_test.1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/ccc_update_test.info" afterPath="$PROJECT_DIR$/modules/update/tests/ccc_update_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/ccc_update_test.module" afterPath="$PROJECT_DIR$/modules/update/tests/ccc_update_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/code-clean.sh" afterPath="$PROJECT_DIR$/scripts/code-clean.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/collapse.js" afterPath="$PROJECT_DIR$/misc/collapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment/comment-node-form.js" afterPath="$PROJECT_DIR$/modules/comment/comment-node-form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment/comment-rtl.css" afterPath="$PROJECT_DIR$/modules/comment/comment-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment/comment-wrapper.tpl.php" afterPath="$PROJECT_DIR$/modules/comment/comment-wrapper.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment/comment.admin.inc" afterPath="$PROJECT_DIR$/modules/comment/comment.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment/comment.api.php" afterPath="$PROJECT_DIR$/modules/comment/comment.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment/comment.css" afterPath="$PROJECT_DIR$/modules/comment/comment.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment/comment.info" afterPath="$PROJECT_DIR$/modules/comment/comment.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment/comment.install" afterPath="$PROJECT_DIR$/modules/comment/comment.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment/comment.module" afterPath="$PROJECT_DIR$/modules/comment/comment.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment/comment.pages.inc" afterPath="$PROJECT_DIR$/modules/comment/comment.pages.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment/comment.test" afterPath="$PROJECT_DIR$/modules/comment/comment.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment/comment.tokens.inc" afterPath="$PROJECT_DIR$/modules/comment/comment.tokens.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment/comment.tpl.php" afterPath="$PROJECT_DIR$/modules/comment/comment.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/common.inc" afterPath="$PROJECT_DIR$/includes/common.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contact/contact.admin.inc" afterPath="$PROJECT_DIR$/modules/contact/contact.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contact/contact.info" afterPath="$PROJECT_DIR$/modules/contact/contact.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contact/contact.install" afterPath="$PROJECT_DIR$/modules/contact/contact.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contact/contact.module" afterPath="$PROJECT_DIR$/modules/contact/contact.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contact/contact.pages.inc" afterPath="$PROJECT_DIR$/modules/contact/contact.pages.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contact/contact.test" afterPath="$PROJECT_DIR$/modules/contact/contact.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/content_types.inc" afterPath="$PROJECT_DIR$/modules/node/content_types.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/content_types.js" afterPath="$PROJECT_DIR$/modules/node/content_types.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contextual/contextual-rtl.css" afterPath="$PROJECT_DIR$/modules/contextual/contextual-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contextual/contextual.api.php" afterPath="$PROJECT_DIR$/modules/contextual/contextual.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contextual/contextual.css" afterPath="$PROJECT_DIR$/modules/contextual/contextual.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contextual/contextual.info" afterPath="$PROJECT_DIR$/modules/contextual/contextual.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contextual/contextual.js" afterPath="$PROJECT_DIR$/modules/contextual/contextual.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contextual/contextual.module" afterPath="$PROJECT_DIR$/modules/contextual/contextual.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contextual/contextual.test" afterPath="$PROJECT_DIR$/modules/contextual/contextual.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/cron-curl.sh" afterPath="$PROJECT_DIR$/scripts/cron-curl.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/cron-lynx.sh" afterPath="$PROJECT_DIR$/scripts/cron-lynx.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cron.php" afterPath="$PROJECT_DIR$/cron.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/dashboard-rtl.css" afterPath="$PROJECT_DIR$/modules/dashboard/dashboard-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/dashboard.api.php" afterPath="$PROJECT_DIR$/modules/dashboard/dashboard.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/dashboard.css" afterPath="$PROJECT_DIR$/modules/dashboard/dashboard.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/dashboard.info" afterPath="$PROJECT_DIR$/modules/dashboard/dashboard.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/dashboard.install" afterPath="$PROJECT_DIR$/modules/dashboard/dashboard.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/dashboard.js" afterPath="$PROJECT_DIR$/modules/dashboard/dashboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/dashboard.module" afterPath="$PROJECT_DIR$/modules/dashboard/dashboard.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/dashboard.test" afterPath="$PROJECT_DIR$/modules/dashboard/dashboard.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/database.inc" afterPath="$PROJECT_DIR$/includes/database/database.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/mysql/database.inc" afterPath="$PROJECT_DIR$/includes/database/mysql/database.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/pgsql/database.inc" afterPath="$PROJECT_DIR$/includes/database/pgsql/database.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/sqlite/database.inc" afterPath="$PROJECT_DIR$/includes/database/sqlite/database.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/date.inc" afterPath="$PROJECT_DIR$/includes/date.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dblog/dblog-rtl.css" afterPath="$PROJECT_DIR$/modules/dblog/dblog-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dblog/dblog.admin.inc" afterPath="$PROJECT_DIR$/modules/dblog/dblog.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dblog/dblog.css" afterPath="$PROJECT_DIR$/modules/dblog/dblog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dblog/dblog.info" afterPath="$PROJECT_DIR$/modules/dblog/dblog.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dblog/dblog.install" afterPath="$PROJECT_DIR$/modules/dblog/dblog.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dblog/dblog.module" afterPath="$PROJECT_DIR$/modules/dblog/dblog.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dblog/dblog.test" afterPath="$PROJECT_DIR$/modules/dblog/dblog.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/drupal.0.xml" afterPath="$PROJECT_DIR$/modules/update/tests/drupal.0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/drupal.1.xml" afterPath="$PROJECT_DIR$/modules/update/tests/drupal.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/drupal.2-sec.xml" afterPath="$PROJECT_DIR$/modules/update/tests/drupal.2-sec.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/drupal.dev.xml" afterPath="$PROJECT_DIR$/modules/update/tests/drupal.dev.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/drupal.js" afterPath="$PROJECT_DIR$/misc/drupal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/drupal.sh" afterPath="$PROJECT_DIR$/scripts/drupal.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.info" afterPath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.module" afterPath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.test" afterPath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.info" afterPath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.module" afterPath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/dump-database-d6.sh" afterPath="$PROJECT_DIR$/scripts/dump-database-d6.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/dump-database-d7.sh" afterPath="$PROJECT_DIR$/scripts/dump-database-d7.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/entity.inc" afterPath="$PROJECT_DIR$/includes/entity.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/errors.inc" afterPath="$PROJECT_DIR$/includes/errors.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/farbtastic/farbtastic.css" afterPath="$PROJECT_DIR$/misc/farbtastic/farbtastic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/farbtastic/farbtastic.js" afterPath="$PROJECT_DIR$/misc/farbtastic/farbtastic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/theme/field-rtl.css" afterPath="$PROJECT_DIR$/modules/field/theme/field-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/field.api.php" afterPath="$PROJECT_DIR$/modules/field/field.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/field.attach.inc" afterPath="$PROJECT_DIR$/modules/field/field.attach.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/field.crud.inc" afterPath="$PROJECT_DIR$/modules/field/field.crud.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/theme/field.css" afterPath="$PROJECT_DIR$/modules/field/theme/field.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/field.default.inc" afterPath="$PROJECT_DIR$/modules/field/field.default.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/field.form.inc" afterPath="$PROJECT_DIR$/modules/field/field.form.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/field.info.class.inc" afterPath="$PROJECT_DIR$/modules/field/field.info.class.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/field.info.inc" afterPath="$PROJECT_DIR$/modules/field/field.info.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/field.info" afterPath="$PROJECT_DIR$/modules/field/field.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/field.install" afterPath="$PROJECT_DIR$/modules/field/field.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/field.module" afterPath="$PROJECT_DIR$/modules/field/field.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/field.multilingual.inc" afterPath="$PROJECT_DIR$/modules/field/field.multilingual.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/tests/field.test" afterPath="$PROJECT_DIR$/modules/field/tests/field.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/theme/field.tpl.php" afterPath="$PROJECT_DIR$/modules/field/theme/field.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/field_sql_storage/field_sql_storage.info" afterPath="$PROJECT_DIR$/modules/field/modules/field_sql_storage/field_sql_storage.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/field_sql_storage/field_sql_storage.install" afterPath="$PROJECT_DIR$/modules/field/modules/field_sql_storage/field_sql_storage.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/field_sql_storage/field_sql_storage.module" afterPath="$PROJECT_DIR$/modules/field/modules/field_sql_storage/field_sql_storage.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/field_sql_storage/field_sql_storage.test" afterPath="$PROJECT_DIR$/modules/field/modules/field_sql_storage/field_sql_storage.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/tests/field_test.entity.inc" afterPath="$PROJECT_DIR$/modules/field/tests/field_test.entity.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/tests/field_test.field.inc" afterPath="$PROJECT_DIR$/modules/field/tests/field_test.field.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/tests/field_test.info" afterPath="$PROJECT_DIR$/modules/field/tests/field_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/tests/field_test.install" afterPath="$PROJECT_DIR$/modules/field/tests/field_test.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/tests/field_test.module" afterPath="$PROJECT_DIR$/modules/field/tests/field_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/tests/field_test.storage.inc" afterPath="$PROJECT_DIR$/modules/field/tests/field_test.storage.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field_ui/field_ui-rtl.css" afterPath="$PROJECT_DIR$/modules/field_ui/field_ui-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field_ui/field_ui.admin.inc" afterPath="$PROJECT_DIR$/modules/field_ui/field_ui.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field_ui/field_ui.api.php" afterPath="$PROJECT_DIR$/modules/field_ui/field_ui.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field_ui/field_ui.css" afterPath="$PROJECT_DIR$/modules/field_ui/field_ui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field_ui/field_ui.info" afterPath="$PROJECT_DIR$/modules/field_ui/field_ui.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field_ui/field_ui.js" afterPath="$PROJECT_DIR$/modules/field_ui/field_ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field_ui/field_ui.module" afterPath="$PROJECT_DIR$/modules/field_ui/field_ui.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field_ui/field_ui.test" afterPath="$PROJECT_DIR$/modules/field_ui/field_ui.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/file/file.api.php" afterPath="$PROJECT_DIR$/modules/file/file.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/file/file.css" afterPath="$PROJECT_DIR$/modules/file/file.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/file/file.field.inc" afterPath="$PROJECT_DIR$/modules/file/file.field.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/file.inc" afterPath="$PROJECT_DIR$/includes/file.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/file/file.info" afterPath="$PROJECT_DIR$/modules/file/file.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/file/file.install" afterPath="$PROJECT_DIR$/modules/file/file.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/file/file.js" afterPath="$PROJECT_DIR$/modules/file/file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/file.mimetypes.inc" afterPath="$PROJECT_DIR$/includes/file.mimetypes.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/file/file.module" afterPath="$PROJECT_DIR$/modules/file/file.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/file/tests/file.test" afterPath="$PROJECT_DIR$/modules/file/tests/file.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/file/tests/file_module_test.info" afterPath="$PROJECT_DIR$/modules/file/tests/file_module_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/file/tests/file_module_test.module" afterPath="$PROJECT_DIR$/modules/file/tests/file_module_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/filetransfer/filetransfer.inc" afterPath="$PROJECT_DIR$/includes/filetransfer/filetransfer.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/filter/filter.admin.inc" afterPath="$PROJECT_DIR$/modules/filter/filter.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/filter/filter.admin.js" afterPath="$PROJECT_DIR$/modules/filter/filter.admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/filter/filter.api.php" afterPath="$PROJECT_DIR$/modules/filter/filter.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/filter/filter.css" afterPath="$PROJECT_DIR$/modules/filter/filter.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/filter/filter.info" afterPath="$PROJECT_DIR$/modules/filter/filter.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/filter/filter.install" afterPath="$PROJECT_DIR$/modules/filter/filter.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/filter/filter.js" afterPath="$PROJECT_DIR$/modules/filter/filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/filter/filter.module" afterPath="$PROJECT_DIR$/modules/filter/filter.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/filter/filter.pages.inc" afterPath="$PROJECT_DIR$/modules/filter/filter.pages.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/filter/filter.test" afterPath="$PROJECT_DIR$/modules/filter/filter.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/filter/tests/filter.url-input.txt" afterPath="$PROJECT_DIR$/modules/filter/tests/filter.url-input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/filter/tests/filter.url-output.txt" afterPath="$PROJECT_DIR$/modules/filter/tests/filter.url-output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/form.inc" afterPath="$PROJECT_DIR$/includes/form.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/form.js" afterPath="$PROJECT_DIR$/misc/form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/filetransfer/ftp.inc" afterPath="$PROJECT_DIR$/includes/filetransfer/ftp.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/generate-d6-content.sh" afterPath="$PROJECT_DIR$/scripts/generate-d6-content.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/generate-d7-content.sh" afterPath="$PROJECT_DIR$/scripts/generate-d7-content.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/graph.inc" afterPath="$PROJECT_DIR$/includes/graph.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/help/help-rtl.css" afterPath="$PROJECT_DIR$/modules/help/help-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/help/help.admin.inc" afterPath="$PROJECT_DIR$/modules/help/help.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/help/help.api.php" afterPath="$PROJECT_DIR$/modules/help/help.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/help/help.css" afterPath="$PROJECT_DIR$/modules/help/help.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/help/help.info" afterPath="$PROJECT_DIR$/modules/help/help.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/help/help.module" afterPath="$PROJECT_DIR$/modules/help/help.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/help/help.test" afterPath="$PROJECT_DIR$/modules/help/help.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/html.tpl.php" afterPath="$PROJECT_DIR$/modules/system/html.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/image-rtl.css" afterPath="$PROJECT_DIR$/modules/image/image-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/image.admin.css" afterPath="$PROJECT_DIR$/modules/image/image.admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/image.admin.inc" afterPath="$PROJECT_DIR$/modules/image/image.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/image.api.php" afterPath="$PROJECT_DIR$/modules/image/image.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/image.css" afterPath="$PROJECT_DIR$/modules/image/image.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/image.effects.inc" afterPath="$PROJECT_DIR$/modules/image/image.effects.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/image.field.inc" afterPath="$PROJECT_DIR$/modules/image/image.field.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/image.gd.inc" afterPath="$PROJECT_DIR$/modules/system/image.gd.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/image.inc" afterPath="$PROJECT_DIR$/includes/image.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/image.info" afterPath="$PROJECT_DIR$/modules/image/image.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/image.install" afterPath="$PROJECT_DIR$/modules/image/image.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/image.module" afterPath="$PROJECT_DIR$/modules/image/image.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/image.test" afterPath="$PROJECT_DIR$/modules/image/image.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/tests/image_module_test.info" afterPath="$PROJECT_DIR$/modules/image/tests/image_module_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/tests/image_module_test.module" afterPath="$PROJECT_DIR$/modules/image/tests/image_module_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/install.core.inc" afterPath="$PROJECT_DIR$/includes/install.core.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/install.inc" afterPath="$PROJECT_DIR$/includes/install.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/mysql/install.inc" afterPath="$PROJECT_DIR$/includes/database/mysql/install.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/pgsql/install.inc" afterPath="$PROJECT_DIR$/includes/database/pgsql/install.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/sqlite/install.inc" afterPath="$PROJECT_DIR$/includes/database/sqlite/install.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install.php" afterPath="$PROJECT_DIR$/install.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/iso.inc" afterPath="$PROJECT_DIR$/includes/iso.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/jquery.ba-bbq.js" afterPath="$PROJECT_DIR$/misc/jquery.ba-bbq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/jquery.cookie.js" afterPath="$PROJECT_DIR$/misc/jquery.cookie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.effects.blind.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.effects.blind.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.effects.bounce.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.effects.bounce.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.effects.clip.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.effects.clip.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.effects.core.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.effects.core.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.effects.drop.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.effects.drop.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.effects.explode.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.effects.explode.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.effects.fade.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.effects.fade.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.effects.fold.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.effects.fold.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.effects.highlight.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.effects.highlight.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.effects.pulsate.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.effects.pulsate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.effects.scale.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.effects.scale.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.effects.shake.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.effects.shake.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.effects.slide.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.effects.slide.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.effects.transfer.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.effects.transfer.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/jquery.form.js" afterPath="$PROJECT_DIR$/misc/jquery.form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/jquery.js" afterPath="$PROJECT_DIR$/misc/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/jquery.once.js" afterPath="$PROJECT_DIR$/misc/jquery.once.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.accordion.css" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.accordion.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.accordion.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.accordion.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.autocomplete.css" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.autocomplete.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.autocomplete.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.autocomplete.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.button.css" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.button.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.button.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.button.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.core.css" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.core.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.core.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.core.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.datepicker.css" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.datepicker.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.datepicker.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.dialog.css" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.dialog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.dialog.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.dialog.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.draggable.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.draggable.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.droppable.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.droppable.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.mouse.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.mouse.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.position.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.position.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.progressbar.css" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.progressbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.progressbar.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.progressbar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.resizable.css" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.resizable.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.resizable.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.resizable.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.selectable.css" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.selectable.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.selectable.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.selectable.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.slider.css" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.slider.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.slider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.sortable.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.sortable.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.tabs.css" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.tabs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.tabs.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.tabs.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.theme.css" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ui/jquery.ui.widget.min.js" afterPath="$PROJECT_DIR$/misc/ui/jquery.ui.widget.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/json-encode.inc" afterPath="$PROJECT_DIR$/includes/json-encode.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/language.api.php" afterPath="$PROJECT_DIR$/modules/system/language.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/language.inc" afterPath="$PROJECT_DIR$/includes/language.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/list/list.info" afterPath="$PROJECT_DIR$/modules/field/modules/list/list.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/list/list.install" afterPath="$PROJECT_DIR$/modules/field/modules/list/list.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/list/list.module" afterPath="$PROJECT_DIR$/modules/field/modules/list/list.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/list/tests/list.test" afterPath="$PROJECT_DIR$/modules/field/modules/list/tests/list.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/list/tests/list_test.info" afterPath="$PROJECT_DIR$/modules/field/modules/list/tests/list_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/list/tests/list_test.module" afterPath="$PROJECT_DIR$/modules/field/modules/list/tests/list_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/filetransfer/local.inc" afterPath="$PROJECT_DIR$/includes/filetransfer/local.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/locale-rtl.css" afterPath="$PROJECT_DIR$/modules/locale/locale-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/locale.admin.inc" afterPath="$PROJECT_DIR$/modules/locale/locale.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/locale.api.php" afterPath="$PROJECT_DIR$/modules/locale/locale.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/locale.css" afterPath="$PROJECT_DIR$/modules/locale/locale.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/locale.datepicker.js" afterPath="$PROJECT_DIR$/modules/locale/locale.datepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/locale.inc" afterPath="$PROJECT_DIR$/includes/locale.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/locale.info" afterPath="$PROJECT_DIR$/modules/locale/locale.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/locale.install" afterPath="$PROJECT_DIR$/modules/locale/locale.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/locale.module" afterPath="$PROJECT_DIR$/modules/locale/locale.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/locale.test" afterPath="$PROJECT_DIR$/modules/locale/locale.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/tests/locale_test.info" afterPath="$PROJECT_DIR$/modules/locale/tests/locale_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/tests/locale_test.js" afterPath="$PROJECT_DIR$/modules/locale/tests/locale_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/tests/locale_test.module" afterPath="$PROJECT_DIR$/modules/locale/tests/locale_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/lock.inc" afterPath="$PROJECT_DIR$/includes/lock.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/log.inc" afterPath="$PROJECT_DIR$/includes/database/log.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/machine-name.js" afterPath="$PROJECT_DIR$/misc/machine-name.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/mail.inc" afterPath="$PROJECT_DIR$/includes/mail.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/maintenance-page.tpl.php" afterPath="$PROJECT_DIR$/modules/system/maintenance-page.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/menu/menu.admin.inc" afterPath="$PROJECT_DIR$/modules/menu/menu.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/menu/menu.admin.js" afterPath="$PROJECT_DIR$/modules/menu/menu.admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/menu/menu.api.php" afterPath="$PROJECT_DIR$/modules/menu/menu.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/menu/menu.css" afterPath="$PROJECT_DIR$/modules/menu/menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/menu.inc" afterPath="$PROJECT_DIR$/includes/menu.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/menu/menu.info" afterPath="$PROJECT_DIR$/modules/menu/menu.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/menu/menu.install" afterPath="$PROJECT_DIR$/modules/menu/menu.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/menu/menu.js" afterPath="$PROJECT_DIR$/modules/menu/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/menu/menu.module" afterPath="$PROJECT_DIR$/modules/menu/menu.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/menu/menu.test" afterPath="$PROJECT_DIR$/modules/menu/menu.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/minimal/minimal.info" afterPath="$PROJECT_DIR$/profiles/minimal/minimal.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/minimal/minimal.install" afterPath="$PROJECT_DIR$/profiles/minimal/minimal.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/minimal/minimal.profile" afterPath="$PROJECT_DIR$/profiles/minimal/minimal.profile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/module.inc" afterPath="$PROJECT_DIR$/includes/module.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/node.admin.inc" afterPath="$PROJECT_DIR$/modules/node/node.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/node.api.php" afterPath="$PROJECT_DIR$/modules/node/node.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/node.css" afterPath="$PROJECT_DIR$/modules/node/node.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/node.info" afterPath="$PROJECT_DIR$/modules/node/node.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/node.install" afterPath="$PROJECT_DIR$/modules/node/node.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/node.js" afterPath="$PROJECT_DIR$/modules/node/node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/node.module" afterPath="$PROJECT_DIR$/modules/node/node.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/node.pages.inc" afterPath="$PROJECT_DIR$/modules/node/node.pages.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/node.test" afterPath="$PROJECT_DIR$/modules/node/node.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/node.tokens.inc" afterPath="$PROJECT_DIR$/modules/node/node.tokens.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/node.tpl.php" afterPath="$PROJECT_DIR$/modules/node/node.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/tests/node_access_test.info" afterPath="$PROJECT_DIR$/modules/node/tests/node_access_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/tests/node_access_test.install" afterPath="$PROJECT_DIR$/modules/node/tests/node_access_test.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/tests/node_access_test.module" afterPath="$PROJECT_DIR$/modules/node/tests/node_access_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/tests/node_test.info" afterPath="$PROJECT_DIR$/modules/node/tests/node_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/tests/node_test.module" afterPath="$PROJECT_DIR$/modules/node/tests/node_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/tests/node_test_exception.info" afterPath="$PROJECT_DIR$/modules/node/tests/node_test_exception.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/tests/node_test_exception.module" afterPath="$PROJECT_DIR$/modules/node/tests/node_test_exception.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/number/number.info" afterPath="$PROJECT_DIR$/modules/field/modules/number/number.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/number/number.install" afterPath="$PROJECT_DIR$/modules/field/modules/number/number.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/number/number.module" afterPath="$PROJECT_DIR$/modules/field/modules/number/number.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/number/number.test" afterPath="$PROJECT_DIR$/modules/field/modules/number/number.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/options/options.api.php" afterPath="$PROJECT_DIR$/modules/field/modules/options/options.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/options/options.info" afterPath="$PROJECT_DIR$/modules/field/modules/options/options.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/options/options.module" afterPath="$PROJECT_DIR$/modules/field/modules/options/options.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/options/options.test" afterPath="$PROJECT_DIR$/modules/field/modules/options/options.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/overlay/overlay-child-rtl.css" afterPath="$PROJECT_DIR$/modules/overlay/overlay-child-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/overlay/overlay-child.css" afterPath="$PROJECT_DIR$/modules/overlay/overlay-child.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/overlay/overlay-child.js" afterPath="$PROJECT_DIR$/modules/overlay/overlay-child.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/overlay/overlay-parent.css" afterPath="$PROJECT_DIR$/modules/overlay/overlay-parent.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/overlay/overlay-parent.js" afterPath="$PROJECT_DIR$/modules/overlay/overlay-parent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/overlay/overlay.api.php" afterPath="$PROJECT_DIR$/modules/overlay/overlay.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/overlay/overlay.info" afterPath="$PROJECT_DIR$/modules/overlay/overlay.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/overlay/overlay.install" afterPath="$PROJECT_DIR$/modules/overlay/overlay.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/overlay/overlay.module" afterPath="$PROJECT_DIR$/modules/overlay/overlay.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/overlay/overlay.tpl.php" afterPath="$PROJECT_DIR$/modules/overlay/overlay.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/tests/themes/block_test_theme/page.tpl.php" afterPath="$PROJECT_DIR$/modules/block/tests/themes/block_test_theme/page.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/page.tpl.php" afterPath="$PROJECT_DIR$/modules/system/page.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/pager.inc" afterPath="$PROJECT_DIR$/includes/pager.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/password-hash.sh" afterPath="$PROJECT_DIR$/scripts/password-hash.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/password.inc" afterPath="$PROJECT_DIR$/includes/password.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/path/path.admin.inc" afterPath="$PROJECT_DIR$/modules/path/path.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/path/path.api.php" afterPath="$PROJECT_DIR$/modules/path/path.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/path.inc" afterPath="$PROJECT_DIR$/includes/path.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/path/path.info" afterPath="$PROJECT_DIR$/modules/path/path.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/path/path.js" afterPath="$PROJECT_DIR$/modules/path/path.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/path/path.module" afterPath="$PROJECT_DIR$/modules/path/path.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/path/path.test" afterPath="$PROJECT_DIR$/modules/path/path.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/php/php.info" afterPath="$PROJECT_DIR$/modules/php/php.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/php/php.install" afterPath="$PROJECT_DIR$/modules/php/php.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/php/php.module" afterPath="$PROJECT_DIR$/modules/php/php.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/php/php.test" afterPath="$PROJECT_DIR$/modules/php/php.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/poll/poll-bar--block.tpl.php" afterPath="$PROJECT_DIR$/modules/poll/poll-bar--block.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/poll/poll-bar.tpl.php" afterPath="$PROJECT_DIR$/modules/poll/poll-bar.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/poll/poll-results--block.tpl.php" afterPath="$PROJECT_DIR$/modules/poll/poll-results--block.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/poll/poll-results.tpl.php" afterPath="$PROJECT_DIR$/modules/poll/poll-results.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/poll/poll-rtl.css" afterPath="$PROJECT_DIR$/modules/poll/poll-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/poll/poll-vote.tpl.php" afterPath="$PROJECT_DIR$/modules/poll/poll-vote.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/poll/poll.css" afterPath="$PROJECT_DIR$/modules/poll/poll.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/poll/poll.info" afterPath="$PROJECT_DIR$/modules/poll/poll.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/poll/poll.install" afterPath="$PROJECT_DIR$/modules/poll/poll.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/poll/poll.module" afterPath="$PROJECT_DIR$/modules/poll/poll.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/poll/poll.pages.inc" afterPath="$PROJECT_DIR$/modules/poll/poll.pages.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/poll/poll.test" afterPath="$PROJECT_DIR$/modules/poll/poll.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/poll/poll.tokens.inc" afterPath="$PROJECT_DIR$/modules/poll/poll.tokens.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/prefetch.inc" afterPath="$PROJECT_DIR$/includes/database/prefetch.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/print-rtl.css" afterPath="$PROJECT_DIR$/misc/print-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/print.css" afterPath="$PROJECT_DIR$/misc/print.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/profile/profile-block.tpl.php" afterPath="$PROJECT_DIR$/modules/profile/profile-block.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/profile/profile-listing.tpl.php" afterPath="$PROJECT_DIR$/modules/profile/profile-listing.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/profile/profile-wrapper.tpl.php" afterPath="$PROJECT_DIR$/modules/profile/profile-wrapper.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/profile/profile.admin.inc" afterPath="$PROJECT_DIR$/modules/profile/profile.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/profile/profile.css" afterPath="$PROJECT_DIR$/modules/profile/profile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/profile/profile.info" afterPath="$PROJECT_DIR$/modules/profile/profile.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/profile/profile.install" afterPath="$PROJECT_DIR$/modules/profile/profile.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/profile/profile.js" afterPath="$PROJECT_DIR$/modules/profile/profile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/profile/profile.module" afterPath="$PROJECT_DIR$/modules/profile/profile.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/profile/profile.pages.inc" afterPath="$PROJECT_DIR$/modules/profile/profile.pages.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/profile/profile.test" afterPath="$PROJECT_DIR$/modules/profile/profile.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/progress.js" afterPath="$PROJECT_DIR$/misc/progress.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/query.inc" afterPath="$PROJECT_DIR$/includes/database/query.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/mysql/query.inc" afterPath="$PROJECT_DIR$/includes/database/mysql/query.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/pgsql/query.inc" afterPath="$PROJECT_DIR$/includes/database/pgsql/query.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/sqlite/query.inc" afterPath="$PROJECT_DIR$/includes/database/sqlite/query.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rdf/rdf.api.php" afterPath="$PROJECT_DIR$/modules/rdf/rdf.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rdf/rdf.info" afterPath="$PROJECT_DIR$/modules/rdf/rdf.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rdf/rdf.install" afterPath="$PROJECT_DIR$/modules/rdf/rdf.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rdf/rdf.module" afterPath="$PROJECT_DIR$/modules/rdf/rdf.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rdf/rdf.test" afterPath="$PROJECT_DIR$/modules/rdf/rdf.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rdf/tests/rdf_test.info" afterPath="$PROJECT_DIR$/modules/rdf/tests/rdf_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rdf/tests/rdf_test.install" afterPath="$PROJECT_DIR$/modules/rdf/tests/rdf_test.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rdf/tests/rdf_test.module" afterPath="$PROJECT_DIR$/modules/rdf/tests/rdf_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/region.tpl.php" afterPath="$PROJECT_DIR$/modules/system/region.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/registry.inc" afterPath="$PROJECT_DIR$/includes/registry.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/run-tests.sh" afterPath="$PROJECT_DIR$/scripts/run-tests.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/schema.inc" afterPath="$PROJECT_DIR$/includes/database/schema.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/mysql/schema.inc" afterPath="$PROJECT_DIR$/includes/database/mysql/schema.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/pgsql/schema.inc" afterPath="$PROJECT_DIR$/includes/database/pgsql/schema.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/sqlite/schema.inc" afterPath="$PROJECT_DIR$/includes/database/sqlite/schema.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/search-block-form.tpl.php" afterPath="$PROJECT_DIR$/modules/search/search-block-form.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/search-result.tpl.php" afterPath="$PROJECT_DIR$/modules/search/search-result.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/search-results.tpl.php" afterPath="$PROJECT_DIR$/modules/search/search-results.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/search-rtl.css" afterPath="$PROJECT_DIR$/modules/search/search-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/search.admin.inc" afterPath="$PROJECT_DIR$/modules/search/search.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/search.api.php" afterPath="$PROJECT_DIR$/modules/search/search.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/search.css" afterPath="$PROJECT_DIR$/modules/search/search.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/search.extender.inc" afterPath="$PROJECT_DIR$/modules/search/search.extender.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/search.info" afterPath="$PROJECT_DIR$/modules/search/search.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/search.install" afterPath="$PROJECT_DIR$/modules/search/search.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/search.module" afterPath="$PROJECT_DIR$/modules/search/search.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/search.pages.inc" afterPath="$PROJECT_DIR$/modules/search/search.pages.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/search.test" afterPath="$PROJECT_DIR$/modules/search/search.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/tests/search_embedded_form.info" afterPath="$PROJECT_DIR$/modules/search/tests/search_embedded_form.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/tests/search_embedded_form.module" afterPath="$PROJECT_DIR$/modules/search/tests/search_embedded_form.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/tests/search_extra_type.info" afterPath="$PROJECT_DIR$/modules/search/tests/search_extra_type.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/tests/search_extra_type.module" afterPath="$PROJECT_DIR$/modules/search/tests/search_extra_type.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/select.inc" afterPath="$PROJECT_DIR$/includes/database/select.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/pgsql/select.inc" afterPath="$PROJECT_DIR$/includes/database/pgsql/select.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/sqlite/select.inc" afterPath="$PROJECT_DIR$/includes/database/sqlite/select.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/session.inc" afterPath="$PROJECT_DIR$/includes/session.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/filetransfer/ssh.inc" afterPath="$PROJECT_DIR$/includes/filetransfer/ssh.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/standard/standard.info" afterPath="$PROJECT_DIR$/profiles/standard/standard.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/standard/standard.install" afterPath="$PROJECT_DIR$/profiles/standard/standard.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/standard/standard.profile" afterPath="$PROJECT_DIR$/profiles/standard/standard.profile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/states.js" afterPath="$PROJECT_DIR$/misc/states.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statistics/statistics.admin.inc" afterPath="$PROJECT_DIR$/modules/statistics/statistics.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statistics/statistics.info" afterPath="$PROJECT_DIR$/modules/statistics/statistics.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statistics/statistics.install" afterPath="$PROJECT_DIR$/modules/statistics/statistics.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statistics/statistics.module" afterPath="$PROJECT_DIR$/modules/statistics/statistics.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statistics/statistics.pages.inc" afterPath="$PROJECT_DIR$/modules/statistics/statistics.pages.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statistics/statistics.test" afterPath="$PROJECT_DIR$/modules/statistics/statistics.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statistics/statistics.tokens.inc" afterPath="$PROJECT_DIR$/modules/statistics/statistics.tokens.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/stream_wrappers.inc" afterPath="$PROJECT_DIR$/includes/stream_wrappers.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/syslog/syslog.info" afterPath="$PROJECT_DIR$/modules/syslog/syslog.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/syslog/syslog.install" afterPath="$PROJECT_DIR$/modules/syslog/syslog.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/syslog/syslog.module" afterPath="$PROJECT_DIR$/modules/syslog/syslog.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/syslog/syslog.test" afterPath="$PROJECT_DIR$/modules/syslog/syslog.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.admin-rtl.css" afterPath="$PROJECT_DIR$/modules/system/system.admin-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.admin.css" afterPath="$PROJECT_DIR$/modules/system/system.admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.admin.inc" afterPath="$PROJECT_DIR$/modules/system/system.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.api.php" afterPath="$PROJECT_DIR$/modules/system/system.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.archiver.inc" afterPath="$PROJECT_DIR$/modules/system/system.archiver.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.base-rtl.css" afterPath="$PROJECT_DIR$/modules/system/system.base-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.base.css" afterPath="$PROJECT_DIR$/modules/system/system.base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.cron.js" afterPath="$PROJECT_DIR$/modules/system/system.cron.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.info" afterPath="$PROJECT_DIR$/modules/system/system.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.install" afterPath="$PROJECT_DIR$/modules/system/system.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.js" afterPath="$PROJECT_DIR$/modules/system/system.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.mail.inc" afterPath="$PROJECT_DIR$/modules/system/system.mail.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.maintenance.css" afterPath="$PROJECT_DIR$/modules/system/system.maintenance.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.menus-rtl.css" afterPath="$PROJECT_DIR$/modules/system/system.menus-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.menus.css" afterPath="$PROJECT_DIR$/modules/system/system.menus.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.messages-rtl.css" afterPath="$PROJECT_DIR$/modules/system/system.messages-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.messages.css" afterPath="$PROJECT_DIR$/modules/system/system.messages.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.module" afterPath="$PROJECT_DIR$/modules/system/system.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.queue.inc" afterPath="$PROJECT_DIR$/modules/system/system.queue.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.tar.inc" afterPath="$PROJECT_DIR$/modules/system/system.tar.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.test" afterPath="$PROJECT_DIR$/modules/system/system.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.theme-rtl.css" afterPath="$PROJECT_DIR$/modules/system/system.theme-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.theme.css" afterPath="$PROJECT_DIR$/modules/system/system.theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.tokens.inc" afterPath="$PROJECT_DIR$/modules/system/system.tokens.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.updater.inc" afterPath="$PROJECT_DIR$/modules/system/system.updater.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/tabledrag.js" afterPath="$PROJECT_DIR$/misc/tabledrag.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/tableheader.js" afterPath="$PROJECT_DIR$/misc/tableheader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/tableselect.js" afterPath="$PROJECT_DIR$/misc/tableselect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/tablesort.inc" afterPath="$PROJECT_DIR$/includes/tablesort.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/taxonomy/taxonomy-term.tpl.php" afterPath="$PROJECT_DIR$/modules/taxonomy/taxonomy-term.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/taxonomy/taxonomy.admin.inc" afterPath="$PROJECT_DIR$/modules/taxonomy/taxonomy.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/taxonomy/taxonomy.api.php" afterPath="$PROJECT_DIR$/modules/taxonomy/taxonomy.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/taxonomy/taxonomy.css" afterPath="$PROJECT_DIR$/modules/taxonomy/taxonomy.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/taxonomy/taxonomy.info" afterPath="$PROJECT_DIR$/modules/taxonomy/taxonomy.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/taxonomy/taxonomy.install" afterPath="$PROJECT_DIR$/modules/taxonomy/taxonomy.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/taxonomy/taxonomy.js" afterPath="$PROJECT_DIR$/modules/taxonomy/taxonomy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/taxonomy/taxonomy.module" afterPath="$PROJECT_DIR$/modules/taxonomy/taxonomy.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/taxonomy/taxonomy.pages.inc" afterPath="$PROJECT_DIR$/modules/taxonomy/taxonomy.pages.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/taxonomy/taxonomy.test" afterPath="$PROJECT_DIR$/modules/taxonomy/taxonomy.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/taxonomy/taxonomy.tokens.inc" afterPath="$PROJECT_DIR$/modules/taxonomy/taxonomy.tokens.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/test.script" afterPath="$PROJECT_DIR$/scripts/test.script" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/tests/translations/test.xx.po" afterPath="$PROJECT_DIR$/modules/locale/tests/translations/test.xx.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/testing/testing.info" afterPath="$PROJECT_DIR$/profiles/testing/testing.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/testing/testing.install" afterPath="$PROJECT_DIR$/profiles/testing/testing.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/testing/testing.profile" afterPath="$PROJECT_DIR$/profiles/testing/testing.profile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/text/text.info" afterPath="$PROJECT_DIR$/modules/field/modules/text/text.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/text/text.install" afterPath="$PROJECT_DIR$/modules/field/modules/text/text.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/text/text.js" afterPath="$PROJECT_DIR$/modules/field/modules/text/text.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/text/text.module" afterPath="$PROJECT_DIR$/modules/field/modules/text/text.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/text/text.test" afterPath="$PROJECT_DIR$/modules/field/modules/text/text.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/textarea.js" afterPath="$PROJECT_DIR$/misc/textarea.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/theme.api.php" afterPath="$PROJECT_DIR$/modules/system/theme.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/theme.inc" afterPath="$PROJECT_DIR$/includes/theme.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/theme.maintenance.inc" afterPath="$PROJECT_DIR$/includes/theme.maintenance.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/timezone.js" afterPath="$PROJECT_DIR$/misc/timezone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/token.inc" afterPath="$PROJECT_DIR$/includes/token.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/toolbar/toolbar-rtl.css" afterPath="$PROJECT_DIR$/modules/toolbar/toolbar-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/toolbar/toolbar.css" afterPath="$PROJECT_DIR$/modules/toolbar/toolbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/toolbar/toolbar.info" afterPath="$PROJECT_DIR$/modules/toolbar/toolbar.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/toolbar/toolbar.js" afterPath="$PROJECT_DIR$/modules/toolbar/toolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/toolbar/toolbar.module" afterPath="$PROJECT_DIR$/modules/toolbar/toolbar.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/toolbar/toolbar.tpl.php" afterPath="$PROJECT_DIR$/modules/toolbar/toolbar.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/tracker/tracker.css" afterPath="$PROJECT_DIR$/modules/tracker/tracker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/tracker/tracker.info" afterPath="$PROJECT_DIR$/modules/tracker/tracker.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/tracker/tracker.install" afterPath="$PROJECT_DIR$/modules/tracker/tracker.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/tracker/tracker.module" afterPath="$PROJECT_DIR$/modules/tracker/tracker.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/tracker/tracker.pages.inc" afterPath="$PROJECT_DIR$/modules/tracker/tracker.pages.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/tracker/tracker.test" afterPath="$PROJECT_DIR$/modules/tracker/tracker.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/translation/translation.info" afterPath="$PROJECT_DIR$/modules/translation/translation.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/translation/translation.module" afterPath="$PROJECT_DIR$/modules/translation/translation.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/translation/translation.pages.inc" afterPath="$PROJECT_DIR$/modules/translation/translation.pages.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/translation/translation.test" afterPath="$PROJECT_DIR$/modules/translation/translation.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/translation/tests/translation_test.info" afterPath="$PROJECT_DIR$/modules/translation/tests/translation_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/translation/tests/translation_test.module" afterPath="$PROJECT_DIR$/modules/translation/tests/translation_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/trigger/trigger.admin.inc" afterPath="$PROJECT_DIR$/modules/trigger/trigger.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/trigger/trigger.api.php" afterPath="$PROJECT_DIR$/modules/trigger/trigger.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/trigger/trigger.info" afterPath="$PROJECT_DIR$/modules/trigger/trigger.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/trigger/trigger.install" afterPath="$PROJECT_DIR$/modules/trigger/trigger.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/trigger/trigger.module" afterPath="$PROJECT_DIR$/modules/trigger/trigger.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/trigger/trigger.test" afterPath="$PROJECT_DIR$/modules/trigger/trigger.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/trigger/tests/trigger_test.info" afterPath="$PROJECT_DIR$/modules/trigger/tests/trigger_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/trigger/tests/trigger_test.module" afterPath="$PROJECT_DIR$/modules/trigger/tests/trigger_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/unicode.entities.inc" afterPath="$PROJECT_DIR$/includes/unicode.entities.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/unicode.inc" afterPath="$PROJECT_DIR$/includes/unicode.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/update-rtl.css" afterPath="$PROJECT_DIR$/modules/update/update-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/update.api.php" afterPath="$PROJECT_DIR$/modules/update/update.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/update.authorize.inc" afterPath="$PROJECT_DIR$/modules/update/update.authorize.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/update.compare.inc" afterPath="$PROJECT_DIR$/modules/update/update.compare.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/update.css" afterPath="$PROJECT_DIR$/modules/update/update.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/update.fetch.inc" afterPath="$PROJECT_DIR$/modules/update/update.fetch.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/update.inc" afterPath="$PROJECT_DIR$/includes/update.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/update.info" afterPath="$PROJECT_DIR$/modules/update/update.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/update.install" afterPath="$PROJECT_DIR$/modules/update/update.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/update.manager.inc" afterPath="$PROJECT_DIR$/modules/update/update.manager.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/update.module" afterPath="$PROJECT_DIR$/modules/update/update.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update.php" afterPath="$PROJECT_DIR$/update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/update.report.inc" afterPath="$PROJECT_DIR$/modules/update/update.report.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/update.settings.inc" afterPath="$PROJECT_DIR$/modules/update/update.settings.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/update.test" afterPath="$PROJECT_DIR$/modules/update/update.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/update_test.info" afterPath="$PROJECT_DIR$/modules/update/tests/update_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/update_test.module" afterPath="$PROJECT_DIR$/modules/update/tests/update_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/update_test_basetheme.1_1-sec.xml" afterPath="$PROJECT_DIR$/modules/update/tests/update_test_basetheme.1_1-sec.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/themes/update_test_basetheme/update_test_basetheme.info" afterPath="$PROJECT_DIR$/modules/update/tests/themes/update_test_basetheme/update_test_basetheme.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/update_test_subtheme.1_0.xml" afterPath="$PROJECT_DIR$/modules/update/tests/update_test_subtheme.1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/themes/update_test_subtheme/update_test_subtheme.info" afterPath="$PROJECT_DIR$/modules/update/tests/themes/update_test_subtheme/update_test_subtheme.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/updater.inc" afterPath="$PROJECT_DIR$/includes/updater.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user-picture.tpl.php" afterPath="$PROJECT_DIR$/modules/user/user-picture.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user-profile-category.tpl.php" afterPath="$PROJECT_DIR$/modules/user/user-profile-category.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user-profile-item.tpl.php" afterPath="$PROJECT_DIR$/modules/user/user-profile-item.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user-profile.tpl.php" afterPath="$PROJECT_DIR$/modules/user/user-profile.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user-rtl.css" afterPath="$PROJECT_DIR$/modules/user/user-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user.admin.inc" afterPath="$PROJECT_DIR$/modules/user/user.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user.api.php" afterPath="$PROJECT_DIR$/modules/user/user.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user.css" afterPath="$PROJECT_DIR$/modules/user/user.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user.info" afterPath="$PROJECT_DIR$/modules/user/user.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user.install" afterPath="$PROJECT_DIR$/modules/user/user.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user.js" afterPath="$PROJECT_DIR$/modules/user/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user.module" afterPath="$PROJECT_DIR$/modules/user/user.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user.pages.inc" afterPath="$PROJECT_DIR$/modules/user/user.pages.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user.permissions.js" afterPath="$PROJECT_DIR$/modules/user/user.permissions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user.test" afterPath="$PROJECT_DIR$/modules/user/user.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user.tokens.inc" afterPath="$PROJECT_DIR$/modules/user/user.tokens.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/tests/user_form_test.info" afterPath="$PROJECT_DIR$/modules/user/tests/user_form_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/tests/user_form_test.module" afterPath="$PROJECT_DIR$/modules/user/tests/user_form_test.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/utility.inc" afterPath="$PROJECT_DIR$/includes/utility.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/vertical-tabs-rtl.css" afterPath="$PROJECT_DIR$/misc/vertical-tabs-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/vertical-tabs.css" afterPath="$PROJECT_DIR$/misc/vertical-tabs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/vertical-tabs.js" afterPath="$PROJECT_DIR$/misc/vertical-tabs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/xmlrpc.inc" afterPath="$PROJECT_DIR$/includes/xmlrpc.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmlrpc.php" afterPath="$PROJECT_DIR$/xmlrpc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/xmlrpcs.inc" afterPath="$PROJECT_DIR$/includes/xmlrpcs.inc" />
     </list>
     <ignored path="redprice.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="Проект RedPrice.by/" />
+    <ignored path="drupal.sql" />
+    <ignored path="README.md" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,17 +648,7 @@
     <favorites_list name="redprice" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="test.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -113,27 +726,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/README.md" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -177,30 +786,54 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="29cb9713-98d9-4def-9127-40e786657cdb" name="Default" comment="" />
       <created>1386388639808</created>
       <updated>1386388639808</updated>
     </task>
+    <task id="LOCAL-00001" summary="test commit">
+      <created>1386388984945</created>
+      <updated>1386388984945</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16743472" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24158126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329429" sideWeight="0.8325653" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24158126" sideWeight="0.8325653" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -217,18 +850,11 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
 
