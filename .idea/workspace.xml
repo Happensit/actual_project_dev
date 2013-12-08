@@ -2,30 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29cb9713-98d9-4def-9127-40e786657cdb" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\LICENSE.txt" afterPath="$PROJECT_DIR$/themes/redprice/LICENSE.txt" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\color\base.png" afterPath="$PROJECT_DIR$/themes/redprice/color/base.png" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\color\color.inc" afterPath="$PROJECT_DIR$/themes/redprice/color/color.inc" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\color\preview.css" afterPath="$PROJECT_DIR$/themes/redprice/color/preview.css" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\color\preview.html" afterPath="$PROJECT_DIR$/themes/redprice/color/preview.html" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\color\preview.js" afterPath="$PROJECT_DIR$/themes/redprice/color/preview.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\color\preview.png" afterPath="$PROJECT_DIR$/themes/redprice/color/preview.png" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\css\colors.css" afterPath="$PROJECT_DIR$/themes/redprice/css/colors.css" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\css\layout-rtl.css" afterPath="$PROJECT_DIR$/themes/redprice/css/layout-rtl.css" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\css\layout.css" afterPath="$PROJECT_DIR$/themes/redprice/css/layout.css" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\css\maintenance-page.css" afterPath="$PROJECT_DIR$/themes/redprice/css/maintenance-page.css" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\css\style-rtl.css" afterPath="$PROJECT_DIR$/themes/redprice/css/style-rtl.css" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\css\style.css" afterPath="$PROJECT_DIR$/themes/redprice/css/style.css" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\logo.png" afterPath="$PROJECT_DIR$/themes/redprice/logo.png" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\redprice.info" afterPath="$PROJECT_DIR$/themes/redprice/redprice.info" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\screenshot.png" afterPath="$PROJECT_DIR$/themes/redprice/screenshot.png" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\template.php" afterPath="$PROJECT_DIR$/themes/redprice/template.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\templates\block--menu.tpl.php" afterPath="$PROJECT_DIR$/themes/redprice/templates/block--menu.tpl.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\templates\comment-wrapper.tpl.php" afterPath="$PROJECT_DIR$/themes/redprice/templates/comment-wrapper.tpl.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\templates\comment.tpl.php" afterPath="$PROJECT_DIR$/themes/redprice/templates/comment.tpl.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\templates\html.tpl.php" afterPath="$PROJECT_DIR$/themes/redprice/templates/html.tpl.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\templates\maintenance-page.tpl.php" afterPath="$PROJECT_DIR$/themes/redprice/templates/maintenance-page.tpl.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\templates\region.tpl.php" afterPath="$PROJECT_DIR$/themes/redprice/templates/region.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/theme.inc" afterPath="$PROJECT_DIR$/includes/theme.inc" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\adminimal.info" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\credits.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\icons-config.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\ie.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\ie6.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\calendar-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\calendar-small.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\development-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\development-small.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\gears-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\gears-small.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\media-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\media-small.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\messaging-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\messaging-small.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\organic-groups-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\organic-groups-small.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\pen-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\pen-small.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\people-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\people-small.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\regional-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\regional-small.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\search-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\search-small.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\services-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\services-small.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\system-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\system-small.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\user-interface-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\user-interface-small.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\workflow-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\workflow-small.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\fc-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\fc.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\small-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-bg_flat_100_333333_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-bg_flat_100_fffce5_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-bg_flat_65_0074bd_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-bg_flat_75_dddddd_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-bg_flat_95_990000_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-icons_000000_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-icons_333333_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\jquery.ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\reset.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\style-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\vertical-tabs-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\vertical-tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\add.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\alert.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\appbar.information.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\arrow-asc.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\arrow-desc.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\arrow-next.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\arrow-prev.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\buttons.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\check.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\circle-arrow-small.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\error.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\exclamation.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\fc-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\fc.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\list-item-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\list-item.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\small-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\task-check.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\task-item-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\task-item.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\ui-icons-222222-256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\ui-icons-454545-256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\ui-icons-800000-256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\ui-icons-888888-256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\ui-icons-ffffff-256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\template.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\templates\maintenance-page.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\templates\page.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\theme-settings.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\clearcacheform\clearcacheform.info" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\clearcacheform\clearcacheform.install" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\clearcacheform\clearcacheform.module" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redprice.iws" />
@@ -55,7 +120,7 @@
       <file leaf-file-name="template.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/redprice/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="46" selection-start="1366" selection-end="1367" vertical-scroll-proportion="0.33333334" vertical-offset="774" max-vertical-offset="3520">
+            <state line="46" column="3" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.26164874" vertical-offset="774" max-vertical-offset="3520">
               <folding />
             </state>
           </provider>
@@ -203,60 +268,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="sites" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -278,8 +289,26 @@
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -298,6 +327,100 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="terms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="disablepwstrength" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contrib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -447,7 +570,11 @@
       <created>1386450949174</created>
       <updated>1386450949174</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="right theme changes">
+      <created>1386462526044</created>
+      <updated>1386462526044</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -489,26 +616,13 @@
     <MESSAGE value="added registry_rebuild module" />
     <MESSAGE value="added theme and change some settings" />
     <MESSAGE value="change theme logo place" />
-    <option name="LAST_COMMIT_MESSAGE" value="change theme logo place" />
+    <MESSAGE value="right theme changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="right theme changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/redprice/redprice.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="820">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/redprice/templates/maintenance-page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="48" selection-start="2500" selection-end="2500" vertical-scroll-proportion="0.49367088" vertical-offset="786" max-vertical-offset="1260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="23" selection-start="93" selection-end="93" vertical-scroll-proportion="0.064" vertical-offset="0" max-vertical-offset="625" />
@@ -598,9 +712,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/disablepwstrength/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="58" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/terms/terms.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5360">
+          <folding>
+            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/redprice/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="46" selection-start="1366" selection-end="1367" vertical-scroll-proportion="0.33333334" vertical-offset="774" max-vertical-offset="3520">
+        <state line="46" column="3" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.26164874" vertical-offset="774" max-vertical-offset="3520">
           <folding />
         </state>
       </provider>

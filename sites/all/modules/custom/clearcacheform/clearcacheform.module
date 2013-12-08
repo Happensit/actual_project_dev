@@ -1,6 +1,0 @@
-<?php
-
-function clearcacheform_cron() {
-
-	db_query("TRUNCATE TABLE {cache_form}");
-}
