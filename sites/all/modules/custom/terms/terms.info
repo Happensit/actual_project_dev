@@ -1,6 +1,0 @@
-name = Terms of Use
-description = Checkbox Terms of use on the user_registration_forms.
-package = Registration
-core = 7.x
-version = 7.x-1.0
-

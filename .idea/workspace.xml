@@ -2,95 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29cb9713-98d9-4def-9127-40e786657cdb" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\adminimal.info" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\credits.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\icons-config.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\ie.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\ie6.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\calendar-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\calendar-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\development-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\development-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\gears-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\gears-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\media-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\media-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\messaging-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\messaging-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\organic-groups-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\organic-groups-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\pen-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\pen-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\people-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\people-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\regional-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\regional-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\search-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\search-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\services-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\services-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\system-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\system-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\user-interface-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\user-interface-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\workflow-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\config\workflow-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\fc-rtl.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\fc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\small-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-bg_flat_100_333333_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-bg_flat_100_fffce5_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-bg_flat_65_0074bd_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-bg_flat_75_dddddd_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-bg_flat_95_990000_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-icons_000000_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-icons_333333_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\images\ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\jquery.ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\reset.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\style-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\vertical-tabs-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\css\vertical-tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\add.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\alert.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\appbar.information.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\arrow-asc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\arrow-desc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\arrow-next.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\arrow-prev.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\buttons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\check.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\circle-arrow-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\error.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\exclamation.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\fc-rtl.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\fc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\list-item-rtl.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\list-item.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\small-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\task-check.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\task-item-rtl.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\task-item.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\ui-icons-222222-256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\ui-icons-454545-256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\ui-icons-800000-256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\ui-icons-888888-256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\images\ui-icons-ffffff-256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\template.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\templates\maintenance-page.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\templates\page.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\contrib\adminimal_theme\theme-settings.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\clearcacheform\clearcacheform.info" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\clearcacheform\clearcacheform.install" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\clearcacheform\clearcacheform.module" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.install" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.module" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\terms\terms.module" afterPath="" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\terms\terms.info" afterPath="$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redprice.iws" />
@@ -117,48 +32,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="template.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/redprice/template.php">
+      <file leaf-file-name="agreement.install" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/agreement/agreement.install">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="3" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.26164874" vertical-offset="774" max-vertical-offset="3520">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="34.37931" vertical-offset="997" max-vertical-offset="1580">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme.inc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/theme.inc">
+      <file leaf-file-name="agreement.module" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/agreement/agreement.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1470" column="46" selection-start="57375" selection-end="57375" vertical-scroll-proportion="-4.185185" vertical-offset="29054" max-vertical-offset="58260">
+            <state line="405" column="53" selection-start="13924" selection-end="13933" vertical-scroll-proportion="-4.2413793" vertical-offset="7857" max-vertical-offset="10160">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redprice.info" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/redprice/redprice.info">
+      <file leaf-file-name="agreement.module" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="32" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="780">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.inc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3355" column="0" selection-start="118688" selection-end="118688" vertical-scroll-proportion="-19.172413" vertical-offset="66544" max-vertical-offset="67220">
-              <folding>
-                <element signature="e#7#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theme.inc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/theme.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="58" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.6896552" vertical-offset="0" max-vertical-offset="56360">
+            <state line="46" column="6" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.4116638" vertical-offset="680" max-vertical-offset="1640">
               <folding />
             </state>
           </provider>
@@ -187,10 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sites/all/themes/redprice/templates/html.tpl.php.twig" />
-        <option value="$PROJECT_DIR$/sites/all/themes/redprice/templates/page.tpl.php.twig" />
-        <option value="$PROJECT_DIR$/sites/all/themes/redprice/templates/page.tpl.twig" />
-        <option value="$PROJECT_DIR$/sites/all/themes/redprice/templates/html.tpl.twig" />
         <option value="$PROJECT_DIR$/sites/all/themes/engines/twig/twig.engine" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/public/cache/css/.htaccess" />
@@ -203,6 +94,10 @@
         <option value="$PROJECT_DIR$/sites/all/themes/redprice/redprice.info" />
         <option value="$PROJECT_DIR$/bootstrap.inc" />
         <option value="$PROJECT_DIR$/theme.inc" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/terms/terms.install" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/terms/terms.module" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.install" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.info" />
       </list>
     </option>
   </component>
@@ -268,6 +163,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Проект RedPrice.by" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Проект RedPrice.by" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agreement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="sites" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -364,7 +291,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="terms" />
+              <option name="myItemId" value="agreement" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -505,6 +432,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\redprice\sites\all\modules\custom\terms" />
       <recent name="C:\wamp\www\redprice\themes" />
       <recent name="C:\wamp\www\redprice\public" />
       <recent name="C:\wamp\www\redprice\sites\all\themes" />
@@ -574,7 +502,11 @@
       <created>1386462526044</created>
       <updated>1386462526044</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="delete unnecessary modules">
+      <created>1386467198380</created>
+      <updated>1386467198380</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -584,8 +516,9 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16743472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13323572" sideWeight="0.8325653" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13323572" sideWeight="0.67127496" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -593,12 +526,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24158126" sideWeight="0.8325653" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24158126" sideWeight="0.67127496" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -617,50 +549,13 @@
     <MESSAGE value="added theme and change some settings" />
     <MESSAGE value="change theme logo place" />
     <MESSAGE value="right theme changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="right theme changes" />
+    <MESSAGE value="delete unnecessary modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete unnecessary modules" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="93" selection-end="93" vertical-scroll-proportion="0.064" vertical-offset="0" max-vertical-offset="625" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/cache/css/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="476" selection-end="476" vertical-scroll-proportion="0.448" vertical-offset="0" max-vertical-offset="625" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="2" selection-start="4405" selection-end="4405" vertical-scroll-proportion="0.9346405" vertical-offset="1608" max-vertical-offset="2960" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/redprice/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="4000">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/common.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4972" column="37" selection-start="189825" selection-end="189825" vertical-scroll-proportion="0.4408602" vertical-offset="99074" max-vertical-offset="164360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/redprice/templates/region.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="360">
-          <folding>
-            <marker date="1386447605585" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/redprice/templates/html.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="33" selection-start="2167" selection-end="2167" vertical-scroll-proportion="0.32384342" vertical-offset="58" max-vertical-offset="620">
@@ -689,22 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3355" column="0" selection-start="118688" selection-end="118688" vertical-scroll-proportion="-19.172413" vertical-offset="66544" max-vertical-offset="67220">
-          <folding>
-            <element signature="e#7#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="58" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.6896552" vertical-offset="0" max-vertical-offset="56360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/redprice/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1669" column="0" selection-start="32514" selection-end="32514" vertical-scroll-proportion="0.53594774" vertical-offset="33052" max-vertical-offset="35860">
@@ -719,27 +598,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/terms/terms.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5360">
-          <folding>
-            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386388721520" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/redprice/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="3" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.26164874" vertical-offset="774" max-vertical-offset="3520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/legal/legal.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-16.981133" vertical-offset="9900" max-vertical-offset="16660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/legal/legal.install">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.10291595" vertical-offset="60" max-vertical-offset="1380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/agreement/agreement.install">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="34.37931" vertical-offset="997" max-vertical-offset="1580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/agreement/agreement.views_default.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.6020584" vertical-offset="2100" max-vertical-offset="2780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/agreement/agreement.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="405" column="53" selection-start="13924" selection-end="13933" vertical-scroll-proportion="-4.2413793" vertical-offset="7857" max-vertical-offset="10160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.install">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="66" selection-end="66" vertical-scroll-proportion="0.13422818" vertical-offset="0" max-vertical-offset="596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="6" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.4116638" vertical-offset="680" max-vertical-offset="1640">
           <folding />
         </state>
       </provider>
