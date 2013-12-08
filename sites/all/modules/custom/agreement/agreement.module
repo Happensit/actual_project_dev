@@ -65,7 +65,7 @@ function agreement_config_form($form, &$form_state) {
         '#default_value' => variable_get('agreement_text', '')
     );
 
-    return $form;
+    return system_settings_form($form);
 }
 
 // Вывод на страницу
