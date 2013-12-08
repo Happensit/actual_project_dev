@@ -265,6 +265,7 @@ function theme_get_registry($complete = TRUE) {
   if (!is_array($theme_registry)) {
     drupal_theme_initialize();
     $theme_registry = array();
+    static $theme_registry = array();
   }
 
   $key = (int) $complete;

@@ -2,6 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29cb9713-98d9-4def-9127-40e786657cdb" name="Default" comment="">
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\LICENSE.txt" afterPath="$PROJECT_DIR$/themes/redprice/LICENSE.txt" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\color\base.png" afterPath="$PROJECT_DIR$/themes/redprice/color/base.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\color\color.inc" afterPath="$PROJECT_DIR$/themes/redprice/color/color.inc" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\color\preview.css" afterPath="$PROJECT_DIR$/themes/redprice/color/preview.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\color\preview.html" afterPath="$PROJECT_DIR$/themes/redprice/color/preview.html" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\color\preview.js" afterPath="$PROJECT_DIR$/themes/redprice/color/preview.js" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\color\preview.png" afterPath="$PROJECT_DIR$/themes/redprice/color/preview.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\css\colors.css" afterPath="$PROJECT_DIR$/themes/redprice/css/colors.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\css\layout-rtl.css" afterPath="$PROJECT_DIR$/themes/redprice/css/layout-rtl.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\css\layout.css" afterPath="$PROJECT_DIR$/themes/redprice/css/layout.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\css\maintenance-page.css" afterPath="$PROJECT_DIR$/themes/redprice/css/maintenance-page.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\css\style-rtl.css" afterPath="$PROJECT_DIR$/themes/redprice/css/style-rtl.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\css\style.css" afterPath="$PROJECT_DIR$/themes/redprice/css/style.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\logo.png" afterPath="$PROJECT_DIR$/themes/redprice/logo.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\redprice.info" afterPath="$PROJECT_DIR$/themes/redprice/redprice.info" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\screenshot.png" afterPath="$PROJECT_DIR$/themes/redprice/screenshot.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\template.php" afterPath="$PROJECT_DIR$/themes/redprice/template.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\templates\block--menu.tpl.php" afterPath="$PROJECT_DIR$/themes/redprice/templates/block--menu.tpl.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\templates\comment-wrapper.tpl.php" afterPath="$PROJECT_DIR$/themes/redprice/templates/comment-wrapper.tpl.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\templates\comment.tpl.php" afterPath="$PROJECT_DIR$/themes/redprice/templates/comment.tpl.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\templates\html.tpl.php" afterPath="$PROJECT_DIR$/themes/redprice/templates/html.tpl.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\templates\maintenance-page.tpl.php" afterPath="$PROJECT_DIR$/themes/redprice/templates/maintenance-page.tpl.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\redprice\sites\all\themes\redprice\templates\region.tpl.php" afterPath="$PROJECT_DIR$/themes/redprice/templates/region.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/theme.inc" afterPath="$PROJECT_DIR$/includes/theme.inc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,28 +52,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/redprice/template.php">
+      <file leaf-file-name="template.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/redprice/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="31" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="3520">
+            <state line="48" column="46" selection-start="1366" selection-end="1367" vertical-scroll-proportion="0.33333334" vertical-offset="774" max-vertical-offset="3520">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/redprice/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1669" column="0" selection-start="32514" selection-end="32514" vertical-scroll-proportion="0.0" vertical-offset="33052" max-vertical-offset="35860">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theme.inc" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="theme.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/theme.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1467" column="99" selection-start="57280" selection-end="57280" vertical-scroll-proportion="0.4142539" vertical-offset="29034" max-vertical-offset="58240">
+            <state line="1470" column="46" selection-start="57375" selection-end="57375" vertical-scroll-proportion="-4.185185" vertical-offset="29054" max-vertical-offset="58260">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redprice.info" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/redprice/redprice.info">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="32" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="780">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.inc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3355" column="0" selection-start="118688" selection-end="118688" vertical-scroll-proportion="-19.172413" vertical-offset="66544" max-vertical-offset="67220">
+              <folding>
+                <element signature="e#7#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme.inc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theme.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="58" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.6896552" vertical-offset="0" max-vertical-offset="56360">
               <folding />
             </state>
           </provider>
@@ -79,8 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sites/all/themes/redprice/templates/html.tpl.php.twig.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/redprice/templates/node.tpl.php.twig" />
         <option value="$PROJECT_DIR$/sites/all/themes/redprice/templates/html.tpl.php.twig" />
         <option value="$PROJECT_DIR$/sites/all/themes/redprice/templates/page.tpl.php.twig" />
         <option value="$PROJECT_DIR$/sites/all/themes/redprice/templates/page.tpl.twig" />
@@ -89,12 +130,14 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/public/cache/css/.htaccess" />
         <option value="$PROJECT_DIR$/includes/common.inc" />
-        <option value="$PROJECT_DIR$/sites/all/themes/redprice/redprice.info" />
         <option value="$PROJECT_DIR$/sites/all/themes/redprice/template.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/redprice/templates/region.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/redprice/templates/html.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/redprice/css/style.css" />
         <option value="$PROJECT_DIR$/includes/theme.inc" />
+        <option value="$PROJECT_DIR$/sites/all/themes/redprice/redprice.info" />
+        <option value="$PROJECT_DIR$/bootstrap.inc" />
+        <option value="$PROJECT_DIR$/theme.inc" />
       </list>
     </option>
   </component>
@@ -160,6 +203,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="sites" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -183,32 +280,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,20 +337,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -325,6 +382,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\redprice\themes" />
       <recent name="C:\wamp\www\redprice\public" />
       <recent name="C:\wamp\www\redprice\sites\all\themes" />
     </key>
@@ -385,31 +443,35 @@
       <created>1386450298467</created>
       <updated>1386450298467</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change theme logo place">
+      <created>1386450949174</created>
+      <updated>1386450949174</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16743472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16743472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13323572" sideWeight="0.8325653" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24158126" sideWeight="0.8325653" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24158126" sideWeight="0.8325653" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -426,36 +488,25 @@
     <MESSAGE value="new version start" />
     <MESSAGE value="added registry_rebuild module" />
     <MESSAGE value="added theme and change some settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="added theme and change some settings" />
+    <MESSAGE value="change theme logo place" />
+    <option name="LAST_COMMIT_MESSAGE" value="change theme logo place" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/redprice/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="85" selection-start="3283" selection-end="3283" vertical-scroll-proportion="0.0" vertical-offset="1680" max-vertical-offset="3200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/redprice/templates/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="34" selection-start="4504" selection-end="4915" vertical-scroll-proportion="0.0" vertical-offset="1840" max-vertical-offset="5040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/redprice/redprice.info">
+    <entry file="file://$PROJECT_DIR$/themes/redprice/redprice.info">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="820">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/redprice/templates/maintenance-page.tpl.php">
+    <entry file="file://$PROJECT_DIR$/themes/redprice/templates/maintenance-page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="48" selection-start="2500" selection-end="2500" vertical-scroll-proportion="0.49367088" vertical-offset="786" max-vertical-offset="1260" />
+        <state line="60" column="48" selection-start="2500" selection-end="2500" vertical-scroll-proportion="0.49367088" vertical-offset="786" max-vertical-offset="1260">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/.htaccess">
@@ -473,7 +524,7 @@
         <state line="109" column="2" selection-start="4405" selection-end="4405" vertical-scroll-proportion="0.9346405" vertical-offset="1608" max-vertical-offset="2960" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/redprice/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/themes/redprice/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="16" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="4000">
           <folding />
@@ -487,14 +538,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/redprice/redprice.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="219" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/redprice/templates/region.tpl.php">
+    <entry file="file://$PROJECT_DIR$/themes/redprice/templates/region.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="3" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="360">
           <folding>
@@ -503,35 +547,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/redprice/template.php">
+    <entry file="file://$PROJECT_DIR$/themes/redprice/templates/html.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="31" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="3520">
+        <state line="51" column="33" selection-start="2167" selection-end="2167" vertical-scroll-proportion="0.32384342" vertical-offset="58" max-vertical-offset="620">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/redprice/templates/html.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="33" selection-start="2167" selection-end="2167" vertical-scroll-proportion="0.32384342" vertical-offset="58" max-vertical-offset="620" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/redprice/templates/page.tpl.php">
+    <entry file="file://$PROJECT_DIR$/themes/redprice/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="98" column="39" selection-start="4703" selection-end="4703" vertical-scroll-proportion="0.0" vertical-offset="1960" max-vertical-offset="5040">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/redprice/css/style.css">
+    <entry file="file://$PROJECT_DIR$/includes/theme.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1669" column="0" selection-start="32514" selection-end="32514" vertical-scroll-proportion="0.0" vertical-offset="33052" max-vertical-offset="35860">
+        <state line="1470" column="46" selection-start="57375" selection-end="57375" vertical-scroll-proportion="-4.185185" vertical-offset="29054" max-vertical-offset="58260">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/theme.inc">
+    <entry file="file://$PROJECT_DIR$/themes/redprice/redprice.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1467" column="99" selection-start="57280" selection-end="57280" vertical-scroll-proportion="0.4142539" vertical-offset="29034" max-vertical-offset="58240">
+        <state line="9" column="32" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3355" column="0" selection-start="118688" selection-end="118688" vertical-scroll-proportion="-19.172413" vertical-offset="66544" max-vertical-offset="67220">
+          <folding>
+            <element signature="e#7#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="58" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.6896552" vertical-offset="0" max-vertical-offset="56360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/redprice/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1669" column="0" selection-start="32514" selection-end="32514" vertical-scroll-proportion="0.53594774" vertical-offset="33052" max-vertical-offset="35860">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/redprice/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="46" selection-start="1366" selection-end="1367" vertical-scroll-proportion="0.33333334" vertical-offset="774" max-vertical-offset="3520">
           <folding />
         </state>
       </provider>
