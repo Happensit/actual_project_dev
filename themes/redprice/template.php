@@ -27,6 +27,7 @@ function redprice_html_head_alter(&$head_elements) {
  */
 function redprice_js_alter(&$js){
     $js['settings']['scope'] = 'footer';
+    unset($js['modules/user/user.js']);
 }
 
 function redprice_preprocess_html(&$variables) {
@@ -58,8 +59,6 @@ function redprice_preprocess_html(&$variables) {
  * Override or insert variables into the page template.
  */
 function redprice_process_page(&$variables) {
-  // Always print the site name and slogan, but if they are toggled off, we'll
-  // just hide them visually.
   $variables['hide_site_name']   = theme_get_setting('toggle_name') ? FALSE : TRUE;
   $variables['hide_site_slogan'] = theme_get_setting('toggle_slogan') ? FALSE : TRUE;
   if ($variables['hide_site_name']) {
@@ -167,4 +166,9 @@ function redprice_field__taxonomy_term_reference($variables) {
   $output = '<div class="' . $variables['classes'] . (!in_array('clearfix', $variables['classes_array']) ? ' clearfix' : '') . '"' . $variables['attributes'] .'>' . $output . '</div>';
 
   return $output;
+}
+
+
+function redprice_form_user_register_form_alter(&$form, &$form_state) {
+    $form['#attached']['js'][] = drupal_get_path('theme', 'redprice') . '/vendor/js/register_form.js';
 }

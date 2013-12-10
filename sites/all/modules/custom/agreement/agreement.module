@@ -1,14 +1,20 @@
-<?php 
-// Сперва добавим хуки на страницу регистрации
+<?php
+
 function agreement_form_alter(&$form, &$form_state, $form_id){
      switch ($form_id) {  
       case 'user_register_form':
-       $form['terms_of_use'] = array(
+       $form['agreements'] = array(
           '#type' => 'checkbox',
-          '#title' => ' Я принимаю <a href="/agreement"> Условия пользовательского соглашения</a>',
+          '#title' => ' я согласен(-а) с условиями <a href="/agreement"> Пользовательского соглашения</a>',
           '#required' => TRUE,
-          '#weight' => 15,
+          '#weight' => 15
         );
+       $form['user_rules'] = array(
+           '#type' => 'checkbox',
+           '#title' => ' я согласен(-а) с <a href="/rules">Правилами</a>',
+           '#required' => TRUE,
+           '#weight' => 16
+       );
       break;
     }  
   }
@@ -21,9 +27,9 @@ function agreement_permission() {
    'administer Agreement' => array(
      'title' => t('Administer Agreement'),
    ),
-   'view Agreement' => array(
-     'title' => t('View Terms and Conditions'),
-   ),
+//   'view Agreement' => array(
+//     'title' => t('View Terms and Conditions'),
+//   ),
  );
 }
 
@@ -39,39 +45,177 @@ function agreement_menu() {
 
     $items['admin/config/people/agreement'] = array(
         'access arguments'  => array('administer Agreement'),
-        'description'       => ('Настройка лицензионного соглашения.'),
+        'description'       => t('Agreement settings'),
         'page callback'     => 'drupal_get_form',
         'page arguments'    => array('agreement_config_form'),
         'title'             => t('Agreement settings'),
         'type'              => MENU_NORMAL_ITEM,
     );
 
+    $items['admin/config/people/rules'] = array(
+        'access arguments'  => array('administer Agreement'),
+        'description'       => t('Rules settings'),
+        'page callback'     => 'drupal_get_form',
+        'page arguments'    => array('rules_config_form'),
+        'title'             => t('Rules settings'),
+        'type'              => MENU_NORMAL_ITEM,
+    );
+
     $items['agreement'] = array(
         'title' => 'Условия пользовательского соглашения',
         'page callback' => 'agreement_page_callback',
-        'access arguments' => array('view Agreement'),
         'type' => MENU_CALLBACK,
+        'access callback' => TRUE
  );
+    $items['rules'] = array(
+        'title' => 'Правила пользования ресурсом',
+        'page callback' => 'rules_page_callback',
+        'type' => MENU_CALLBACK,
+        'access callback' => TRUE
+    );
 
   return $items;
 }
 
+/**
+ * Implements hook_form()
+ * @param $form
+ * @param $form_state
+ * @return array
+ */
 function agreement_config_form($form, &$form_state) {
     $form = array();
+    $default = agreement_page_callback();
+    $buttons = text_buttons($default);
 
     $form['agreement_text'] = array(
-        '#type' => 'textarea',
+        '#type' => 'text_format',
         '#title' => t('Agreement text'),
-        '#default_value' => variable_get('agreement_text', '')
+        '#required' => TRUE,
+        '#default_value' => $default ? $default : '',
     );
 
-    return system_settings_form($form);
+    $form['submit'] = array(
+        '#type' => 'submit',
+        '#value' => $buttons,
+        '#submit' => array('config_form_submit'),
+    );
+
+    return $form;
+
 }
 
-// Вывод на страницу
+/**
+ * Implement hook_form().
+ * @param $form
+ * @param $form_state
+ * @return array
+ */
+function rules_config_form($form, &$form_state) {
+    $form = array();
+    $default = rules_page_callback();
+    $buttons = text_buttons($default);
+
+    $form['rules_text'] = array(
+        '#type' => 'text_format',
+        '#title' => t('Rules text'),
+        '#required' => TRUE,
+        '#default_value' => $default ? $default : '',
+    );
+
+    $form['submit'] = array(
+        '#type' => 'submit',
+        '#value' => $buttons,
+        '#submit' => array('config_form_submit'),
+    );
+
+    return $form;
+
+}
+
+/**
+ * @param $form
+ * @param $form_state
+ */
+function config_form_submit($form, &$form_state){
+    switch($form['#id']){
+        case 'agreement-config-form':
+            $text = $form_state['values']['agreement_text']['value'];
+            $id = 1;
+            insert_to_db($id, $text);
+            break;
+        case 'rules-config-form':
+            $text = $form_state['values']['rules_text']['value'];
+            $id = 2;
+            insert_to_db($id, $text);
+            break;
+    }
+
+    drupal_set_message(t('Your form entry has been added'));
+}
+
+/**
+ * @return string
+ */
 function agreement_page_callback() {
+    $contents = '';
+    $query = db_select('agreement', 'n')
+        ->fields('n', array('agreement_text'))
+        ->condition('n.agreement_id', 1)
+        ->execute()
+        ->fetchObject();
 
-  $agreement_content = variable_get('agreement_text');
+    if(!empty($query)){
+        $contents = $query->agreement_text;
+    }
 
-return $agreement_content;
+return $contents;
+}
+
+/**
+ * @return string
+ */
+function rules_page_callback(){
+    $contents = '';
+    $query = db_select('agreement', 'n')
+        ->fields('n', array('agreement_text'))
+        ->condition('n.agreement_id', 2)
+        ->execute()
+        ->fetchObject();
+
+    if(!empty($query)){
+        $contents = $query->agreement_text;
+    }
+
+    return $contents;
+}
+
+/**
+ * @param $default
+ * @return null|string
+ */
+
+function text_buttons(&$default) {
+    $buttons = '';
+
+    if($default){
+        $buttons = t('Edit text');
+    }else{
+        $buttons = t('Add text');
+    }
+
+   return $buttons;
+}
+
+/**
+ * @param $id
+ * @param $text
+ */
+function insert_to_db(&$id, &$text) {
+    db_merge('agreement')
+        ->key(array('agreement_id' => $id))
+        ->fields(array(
+            'agreement_text' => $text
+        ))
+        ->execute();
 }

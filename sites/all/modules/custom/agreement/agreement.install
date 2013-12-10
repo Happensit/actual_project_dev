@@ -1,10 +1,41 @@
 <?php
 
 /**
- * Implements hook_uninstall().
+ * Implements hook_schema().
  */
 
+function agreement_schema() {
+    $schema['agreement'] = array(
+        'description' => 'The table for Agreement module',
+
+        'fields' => array(
+            'agreement_id' => array(
+                'description' => 'Primary Key ID',
+                'type' => 'serial',
+                'size' => 'normal',
+                'unsigned' => TRUE,
+                'not null' => TRUE
+            ),
+            'agreement_text' => array(
+                'description' => 'Text agreement',
+                'type' => 'text',
+                'size' => 'big',
+            ),
+        ),
+        'primary key' => array('agreement_id'),
+    );
+
+    return $schema;
+}
+
+/**
+ * Implements hook_uninstall().
+ */
 function agreement_uninstall() {
-    variable_del('agreement_text');
+
+    drupal_uninstall_schema('agreement');
+
+    menu_cache_clear('agreement');
     cache_clear_all('*', 'cache', TRUE);
+    menu_rebuild();
 }
