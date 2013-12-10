@@ -22,14 +22,6 @@ function redprice_html_head_alter(&$head_elements) {
 //    }
 //}
 
-/**
- * implements hook_ja_alter().
- */
-function redprice_js_alter(&$js){
-    $js['settings']['scope'] = 'footer';
-    unset($js['modules/user/user.js']);
-}
-
 function redprice_preprocess_html(&$variables) {
   // Add variables for path to theme.
   //$variables['base_path'] = base_path();
@@ -166,9 +158,4 @@ function redprice_field__taxonomy_term_reference($variables) {
   $output = '<div class="' . $variables['classes'] . (!in_array('clearfix', $variables['classes_array']) ? ' clearfix' : '') . '"' . $variables['attributes'] .'>' . $output . '</div>';
 
   return $output;
-}
-
-
-function redprice_form_user_register_form_alter(&$form, &$form_state) {
-    $form['#attached']['js'][] = drupal_get_path('theme', 'redprice') . '/vendor/js/register_form.js';
 }

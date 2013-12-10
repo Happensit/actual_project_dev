@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29cb9713-98d9-4def-9127-40e786657cdb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Liubov.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redprice/templates/page--user--register.tpl.php" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\toolbar\toolbar-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\toolbar\toolbar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\toolbar\toolbar.info" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\toolbar\toolbar.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\toolbar\toolbar.module" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\toolbar\toolbar.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\toolbar\toolbar.tpl.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.install" afterPath="$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.module" afterPath="$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/jquery_update/jquery_update.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/jquery_update/jquery_update.module" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\disablepwstrength\LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\disablepwstrength\README.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\disablepwstrength\disablepwstrength.info" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\disablepwstrength\disablepwstrength.module" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/captcha/captcha.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/captcha/captcha.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/redprice/template.php" afterPath="$PROJECT_DIR$/themes/redprice/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/wysiwyg/wysiwyg.info" afterPath="$PROJECT_DIR$/sites/all/modules/custom/wysiwyg/wysiwyg.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.module" />
     </list>
     <ignored path="redprice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,6 +33,11 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="redprice" />
@@ -44,72 +47,56 @@
       <file leaf-file-name="agreement.module" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="31" selection-start="4526" selection-end="4526" vertical-scroll-proportion="0.31034482" vertical-offset="3549" max-vertical-offset="4520">
+            <state line="2" column="29" selection-start="25" selection-end="36" vertical-scroll-proportion="135.44827" vertical-offset="3968" max-vertical-offset="4520">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page--user--register.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/redprice/templates/page--user--register.tpl.php">
+      <file leaf-file-name="registration_form.module" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/registration_form/registration_form.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="244" column="48" selection-start="12041" selection-end="12041" vertical-scroll-proportion="0.31034482" vertical-offset="3089" max-vertical-offset="3200">
+            <state line="22" column="76" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="840">
               <folding>
-                <marker date="1386630212476" expanded="true" signature="4283:12008" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="4298:12002" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="4432:8157" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="4462:8148" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="4592:5276" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="5487:5604" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="5742:7185" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="5986:6352" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="6100:6313" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="6492:6762" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="6950:7117" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="7422:8076" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="8252:8357" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="8282:8351" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="8486:8607" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="8516:8601" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="8712:10486" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="8756:10480" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="8852:9778" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="8873:9772" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="9196:9274" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="9535:9639" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="9931:10064" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="9952:10058" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="10257:10391" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="10278:10385" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="10660:10929" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="10696:10923" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="11028:11953" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="11049:11947" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="11267:11600" placeholder="..." />
-                <marker date="1386630212476" expanded="true" signature="11783:11877" placeholder="..." />
+                <marker date="1386652203424" expanded="false" signature="907:936" placeholder="..." />
+                <marker date="1386652203424" expanded="false" signature="951:1056" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/redprice/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="1" selection-start="372" selection-end="372" vertical-scroll-proportion="0.40268457" vertical-offset="0" max-vertical-offset="3640">
+            <state line="160" column="1" selection-start="5915" selection-end="5915" vertical-scroll-proportion="0.0" vertical-offset="1701" max-vertical-offset="3320">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register_form.module" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/register_form/register_form.module">
+      <file leaf-file-name="registration_form.info" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/registration_form/registration_form.info">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="54" selection-start="571" selection-end="571" vertical-scroll-proportion="0.31034482" vertical-offset="469" max-vertical-offset="880">
-              <folding>
-                <element signature="e#7#107#0" expanded="true" />
-                <marker date="1386632309431" expanded="true" signature="844:873" placeholder="..." />
-                <marker date="1386632309431" expanded="true" signature="888:993" placeholder="..." />
-              </folding>
+            <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap_wysihtml5.inc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/wysiwyg/editors/bootstrap_wysihtml5.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="1020">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yandex_captcha.module" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="282" column="3" selection-start="9144" selection-end="9144" vertical-scroll-proportion="0.4644128" vertical-offset="5299" max-vertical-offset="6800">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,22 +124,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/terms/terms.module" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.info" />
-        <option value="$PROJECT_DIR$/Проект RedPrice.by/obrazovanie/theme551/css/normalize.css" />
-        <option value="$PROJECT_DIR$/Проект RedPrice.by/obrazovanie/theme551/css/style.css" />
-        <option value="$PROJECT_DIR$/Проект RedPrice.by/obrazovanie/theme551/templates/html.tpl.php" />
-        <option value="$PROJECT_DIR$/Проект RedPrice.by/obrazovanie/theme551/css/boilerplate.css" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.install" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.module" />
         <option value="$PROJECT_DIR$/themes/redprice/templates/page--user--register.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/register_form/register_form.info" />
         <option value="$PROJECT_DIR$/modules/user/user.js" />
         <option value="$PROJECT_DIR$/themes/redprice/user.js" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/register_form/register_form.module" />
         <option value="$PROJECT_DIR$/themes/redprice/redprice.info" />
         <option value="$PROJECT_DIR$/themes/redprice/vendor/js/user.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/jquery_update/jquery_update.info" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/wysiwyg/wysiwyg.info" />
         <option value="$PROJECT_DIR$/themes/redprice/template.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/register_form/register_form.module" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/registration_form/registration_form.info" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/registration_form/registration_form.module" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/jquery_update/jquery_update.module" />
+        <option value="$PROJECT_DIR$/sites/all/modules/contrib/captcha/captcha.module" />
+        <option value="$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.module" />
       </list>
     </option>
   </component>
@@ -217,7 +204,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
+              <option name="myItemId" value="Проект RedPrice.by" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Проект RedPrice.by" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yandex_captcha" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,36 +237,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,7 +346,153 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="disablepwstrength" />
+              <option name="myItemId" value="registration_form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery_update" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agreement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contrib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yandex_captcha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contrib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contrib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="captcha" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,16 +518,16 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="options.lastSelected" value="editor" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/modules" />
-    <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="PublishConfig" serverName="Development (devel.happensit.ru)" serverId="dc342782-a012-4464-8b01-a237c559b161" autoUpload="true">
     <servers>
@@ -527,26 +648,51 @@
       <created>1386477407301</created>
       <updated>1386477407301</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="user register complete">
+      <created>1386636645680</created>
+      <updated>1386636645680</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16743472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16666667" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13323572" sideWeight="0.8325653" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15519765" sideWeight="0.8325653" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25227273" sideWeight="0.8325653" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17272727" sideWeight="0.8333333" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="584" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -573,151 +719,112 @@
     <MESSAGE value="delete unnecessary modules" />
     <MESSAGE value="Agreement module" />
     <MESSAGE value="Agreement module added return system_settings_form($form);" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agreement module added return system_settings_form($form);" />
+    <MESSAGE value="user register complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="user register complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.module">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/wysiwyg/wysiwyg.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="33" selection-start="2250" selection-end="2279" vertical-scroll-proportion="-5.9259257" vertical-offset="780" max-vertical-offset="6660" />
+        <state line="9" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.29900333" vertical-offset="0" max-vertical-offset="602" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/disablepwstrength/README.txt">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/jquery_update/jquery_update.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="0" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591" />
+        <state line="3" column="10" selection-start="96" selection-end="96" vertical-scroll-proportion="0.09966777" vertical-offset="0" max-vertical-offset="602" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bartik/template.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/registration_form/registration_form.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.939502" vertical-offset="3338" max-vertical-offset="3900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/disablepwstrength/disablepwstrength.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7" selection-start="7" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/redprice/templates/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="0" selection-start="0" selection-end="10285" vertical-scroll-proportion="0.0" vertical-offset="4920" max-vertical-offset="5040">
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/redprice/templates/page--user--register.tpl.php">
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/yandex_captcha/ann.data">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="244" column="48" selection-start="12041" selection-end="12041" vertical-scroll-proportion="0.31034482" vertical-offset="3089" max-vertical-offset="3200">
-          <folding>
-            <marker date="1386630212476" expanded="true" signature="4283:12008" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="4298:12002" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="4432:8157" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="4462:8148" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="4592:5276" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="5487:5604" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="5742:7185" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="5986:6352" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="6100:6313" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="6492:6762" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="6950:7117" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="7422:8076" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="8252:8357" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="8282:8351" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="8486:8607" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="8516:8601" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="8712:10486" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="8756:10480" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="8852:9778" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="8873:9772" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="9196:9274" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="9535:9639" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="9931:10064" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="9952:10058" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="10257:10391" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="10278:10385" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="10660:10929" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="10696:10923" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="11028:11953" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="11049:11947" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="11267:11600" placeholder="..." />
-            <marker date="1386630212476" expanded="true" signature="11783:11877" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/yandex_captcha/ga.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.0074213" vertical-offset="1621" max-vertical-offset="2160" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/yandex_captcha/example.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.37693632" vertical-offset="219" max-vertical-offset="860" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/agreement/agreement.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="31" selection-start="4526" selection-end="4526" vertical-scroll-proportion="0.31034482" vertical-offset="3549" max-vertical-offset="4520">
+        <state line="2" column="29" selection-start="25" selection-end="36" vertical-scroll-proportion="135.44827" vertical-offset="3968" max-vertical-offset="4520">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/captcha/captcha.inc">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/jquery_update/jquery_update.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="41.37931" vertical-offset="1200" max-vertical-offset="7940">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/disablepwstrength/disablepwstrength.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/redprice/redprice.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="41" selection-start="297" selection-end="297" vertical-scroll-proportion="0.30456853" vertical-offset="0" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/register_form/register_form.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/user/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="27" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.28620103" vertical-offset="312" max-vertical-offset="4040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/register_form/register_form.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="54" selection-start="571" selection-end="571" vertical-scroll-proportion="0.31034482" vertical-offset="469" max-vertical-offset="880">
-          <folding>
-            <element signature="e#7#107#0" expanded="true" />
-            <marker date="1386632309431" expanded="true" signature="844:873" placeholder="..." />
-            <marker date="1386632309431" expanded="true" signature="888:993" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/redprice/vendor/js/selectivizr-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/redprice/vendor/js/register_form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="789" selection-end="789" vertical-scroll-proportion="-0.6912" vertical-offset="756" max-vertical-offset="3582">
+        <state line="14" column="39" selection-start="709" selection-end="709" vertical-scroll-proportion="0.5464684" vertical-offset="0" max-vertical-offset="538">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/redprice/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="372" selection-end="372" vertical-scroll-proportion="0.40268457" vertical-offset="0" max-vertical-offset="3640">
+        <state line="160" column="1" selection-start="5915" selection-end="5915" vertical-scroll-proportion="0.0" vertical-offset="1701" max-vertical-offset="3320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/registration_form/registration_form.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="76" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="840">
+          <folding>
+            <marker date="1386652203424" expanded="false" signature="907:936" placeholder="..." />
+            <marker date="1386652203424" expanded="false" signature="951:1056" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/captcha/captcha.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="345" selection-start="1737" selection-end="1742" vertical-scroll-proportion="0.33268481" vertical-offset="489" max-vertical-offset="15020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/wysiwyg/editors/bootstrap_wysihtml5.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.admin.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/yandex_captcha/yandex_captcha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="32" selection-start="917" selection-end="926" vertical-scroll-proportion="0.31608135" vertical-offset="629" max-vertical-offset="5820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="282" column="3" selection-start="9144" selection-end="9144" vertical-scroll-proportion="0.4644128" vertical-offset="5299" max-vertical-offset="6800">
           <folding />
         </state>
       </provider>

@@ -1,0 +1,4 @@
+name = Jquery Update
+descriptions = Custom CDN Jquery update module
+version = VERSION
+core = 7.x

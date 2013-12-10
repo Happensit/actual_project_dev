@@ -98,6 +98,7 @@ function yandex_captcha_captcha($op, $captcha_type = '') {
 
         $yandex_captcha_get_captcha = yandex_captcha_get_captcha();
 
+
         if (!$yandex_captcha_get_captcha) {
           return captcha_captcha('generate', 'Math');
         }
@@ -105,22 +106,22 @@ function yandex_captcha_captcha($op, $captcha_type = '') {
         $result['solution'] = $yandex_captcha_get_captcha['captcha'];
         $result['captcha_validate'] = 'yandex_captcha_check_captcha';
 
+          $result['form']['captcha_response'] = array(
+              '#type' => 'textfield',
+              '#title' => 'Код с картинки',
+              '#size' => 27,
+              '#maxlength' => 200,
+              '#required' => TRUE,
+          );
+
         $result['form']['captcha_image'] = array(
-          '#markup' => '<div class="yandex_captcha_image">' . theme('image', array(
+          '#markup' => '<div class="yandex_captcha_image">' . yandex_captcha_theme_image(array(
             'path' => $yandex_captcha_get_captcha['url'],
             'width' => 200,
             'height' => 60,
             'alt' => t('Image with code'),
             'title' => t('Type the code from picture.'),
           )) . '</div>',
-        );
-
-        $result['form']['captcha_response'] = array(
-          '#type' => 'textfield',
-          '#description' => t('Enter the validation text.'),
-          '#size' => 27,
-          '#maxlength' => 200,
-          '#required' => TRUE,
         );
 
         if (variable_get('yandex_captcha_refresh_image', FALSE)) {
@@ -209,6 +210,7 @@ function yandex_captcha_get_captcha() {
   $result = new SimpleXMLElement($result[1]);
 
   if (!empty($result->captcha) && !empty($result->url) && valid_url($result->url, TRUE)) {
+
     return array(
       'captcha' => $result->captcha,
       'url' => $result->url,
@@ -328,4 +330,10 @@ function yandex_captcha_ajax_refresh($form_id) {
   }
 
   drupal_json_output($result);
+}
+
+function yandex_captcha_theme_image($variables) {
+
+    return '<img src="' .$variables['path'] . '" width="'.$variables['width'].'" height="'.$variables['height'].'" alt="'.$variables['alt'].'" title="'.$variables['title'].'" />';
+
 }
