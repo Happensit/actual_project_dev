@@ -4,67 +4,11 @@
     <option name="ANALYSIS_IN_BACKGROUND" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29cb9713-98d9-4def-9127-40e786657cdb" name="Default" comment="Lots of upgrades">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/templates/preview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/templates/preview.html" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\dist\bootstrap-wysihtml5-0.0.2.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\dist\bootstrap-wysihtml5-0.0.2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\dist\bootstrap-wysihtml5-0.0.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\lib\css\bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\lib\css\bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\lib\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\lib\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\lib\css\prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\lib\css\wysiwyg-color.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\lib\img\glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\lib\img\glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\lib\js\bootstrap-button.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\lib\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\lib\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\lib\js\jquery-1.7.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\lib\js\prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\lib\js\wysihtml5-0.3.0.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\lib\js\wysihtml5-0.3.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\bootstrap-wysihtml5.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\bootstrap-wysihtml5.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.ar-AR.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.bg-BG.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.ca-CT.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.cs-CZ.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.da-DK.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.de-DE.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.el-GR.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.es-AR.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.es-ES.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.fr-FR.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.hr-HR.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.it-IT.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.ja-JP.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.ko-KR.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.lt-LT.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.mo-MD.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.nb-NB.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.nl-NL.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.pl-PL.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.ru-RU.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.sk-SK.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.sv-SE.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.tr-TR.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.ua-UA.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\src\locales\bootstrap-wysihtml5.zh-TW.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\test\README" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\test\bootstrap_wysihtml5\parserRules_test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\test\browser_test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\test\editor_test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\test\incompatible_test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\test\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\test\lib" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\test\support\html_equal.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\libraries\bootstrap-wysihtml5\test\undo_manager_test.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.info" afterPath="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/jquery.markitup.js" afterPath="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/jquery.markitup.js" />
+    <list default="true" id="29cb9713-98d9-4def-9127-40e786657cdb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/autoupload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module" afterPath="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/skins/simple/redactor.css" afterPath="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/skins/simple/redactor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/editor/settings.js" afterPath="$PROJECT_DIR$/sites/all/modules/custom/editor/settings.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redprice.iws" />
@@ -99,17 +43,19 @@
       <file leaf-file-name="editor.module" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="14" selection-start="768" selection-end="768" vertical-scroll-proportion="-0.0" vertical-offset="360" max-vertical-offset="560">
+            <state line="22" column="44" selection-start="874" selection-end="874" vertical-scroll-proportion="-7.3448277" vertical-offset="227" max-vertical-offset="620">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/redprice/css/style.css">
+      <file leaf-file-name="autoupload.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/autoupload.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1211" column="20" selection-start="22986" selection-end="22986" vertical-scroll-proportion="0.0" vertical-offset="24099" max-vertical-offset="36260">
-              <folding />
+            <state line="26" column="4" selection-start="712" selection-end="712" vertical-scroll-proportion="0.86378735" vertical-offset="0" max-vertical-offset="700">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,19 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redactor.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/skins/simple/redactor.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="22" selection-start="1837" selection-end="1837" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2780">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/settings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="92" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.49066213" vertical-offset="91" max-vertical-offset="680">
+            <state line="27" column="141" selection-start="2799" selection-end="2809" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="740">
               <folding />
             </state>
           </provider>
@@ -153,7 +90,25 @@
       <file leaf-file-name="settings.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/settings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="8" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="2880">
+            <state line="33" column="113" selection-start="2792" selection-end="2810" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="2880">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="216" column="26" selection-start="5462" selection-end="5462" vertical-scroll-proportion="0.0" vertical-offset="4200" max-vertical-offset="10940">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favourite.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/favourite.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="13" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.0" vertical-offset="1120" max-vertical-offset="2480">
               <folding />
             </state>
           </provider>
@@ -182,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/wysiwyg/editors/js/bootstrap_wysihtml5.js" />
         <option value="$PROJECT_DIR$/misc/jquery.form.js" />
         <option value="$PROJECT_DIR$/update.php" />
         <option value="$PROJECT_DIR$/themes/redprice/template.php" />
@@ -192,12 +146,13 @@
         <option value="$PROJECT_DIR$/modules/system/system.base.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.js" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/editor.js" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module" />
         <option value="$PROJECT_DIR$/themes/redprice/css/style.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/style.css" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/skins/simple/redactor.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.info" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/skins/simple/redactor.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/settings.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/autoupload.js" />
       </list>
     </option>
   </component>
@@ -281,7 +236,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="markitup" />
+              <option name="myItemId" value="redactor_wysiwyg" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -395,6 +350,166 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="markitup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="markitup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="markitup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -447,11 +562,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\redprice\sites\all\modules\custom\editor\vendor\markitup\skins\simple" />
+      <recent name="C:\wamp\www\redprice\sites\all\modules\custom\editor\vendor" />
       <recent name="C:\wamp\www\redprice\sites\all\modules\custom\editor\vendor\markitup" />
       <recent name="C:\wamp\www\redprice\sites\all\modules\custom\editor" />
-      <recent name="C:\wamp\www\redprice\sites\all\modules\custom\editor\vendor" />
       <recent name="C:\wamp\www\redprice\themes\redprice\templates" />
-      <recent name="C:\wamp\www\redprice\themes\redprice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp\www\redprice\sites\all\modules\custom\editor\vendor\markitup\sets" />
@@ -549,7 +664,11 @@
       <created>1386825262043</created>
       <updated>1386825262043</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Current version Markitup redactor">
+      <created>1386830276002</created>
+      <updated>1386830276002</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -579,22 +698,22 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1656051" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32006368" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25227273" sideWeight="0.83439493" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23030303" sideWeight="0.83439493" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25227273" sideWeight="0.67197454" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23030303" sideWeight="0.6799363" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="584" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39968154" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -619,46 +738,53 @@
     <MESSAGE value="user register complete" />
     <MESSAGE value="yandex captcha" />
     <MESSAGE value="Lots of upgrades" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lots of upgrades" />
+    <MESSAGE value="Current version Markitup redactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Current version Markitup redactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/jquery_migrate/jquery_migrate.info">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/jquery.markitup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="10" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="180" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/templates/skin/synio/editor.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="616" selection-end="1022" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="660">
+        <state line="165" column="20" selection-start="5679" selection-end="5679" vertical-scroll-proportion="0.3448276" vertical-offset="2640" max-vertical-offset="12920">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/settings.js">
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/external/jquery/markitup/jquery.markitup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="2880">
+        <state line="597" column="6" selection-start="18514" selection-end="18514" vertical-scroll-proportion="-0.049723756" vertical-offset="11458" max-vertical-offset="11820">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/main.js">
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/external/jquery/jquery.jqmodal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="465" column="18" selection-start="10693" selection-end="10693" vertical-scroll-proportion="0.0" vertical-offset="9000" max-vertical-offset="11820">
+        <state line="174" column="32" selection-start="5630" selection-end="5630" vertical-scroll-proportion="0.0" vertical-offset="3160" max-vertical-offset="3600">
+          <folding>
+            <marker date="1363886168000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.188/autoupload/js/autoupload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="4" selection-start="625" selection-end="625" vertical-scroll-proportion="0.5733333" vertical-offset="145" max-vertical-offset="520">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/jquery_migrate/jquery_migrate.module">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/skins/simple/redactor.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="360" />
+        <state line="11" column="14" selection-start="525" selection-end="525" vertical-scroll-proportion="0.40515652" vertical-offset="0" max-vertical-offset="2780">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../svetexposhop/sites/all/themes/svetexpo/templates/node-lamp-page.tpl.php">
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/redactor_wysiwyg/._redactor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="28" selection-start="5022" selection-end="5054" vertical-scroll-proportion="0.40816328" vertical-offset="720" max-vertical-offset="3940">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
           <folding />
         </state>
       </provider>
@@ -670,16 +796,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module">
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="14" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="560">
+        <state line="216" column="26" selection-start="5462" selection-end="5462" vertical-scroll-proportion="0.0" vertical-offset="4200" max-vertical-offset="10940">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/redprice/template.php">
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/redactor_wysiwyg/redactor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="26" selection-start="5705" selection-end="5705" vertical-scroll-proportion="0.0" vertical-offset="3120" max-vertical-offset="3320" />
+        <state line="18" column="11" selection-start="581" selection-end="581" vertical-scroll-proportion="0.94736844" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/redactor_wysiwyg/redactor.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.4467454" vertical-offset="1841" max-vertical-offset="3640">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/style.css">
@@ -689,45 +824,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/templates/preview.css">
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/favourite.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="479">
+        <state line="74" column="13" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.0" vertical-offset="1180" max-vertical-offset="2480">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/editor.info">
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="92" selection-start="28" selection-end="106" vertical-scroll-proportion="0.04192872" vertical-offset="0" max-vertical-offset="477">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/redprice/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1211" column="20" selection-start="22986" selection-end="22986" vertical-scroll-proportion="0.0" vertical-offset="24099" max-vertical-offset="36260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/jquery.markitup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="20" selection-start="5679" selection-end="5679" vertical-scroll-proportion="0.3448276" vertical-offset="2640" max-vertical-offset="12920">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/skins/simple/redactor.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="22" selection-start="1837" selection-end="1837" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2780">
+        <state line="33" column="113" selection-start="2792" selection-end="2810" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="2880">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="92" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.49066213" vertical-offset="91" max-vertical-offset="680">
+        <state line="27" column="141" selection-start="2799" selection-end="2809" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="740">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="44" selection-start="874" selection-end="874" vertical-scroll-proportion="-7.3448277" vertical-offset="227" max-vertical-offset="620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/autoupload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="4" selection-start="712" selection-end="712" vertical-scroll-proportion="0.86378735" vertical-offset="0" max-vertical-offset="700">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

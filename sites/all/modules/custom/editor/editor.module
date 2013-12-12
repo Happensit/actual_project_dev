@@ -19,5 +19,8 @@ function editor_form_alter(&$form, &$form_state, $form_id) {
             );
         });', 'inline');
 
+        /* Загрузка изображений */
+        drupal_add_js($path.'/vendor/autoupload.js','file');
+
     }
 }
