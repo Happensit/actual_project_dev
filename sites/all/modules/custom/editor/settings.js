@@ -20,8 +20,6 @@ function mySettings() {
 				{name: 'Добавить строку', className:'editor-li', openWith:'<li>', closeWith:'</li>' },
 				{separator:'---------------' },
                 {name: 'Изображение', className:'editor-picture', key:'P', beforeInsert: function(h) { jQuery('input.form-file').click(); }},
-                //{name: 'Добавить изображение из Web', className:'editor-image', replaceWith:'<img src="[!['+'Введите адрес изображения:'+':!:http://]!]" />' },
-                //{name: 'Видеоролик', className:'editor-video', replaceWith:'<video>[!['+'Вставьте код ролика:'+':!:http://]!]</video>' },
                 {name: 'Добавить ссылку', className:'editor-link', key:'L', openWith:'<a href="[!['+'Введите url адрес:'+':!:http://]!]"(!( title="[![Title]!]")!)>', closeWith:'</a>', placeHolder:'Введите название ссылки...' },
                 {separator:'---------------' },
 				{name: 'Очистить тэги', className:'editor-clean', replaceWith: function(markitup) { return markitup.selection.replace(/<(.*?)>/g, "") } },

@@ -3,7 +3,7 @@
  */
 
 (function ($) {
-  Drupal.behaviors.autoUpload = {
+  Drupal.behaviors.Editor = {
     attach: function(context, settings) {
       $('.form-item input.form-submit[value=Закачать]', context).hide();
       $('.form-item input.form-file', context).change(function() {

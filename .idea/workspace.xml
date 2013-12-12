@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29cb9713-98d9-4def-9127-40e786657cdb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/autoupload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module" afterPath="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/skins/simple/redactor.css" afterPath="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/skins/simple/redactor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/autoupload.js" afterPath="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/autoupload.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/editor/settings.js" afterPath="$PROJECT_DIR$/sites/all/modules/custom/editor/settings.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -52,7 +50,7 @@
       <file leaf-file-name="autoupload.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/autoupload.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="4" selection-start="712" selection-end="712" vertical-scroll-proportion="0.86378735" vertical-offset="0" max-vertical-offset="700">
+            <state line="24" column="9" selection-start="697" selection-end="697" vertical-scroll-proportion="0.7973422" vertical-offset="0" max-vertical-offset="700">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -72,7 +70,7 @@
       <file leaf-file-name="settings.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/settings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="141" selection-start="2799" selection-end="2809" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="740">
+            <state line="22" column="0" selection-start="1949" selection-end="1949" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="700">
               <folding />
             </state>
           </provider>
@@ -668,7 +666,11 @@
       <created>1386830276002</created>
       <updated>1386830276002</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added upload image Markitup">
+      <created>1386841075000</created>
+      <updated>1386841075000</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -739,7 +741,8 @@
     <MESSAGE value="yandex captcha" />
     <MESSAGE value="Lots of upgrades" />
     <MESSAGE value="Current version Markitup redactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Current version Markitup redactor" />
+    <MESSAGE value="Added upload image Markitup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added upload image Markitup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -817,13 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="781" column="2" selection-start="13674" selection-end="13674" vertical-scroll-proportion="0.0" vertical-offset="15259" max-vertical-offset="38400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/favourite.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="13" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.0" vertical-offset="1180" max-vertical-offset="2480">
@@ -838,13 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="141" selection-start="2799" selection-end="2809" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="740">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="44" selection-start="874" selection-end="874" vertical-scroll-proportion="-7.3448277" vertical-offset="227" max-vertical-offset="620">
@@ -852,9 +841,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="781" column="2" selection-start="13674" selection-end="13674" vertical-scroll-proportion="0.0" vertical-offset="15259" max-vertical-offset="38400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="1949" selection-end="1949" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/autoupload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="4" selection-start="712" selection-end="712" vertical-scroll-proportion="0.86378735" vertical-offset="0" max-vertical-offset="700">
+        <state line="24" column="9" selection-start="697" selection-end="697" vertical-scroll-proportion="0.7973422" vertical-offset="0" max-vertical-offset="700">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
