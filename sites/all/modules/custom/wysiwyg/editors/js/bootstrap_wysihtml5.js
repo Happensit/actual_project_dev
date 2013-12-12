@@ -539,7 +539,10 @@ Drupal.wysiwyg.editor.attach.bootstrap_wysihtml5 = function(context, params, set
  * See Drupal.wysiwyg.editor.detach.none() for a full desciption of this hook.
  */
 Drupal.wysiwyg.editor.detach.bootstrap_wysihtml5 = function(context, params) {
-  // @todo: implement detach hook.
+    var instance = wysihtml5.Editor;
+        if (instance) {
+           instance.destroy();
+        }
 };
 
 })(jQuery);

@@ -82,6 +82,16 @@ function yandex_captcha_captcha($op, $captcha_type = '') {
   global $user;
   $yandex_captcha_key = variable_get('yandex_captcha_key', NULL);
 
+    drupal_add_css('.yandex_captcha_image span {width: 42px; height: 16px; position: absolute; left: 175px; background: #fff; -moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px;}',
+      array(
+        'group' => CSS_THEME,
+        'type' => 'inline',
+        'media' => 'All',
+        'preprocess' => FALSE,
+        'weight' => '-99',
+      )
+    );
+
   switch ($op) {
     case 'list':
       if (!empty($yandex_captcha_key)) {
@@ -115,12 +125,12 @@ function yandex_captcha_captcha($op, $captcha_type = '') {
           );
 
         $result['form']['captcha_image'] = array(
-          '#markup' => '<div class="yandex_captcha_image">' . yandex_captcha_theme_image(array(
+          '#markup' => '<div class="yandex_captcha_image"><span></span>' . theme('image', array(
             'path' => $yandex_captcha_get_captcha['url'],
             'width' => 200,
             'height' => 60,
-            'alt' => t('Image with code'),
-            'title' => t('Type the code from picture.'),
+            'alt' => 'Капча',
+            //'title' => t('Type the code from picture.'),
           )) . '</div>',
         );
 
@@ -334,6 +344,7 @@ function yandex_captcha_ajax_refresh($form_id) {
 
 function yandex_captcha_theme_image($variables) {
 
-    return '<img src="' .$variables['path'] . '" width="'.$variables['width'].'" height="'.$variables['height'].'" alt="'.$variables['alt'].'" title="'.$variables['title'].'" />';
+   // return '<img src="' .$variables['path'] . '" width="'.$variables['width'].'" height="'.$variables['height'].'" alt="'.$variables['alt'].'" title="'.$variables['title'].'" />';
+    return '<img src="' .$variables['path'] . '" width="'.$variables['width'].'" height="'.$variables['height'].'" alt="'.$variables['alt'].'" />';
 
 }

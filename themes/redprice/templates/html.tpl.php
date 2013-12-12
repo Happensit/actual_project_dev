@@ -46,6 +46,7 @@
     <?php print $head; ?>
     <title><?php print render($head_title); ?></title>
     <?php print $styles; ?>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <!-- End styles -->
     <?php print $scripts; ?>
     <!-- End scripts -->

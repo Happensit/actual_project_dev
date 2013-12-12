@@ -5,13 +5,13 @@ function agreement_form_alter(&$form, &$form_state, $form_id){
       case 'user_register_form':
        $form['agreements'] = array(
           '#type' => 'checkbox',
-          '#title' => ' я согласен(-а) с условиями <a href="/agreement"> Пользовательского соглашения</a>',
+          '#title' => ' я согласен(-а) с условиями <a href="/agreement" target="_blank"> Пользовательского соглашения</a>',
           '#required' => TRUE,
           '#weight' => 15
         );
        $form['user_rules'] = array(
            '#type' => 'checkbox',
-           '#title' => ' я согласен(-а) с <a href="/rules">Правилами</a>',
+           '#title' => ' я согласен(-а) с <a href="/rules" target="_blank">Правилами</a>',
            '#required' => TRUE,
            '#weight' => 16
        );

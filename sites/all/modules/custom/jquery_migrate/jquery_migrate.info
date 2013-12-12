@@ -1,0 +1,4 @@
+name = Jquery Migrate
+description = Custom migrate 1.2.1 CDN
+version = VERSION
+core = 7.x

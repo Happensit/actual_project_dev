@@ -2,23 +2,31 @@
 /* ------------------- Overall Specifications ------------- */
 
 body {
+  font-family: 'PT Sans', Arial, sans-serif;
   line-height: 1.5;
-  font-size: 87.5%;
+  font-size: 100%;
   word-wrap: break-word;
   margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
 }
+
+/* Ссылки
+---------------------------------------------------- */
 a:link,
 a:visited {
   text-decoration: none;
+  color: #3f8ad7;
 }
 a:hover,
 a:active,
 a:focus {
   text-decoration: underline;
 }
+
+a:hover { color: #f00; }
+
 h1,
 h2,
 h3,
@@ -29,8 +37,9 @@ h6 {
   font-weight: inherit;
 }
 h1 {
-  font-size: 1.357em;
-  color: #000;
+    font-size: 27px;
+    line-height: 1em;
+    font-weight: normal;
 }
 h2 {
   font-size: 1.143em;
@@ -109,7 +118,7 @@ body,
 #site-slogan,
 .ui-widget,
 .comment-form label {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /*font-family: Georgia, "Times New Roman", Times, serif;*/
 }
 #header,
 #footer-wrapper,
@@ -124,13 +133,13 @@ div.meta,
 p.comment-time,
 table,
 .breadcrumb {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
 input,
 textarea,
 select,
 a.button {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  /*font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;*/
 }
 
 /* ------------------- Reset Styles ----------------------- */
@@ -324,17 +333,7 @@ ul.tips {
   margin: 0;
   padding: 5px 10px 8px;
 }
-#site-name {
-  font-size: 1.6em;
-  color: #686868;
-  line-height: 1;
-}
-h1#site-name {
-  margin: 0;
-}
-#site-name a {
-  font-weight: normal;
-}
+
 #site-slogan {
   font-size: 0.929em;
   margin-top: 7px;
@@ -479,7 +478,7 @@ h1#site-name {
 
 /* ------------------- Main Menu -------------------------- */
 #main-menu {
-  clear: both;
+  width: 80%;
 }
 #main-menu-links {
   font-size: 0.929em;
@@ -487,36 +486,31 @@ h1#site-name {
   padding: 0;
   text-align: left; /* LTR */
 }
+
 #main-menu-links li {
   float: none;
+   line-height: 33px;
   list-style: none;
   margin: 0;
   padding: 0;
   width: 100%;
 }
 #main-menu-links a {
-  color: #333;
-  background: #ccc;
-  background: rgba(255, 255, 255, 0.7);
-  float: none;
-  display: block;
-  text-decoration: none;
-  text-shadow: 0 1px #eee;
-  border-radius: 8px;
-  margin-bottom: 4px;
-  padding: 0.9em 0 0.9em 10px;
+    color: #cfcfcf;
+    text-decoration: none;
+    padding: 0;
 }
 #main-menu-links a:hover,
 #main-menu-links a:focus {
-  background: #f6f6f2;
-  background: rgba(255, 255, 255, 0.95);
+    color: #aaa;
+    background: none;
 }
 #main-menu-links a:active {
-  background: #b3b3b3;
-  background: rgba(255, 255, 255, 1);
+    color: #aaa;
+    background: none;
 }
 #main-menu-links li a.active {
-  border-bottom: none;
+    color: #aed6e9;
 }
 
 /* ------------------- Secondary Menu --------------------- */
@@ -879,19 +873,7 @@ ul.links.inline li a {
 /* ------------------- Footer ----------------------------- */
 
 #footer-wrapper {
-  color: #c0c0c0;
-  color: rgba(255, 255, 255, 0.65);
   font-size: 0.857em;
-}
-#footer-wrapper a {
-  color: #fcfcfc;
-  color: rgba(255, 255, 255, 0.8);
-}
-#footer-wrapper a:hover,
-#footer-wrapper a:focus {
-  color: #fefefe;
-  color: rgba(255, 255, 255, 0.95);
-  text-decoration: underline;
 }
 #footer-wrapper .block {
   margin: 20px 0;
@@ -996,7 +978,7 @@ ul.links.inline li a {
 /* ------------------- System Tabs ------------------------ */
 
 .tabs {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   margin-bottom: 20px;
 }
 .tabs ul.primary {
@@ -1123,34 +1105,6 @@ div.password-confirm {
   width: 20.73em;
 }
 
-/* ------------------- Buttons ---------------------------- */
-
-input.form-submit,
-a.button {
-  background: #fff url("../img/buttons.png") 0 0 repeat-x;
-  border: 1px solid #e4e4e4;
-  border-bottom: 1px solid #b4b4b4;
-  border-left-color: #d2d2d2;
-  border-right-color: #d2d2d2;
-  color: #3a3a3a;
-  cursor: pointer;
-  font-size: 0.929em;
-  font-weight: normal;
-  text-align: center;
-  margin-bottom: 1em;
-  margin-right: 0.6em; /* LTR */
-  padding: 4px 17px;
-  border-radius: 15px;
-}
-a.button:link,
-a.button:visited,
-a.button:hover,
-a.button:focus,
-a.button:active {
-  text-decoration: none;
-  color: #5a5a5a;
-}
-
 /* ------------------- Form Elements ---------------------- */
 
 fieldset {
@@ -1200,7 +1154,7 @@ fieldset legend {
   display: block;
   height: 2em;
   left: -1px; /* LTR */
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  /*font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;*/
   line-height: 2;
   padding: 0;
   position: absolute;
@@ -1234,7 +1188,7 @@ fieldset .fieldset-description {
 }
 input {
   margin: 2px 0;
-  padding: 4px;
+  padding: 6px;
 }
 input,
 textarea {
@@ -1256,12 +1210,18 @@ input.form-number,
 input.form-color,
 textarea.form-textarea,
 select.form-select {
-  border: 1px solid #ccc;
+  border: 1px solid #e8e8e8;
 }
-input.form-submit:hover,
-input.form-submit:focus {
-  background: #dedede;
+
+input.form-text:focus, input.form-email:focus, textarea.form-textarea:focus {
+    border-color:rgba(82, 168, 236, 0.8);
+    -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);
+    -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);
+    outline:0;
+    outline:thin dotted \9;
 }
+
 .password-suggestions ul li {
   margin-left: 1.2em; /* LTR */
 }
@@ -1737,7 +1697,6 @@ a#menu-toggle:after {
     padding: 15px 15px 15px 10px; /* LTR */
   }
   #name-and-slogan {
-    padding: 26px 0 0;
     margin: 0 0 30px 15px; /* LTR */
   }
   #site-name {
@@ -1784,4 +1743,66 @@ a#menu-toggle:after {
   position: absolute !important;
   clip: rect(1px, 1px, 1px, 1px);
   left: 0;
+}
+
+/* Стили оформлеия темы */
+#header {
+    background: #090909;
+    height: 51px;
+    margin: 0 auto;
+    position: relative;
+}
+#name-and-slogan {
+    padding: 13px 0 0;
+    margin: 0 50px 30px 15px;
+}
+
+.site-name {
+    font-size: 25px;
+    line-height: 1em;
+    float: left;
+}
+h1.site-name {
+    margin: 0;
+}
+#header .site-name a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Secondary menu */
+
+#secondary-menu {
+    width: 20% !important;
+    float: right;
+}
+
+#secondary-menu-links a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 33px;
+    font-size: 11px;
+}
+
+.block-auth {
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 33px;
+    font-size: 11px;
+    margin-right: 17px;
+}
+
+.auth li {
+    float: left;
+    margin-left: 23px;
+}
+.auth li a {
+    color: #cfcfcf;
+    text-decoration: none;
+}
+
+/* Ссылка на сброс пароя с страницы входа */
+a.reset {
+    padding-left: 270px;
 }
