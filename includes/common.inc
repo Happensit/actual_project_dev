@@ -3611,6 +3611,7 @@ function drupal_build_css_cache($css) {
       }
     }
     // Save the updated map.
+      $uri = use_cdn($uri);
     $map[$key] = $uri;
     variable_set('drupal_css_cache_files', $map);
   }
@@ -4985,6 +4986,7 @@ function drupal_build_js_cache($files) {
         return FALSE;
       }
     }
+    $uri = use_cdn($uri);
     $map[$key] = $uri;
     variable_set('drupal_js_cache_files', $map);
   }
@@ -8215,4 +8217,14 @@ function drupal_get_filetransfer_info() {
     uasort($info, 'drupal_sort_weight');
   }
   return $info;
+}
+
+function use_cdn($uri){
+
+    if($uri){
+      $cdn_uri = 'http://cdn.happensit.ru/public/';
+      $uri = str_replace('public://', $cdn_uri, $uri);
+    }
+
+    return $uri;
 }
