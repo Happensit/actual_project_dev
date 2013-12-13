@@ -14,14 +14,21 @@
             $('input.form-submit[value=Закачать]', $parent).mousedown();
           }
         }, 100);
-        setTimeout(function() {
-            $aimg = $('span.file').find('a').attr('href');
-            $.markItUp({replaceWith: '<img src="'+$aimg+'" />'});
 
-          }, 1300);
+//          $(document).on('change', $parent, function(){
+//              setTimeout(function() {
+//                  $aimg = $(this).find('a').attr('href');
+//                  console.log($aimg);
+//                  $.markItUp({replaceWith: '<img src="'+$aimg+'" />'});
+//              }, 1500);
+//          });
 
-
-
+//          $(document).on('change','.image-widget', function(){
+//
+//              $aimg = $(this).find('.image-widget-data .file a').attr('href');
+//              console.log($aimg);
+//            //$.markItUp({replaceWith: '<img src="'+$aimg+'" />'});
+//          });
       });
     }
   };
