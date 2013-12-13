@@ -5,67 +5,81 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29cb9713-98d9-4def-9127-40e786657cdb" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\CHANGELOG.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\bootstrap_wysihtml5.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\ckeditor.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\css\openwysiwyg.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\css\tinymce-2.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\css\tinymce-3.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\fckeditor.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\js\bootstrap_wysihtml5.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\js\ckeditor-3.0.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\js\fckeditor-2.6.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\js\fckeditor.config.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\js\jwysiwyg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\js\markitup.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\js\nicedit.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\js\none.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\js\openwysiwyg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\js\tinymce-2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\js\tinymce-3.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\js\whizzywig-56.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\js\whizzywig-60.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\js\whizzywig.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\js\wymeditor.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\js\yui.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\jwysiwyg.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\markitup.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\nicedit.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\openwysiwyg.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\tinymce.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\whizzywig.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\wymeditor.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\editors\yui.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\plugins\break.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\plugins\break\break.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\plugins\break\break.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\plugins\break\images\break.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\plugins\break\images\breaktext.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\plugins\break\images\spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\plugins\break\langs\ca.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\plugins\break\langs\de.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\plugins\break\langs\en.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\plugins\break\langs\es.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\tests\wysiwyg.test" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\tests\wysiwyg_test.info" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\tests\wysiwyg_test.install" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\tests\wysiwyg_test.module" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\wysiwyg-dialog-page.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\wysiwyg.admin.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\wysiwyg.api.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\wysiwyg.api.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\wysiwyg.dialog.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\wysiwyg.features.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\wysiwyg.info" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\wysiwyg.init.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\wysiwyg.install" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\wysiwyg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\all\modules\custom\wysiwyg\wysiwyg.module" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/common.inc" afterPath="$PROJECT_DIR$/includes/common.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/jquery_update/jquery_update.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/jquery_update/jquery_update.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/editor/settings.js" afterPath="$PROJECT_DIR$/sites/all/modules/custom/editor/settings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/settings.php" afterPath="$PROJECT_DIR$/sites/default/settings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Remote/Auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Connector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/ClientEmulator/Connector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Connector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Remote/Connector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Dispatcher/Debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Dispatcher/Debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Dispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Dispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Dumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Dumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Dispatcher/Errors.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Dispatcher/Errors.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Dispatcher/Eval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/EvalProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/EvalProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Dispatcher/Evaluate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Remote/Evaluate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Remote/Handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Remote/HandlerAfterConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Remote/HandlerBeforeConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/OldVersionAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/PsrLogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/PsrLogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/vendor/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/ClientEmulator/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/ClientEmulator/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Remote/Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/__autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/utils/build_phar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/complex_usage_example.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/debug_vars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/utils/detect_headers_limit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/dispatch_debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/eval_terminal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/handle_errors.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/handle_javascript_errors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/handle_javascript_errors.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/handle_on_redirect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/highload_optimization.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/init_default_connector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/init_default_handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/old_version_adapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/phpunit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/print.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/protect_by_password.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/set_connector_allowed_ip.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/set_connector_auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/set_connector_encoding.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/set_connector_eval_enabled.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/set_connector_ssl_only.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/set_server_encoding.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/utils/test_jump_to_file.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/trigger_compile_error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/trigger_exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/trigger_fatal_error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/trigger_max_execution_time_error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/trigger_memory_limit_error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/trigger_not_fatal_errors.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/trigger_parse_error.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redprice.iws" />
@@ -100,7 +114,7 @@
       <file leaf-file-name="editor.module" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="41" selection-start="547" selection-end="547" vertical-scroll-proportion="0.39285713" vertical-offset="40" max-vertical-offset="620">
+            <state line="19" column="24" selection-start="793" selection-end="793" vertical-scroll-proportion="0.60714287" vertical-offset="40" max-vertical-offset="620">
               <folding />
             </state>
           </provider>
@@ -563,7 +577,11 @@
       <created>1386909388440</created>
       <updated>1386909388440</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="CDN and PHP Console added">
+      <created>1386923290686</created>
+      <updated>1386923290686</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -637,7 +655,8 @@
     <MESSAGE value="Added upload image Markitup" />
     <MESSAGE value="Change context behaviors &quot;Editor&quot;" />
     <MESSAGE value="Added wysiwyg editor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added wysiwyg editor" />
+    <MESSAGE value="CDN and PHP Console added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CDN and PHP Console added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -724,7 +743,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="41" selection-start="547" selection-end="547" vertical-scroll-proportion="0.39285713" vertical-offset="40" max-vertical-offset="620">
+        <state line="19" column="24" selection-start="793" selection-end="793" vertical-scroll-proportion="0.60714287" vertical-offset="40" max-vertical-offset="620">
           <folding />
         </state>
       </provider>
