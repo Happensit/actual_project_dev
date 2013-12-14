@@ -5,82 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29cb9713-98d9-4def-9127-40e786657cdb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Remote/Auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Connector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/ClientEmulator/Connector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Connector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Remote/Connector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Dispatcher/Debug.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Dispatcher/Debug.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Dispatcher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Dispatcher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Dumper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Dumper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Dispatcher/Errors.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Dispatcher/Errors.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Dispatcher/Eval.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/EvalProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/EvalProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Dispatcher/Evaluate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Remote/Evaluate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Handler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Handler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Remote/Handler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Remote/HandlerAfterConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Remote/HandlerBeforeConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/OldVersionAdapter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/PsrLogger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/PsrLogger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/vendor/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/ClientEmulator/Request.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/ClientEmulator/Response.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Remote/Test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/__autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/utils/build_phar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/complex_usage_example.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/debug_vars.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/utils/detect_headers_limit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/dispatch_debug.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/eval_terminal.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/handle_errors.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/handle_javascript_errors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/handle_javascript_errors.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/handle_on_redirect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/highload_optimization.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/init_default_connector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/init_default_handler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/old_version_adapter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/print.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/features/protect_by_password.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/server.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/set_connector_allowed_ip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/set_connector_auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/set_connector_encoding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/set_connector_eval_enabled.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/set_connector_ssl_only.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/set_server_encoding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/examples/utils/test_jump_to_file.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/trigger_compile_error.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/trigger_exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/trigger_fatal_error.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/trigger_max_execution_time_error.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/trigger_memory_limit_error.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/trigger_not_fatal_errors.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/trigger_parse_error.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.module" />
     </list>
     <ignored path="redprice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,10 +37,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="editor.module" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="editor.module" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="24" selection-start="793" selection-end="793" vertical-scroll-proportion="0.60714287" vertical-offset="40" max-vertical-offset="620">
+            <state line="19" column="24" selection-start="793" selection-end="793" vertical-scroll-proportion="-12.344828" vertical-offset="22" max-vertical-offset="620">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yandex_captcha.module" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="39" selection-start="5105" selection-end="5105" vertical-scroll-proportion="0.56614786" vertical-offset="2449" max-vertical-offset="7040">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yandex_captcha.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="24" selection-start="240" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="860">
               <folding />
             </state>
           </provider>
@@ -123,7 +67,7 @@
       <file leaf-file-name="common.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/common.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8229" column="1" selection-start="303130" selection-end="303130" vertical-scroll-proportion="-8.407408" vertical-offset="164006" max-vertical-offset="164580">
+            <state line="8229" column="1" selection-start="303130" selection-end="303130" vertical-scroll-proportion="0.0" vertical-offset="164580" max-vertical-offset="164700">
               <folding />
             </state>
           </provider>
@@ -132,7 +76,7 @@
       <file leaf-file-name="jquery_update.module" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/jquery_update/jquery_update.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="395" column="37" selection-start="13910" selection-end="13939" vertical-scroll-proportion="-3.1666667" vertical-offset="7669" max-vertical-offset="10040">
+            <state line="395" column="37" selection-start="13910" selection-end="13939" vertical-scroll-proportion="0.0" vertical-offset="7900" max-vertical-offset="10100">
               <folding />
             </state>
           </provider>
@@ -141,7 +85,7 @@
       <file leaf-file-name="bootstrap.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/bootstrap.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2288" column="39" selection-start="78105" selection-end="78105" vertical-scroll-proportion="-2.7962964" vertical-offset="45549" max-vertical-offset="69780">
+            <state line="2288" column="39" selection-start="78105" selection-end="78105" vertical-scroll-proportion="0.0" vertical-offset="45760" max-vertical-offset="69840">
               <folding />
             </state>
           </provider>
@@ -150,10 +94,8 @@
       <file leaf-file-name="settings.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="12" selection-start="2864" selection-end="2871" vertical-scroll-proportion="-7.037037" vertical-offset="1400" max-vertical-offset="5320">
-              <folding>
-                <element signature="e#7#1849#0" expanded="true" />
-              </folding>
+            <state line="89" column="12" selection-start="2864" selection-end="2871" vertical-scroll-proportion="0.0" vertical-offset="1400" max-vertical-offset="5320">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -190,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/modules/system/system.base.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.js" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/editor.js" />
         <option value="$PROJECT_DIR$/themes/redprice/css/style.css" />
@@ -206,6 +147,7 @@
         <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/settings.js" />
         <option value="$PROJECT_DIR$/sites/all/modules/development/developer_console/developer_console.module" />
         <option value="$PROJECT_DIR$/sites/all/modules/development/developer_console/developer_console.info" />
+        <option value="$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.module" />
       </list>
     </option>
   </component>
@@ -242,6 +184,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -402,28 +345,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contrib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="options.lastSelected" value="editor" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../editor/settings.js" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="Development (devel.happensit.ru)" serverId="dc342782-a012-4464-8b01-a237c559b161" autoUpload="true">
     <servers>
@@ -581,7 +527,11 @@
       <created>1386923290686</created>
       <updated>1386923290686</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added libraries folder">
+      <created>1386923406585</created>
+      <updated>1386923406585</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -608,25 +558,25 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16507937" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1656051" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25227273" sideWeight="0.67197454" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24166666" sideWeight="0.83439493" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25227273" sideWeight="0.83439493" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24545455" sideWeight="0.83439493" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="584" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32006368" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39968154" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -656,29 +606,40 @@
     <MESSAGE value="Change context behaviors &quot;Editor&quot;" />
     <MESSAGE value="Added wysiwyg editor" />
     <MESSAGE value="CDN and PHP Console added" />
-    <option name="LAST_COMMIT_MESSAGE" value="CDN and PHP Console added" />
+    <MESSAGE value="added libraries folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="added libraries folder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/user.js">
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="26" selection-start="5462" selection-end="5462" vertical-scroll-proportion="0.0" vertical-offset="4200" max-vertical-offset="10940">
+        <state line="89" column="12" selection-start="2864" selection-end="2871" vertical-scroll-proportion="0.0" vertical-offset="1400" max-vertical-offset="5320">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/favourite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="13" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.0" vertical-offset="1120" max-vertical-offset="2480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="216" column="26" selection-start="5462" selection-end="5462" vertical-scroll-proportion="0.0" vertical-offset="4200" max-vertical-offset="10940" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.2112675" vertical-offset="2392" max-vertical-offset="2960">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.2112675" vertical-offset="2392" max-vertical-offset="2960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/bootstrap.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2288" column="39" selection-start="78105" selection-end="78105" vertical-scroll-proportion="-2.7962964" vertical-offset="45549" max-vertical-offset="69780">
+        <state line="2288" column="39" selection-start="78105" selection-end="78105" vertical-scroll-proportion="0.0" vertical-offset="45760" max-vertical-offset="69840">
           <folding />
         </state>
       </provider>
@@ -692,58 +653,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="12" selection-start="2864" selection-end="2871" vertical-scroll-proportion="-7.037037" vertical-offset="1400" max-vertical-offset="5320">
-          <folding>
-            <element signature="e#7#1849#0" expanded="true" />
-          </folding>
+        <state line="89" column="12" selection-start="2864" selection-end="2871" vertical-scroll-proportion="0.0" vertical-offset="1400" max-vertical-offset="5320">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/common.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8229" column="1" selection-start="303130" selection-end="303130" vertical-scroll-proportion="-8.407408" vertical-offset="164006" max-vertical-offset="164580">
+        <state line="8229" column="1" selection-start="303130" selection-end="303130" vertical-scroll-proportion="0.0" vertical-offset="164580" max-vertical-offset="164700">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/editor.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="200">
-          <folding />
-        </state>
+        <state line="4" column="30" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="200" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/jquery_update/jquery_update.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="395" column="37" selection-start="13910" selection-end="13939" vertical-scroll-proportion="-3.1666667" vertical-offset="7669" max-vertical-offset="10040">
+        <state line="395" column="37" selection-start="13910" selection-end="13939" vertical-scroll-proportion="0.0" vertical-offset="7900" max-vertical-offset="10100">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="113" selection-start="2792" selection-end="2810" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="2880">
-          <folding />
-        </state>
+        <state line="33" column="113" selection-start="2792" selection-end="2810" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="2880" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../editor/settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="139" selection-start="1814" selection-end="1937" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
+        <state line="21" column="139" selection-start="1814" selection-end="1937" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="47" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.36795774" vertical-offset="111" max-vertical-offset="720">
-          <folding />
-        </state>
+        <state line="16" column="47" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.36795774" vertical-offset="111" max-vertical-offset="720" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="24" selection-start="793" selection-end="793" vertical-scroll-proportion="0.60714287" vertical-offset="40" max-vertical-offset="620">
+        <state line="19" column="24" selection-start="793" selection-end="793" vertical-scroll-proportion="-12.344828" vertical-offset="22" max-vertical-offset="620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="240" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="860">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="39" selection-start="5105" selection-end="5105" vertical-scroll-proportion="0.56614786" vertical-offset="2449" max-vertical-offset="7040">
           <folding />
         </state>
       </provider>

@@ -136,7 +136,15 @@ function yandex_captcha_captcha($op, $captcha_type = '') {
 
         if (variable_get('yandex_captcha_refresh_image', FALSE)) {
           $result['form']['#attached']['js'][] = drupal_get_path('module', 'yandex_captcha') . '/yandex_captcha.js';
-        }
+            drupal_add_css('.reload-yandex-captcha-wrapper span {width: 16px; height: 16px; padding-right: 18px; background: url('.drupal_get_path('module', 'yandex_captcha').'/next.gif) no-repeat; -moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px;}',
+                array(
+                    'group' => CSS_THEME,
+                    'type' => 'inline',
+                    'media' => 'All',
+                    'preprocess' => FALSE,
+                    'weight' => '-99',
+                )
+            );        }
 
       }
 
@@ -164,7 +172,7 @@ function yandex_captcha_after_build_process($element, $form_state) {
   $captcha_point = captcha_get_form_id_setting($form_id);
   if ($captcha_point && $captcha_point->captcha_type && $captcha_point->captcha_type == 'Yandex.Captcha' && variable_get('yandex_captcha_refresh_image', FALSE) && isset($element['captcha_widgets']['captcha_image'])) {
     $element['captcha_widgets']['captcha_refresh'] = array(
-      '#markup' => '<div class="reload-yandex-captcha-wrapper">' . l(t('Show other validation text'), 'captcha/yandex_captcha_refresh/' . $form_id, array('attributes' => array('class' => array('reload-captcha')))) . '</div>',
+      '#markup' => '<div class="reload-yandex-captcha-wrapper"><span></span>' . l(t('Show other validation text'), 'captcha/yandex_captcha_refresh/' . $form_id, array('attributes' => array('class' => array('reload-captcha')))) . '</div>',
     );
   }
   return $element;
@@ -340,11 +348,4 @@ function yandex_captcha_ajax_refresh($form_id) {
   }
 
   drupal_json_output($result);
-}
-
-function yandex_captcha_theme_image($variables) {
-
-   // return '<img src="' .$variables['path'] . '" width="'.$variables['width'].'" height="'.$variables['height'].'" alt="'.$variables['alt'].'" title="'.$variables['title'].'" />';
-    return '<img src="' .$variables['path'] . '" width="'.$variables['width'].'" height="'.$variables['height'].'" alt="'.$variables['alt'].'" />';
-
 }
