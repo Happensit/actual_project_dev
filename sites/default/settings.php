@@ -83,12 +83,11 @@ $update_free_access = FALSE;
 $drupal_hash_salt = 'QW8UE1Eo24dE2eH99rcUv-BCWxa0oPhaxNuzC16YbxM';
 
 /**
- * CDN Settings
+ * Вырубаем кэширование
  */
-$conf += array(
-    'use_cdn' => FALSE,
-    'cdn_url' => 'http://cdn.happensit.ru'  //No trailing slash
-);
+
+$conf['page_cache_invoke_hooks'] = TRUE;
+//$conf['page_cache_without_database'] = TRUE;
 
 /**
  * PHP settings:

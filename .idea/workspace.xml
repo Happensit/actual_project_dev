@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29cb9713-98d9-4def-9127-40e786657cdb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redprice/templates/field.tpl.php" />
+      <change type="DELETED" beforePath="C:\wamp\www\redprice\sites\README.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/common.inc" afterPath="$PROJECT_DIR$/includes/common.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module" afterPath="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/settings.php" afterPath="$PROJECT_DIR$/sites/default/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/redprice/template.php" afterPath="$PROJECT_DIR$/themes/redprice/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.module" />
     </list>
     <ignored path="redprice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,55 +42,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="editor.module" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="24" selection-start="793" selection-end="793" vertical-scroll-proportion="-12.344828" vertical-offset="22" max-vertical-offset="620">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yandex_captcha.module" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.module">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="39" selection-start="5105" selection-end="5105" vertical-scroll-proportion="0.56614786" vertical-offset="2449" max-vertical-offset="7040">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yandex_captcha.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="24" selection-start="240" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="860">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="common.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/common.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8229" column="1" selection-start="303130" selection-end="303130" vertical-scroll-proportion="0.0" vertical-offset="164580" max-vertical-offset="164700">
+            <state line="8225" column="24" selection-start="303062" selection-end="303073" vertical-scroll-proportion="-0.0" vertical-offset="164500" max-vertical-offset="164700">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery_update.module" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/jquery_update/jquery_update.module">
+      <file leaf-file-name="template.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/redprice/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="395" column="37" selection-start="13910" selection-end="13939" vertical-scroll-proportion="0.0" vertical-offset="7900" max-vertical-offset="10100">
+            <state line="157" column="0" selection-start="5711" selection-end="5711" vertical-scroll-proportion="0.8214286" vertical-offset="2680" max-vertical-offset="3600">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.inc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/bootstrap.inc">
+      <file leaf-file-name="page.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/redprice/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2288" column="39" selection-start="78105" selection-end="78105" vertical-scroll-proportion="0.0" vertical-offset="45760" max-vertical-offset="69840">
+            <state line="150" column="36" selection-start="6612" selection-end="6612" vertical-scroll-proportion="0.0" vertical-offset="3000" max-vertical-offset="4920">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme.inc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/theme.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2566" column="38" selection-start="95864" selection-end="95866" vertical-scroll-proportion="-5.8965516" vertical-offset="51029" max-vertical-offset="58260">
               <folding />
             </state>
           </provider>
@@ -94,16 +81,7 @@
       <file leaf-file-name="settings.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="12" selection-start="2864" selection-end="2871" vertical-scroll-proportion="0.0" vertical-offset="1400" max-vertical-offset="5320">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="favourite.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/favourite.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="13" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.0" vertical-offset="1120" max-vertical-offset="2480">
+            <state line="89" column="2" selection-start="2871" selection-end="2871" vertical-scroll-proportion="-9.655172" vertical-offset="500" max-vertical-offset="4300">
               <folding />
             </state>
           </provider>
@@ -132,22 +110,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.js" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/editor.js" />
-        <option value="$PROJECT_DIR$/themes/redprice/css/style.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/style.css" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/markitup/skins/simple/redactor.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.info" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/vendor/autoupload.js" />
         <option value="$PROJECT_DIR$/modules/image/image.field.inc" />
-        <option value="$PROJECT_DIR$/sites/default/settings.php" />
-        <option value="$PROJECT_DIR$/includes/common.inc" />
         <option value="$PROJECT_DIR$/sites/all/modules/contrib/jquery_update/jquery_update.module" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/settings.js" />
         <option value="$PROJECT_DIR$/sites/all/modules/development/developer_console/developer_console.module" />
         <option value="$PROJECT_DIR$/sites/all/modules/development/developer_console/developer_console.info" />
         <option value="$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.module" />
+        <option value="$PROJECT_DIR$/includes/common.inc" />
+        <option value="$PROJECT_DIR$/themes/redprice/templates/field.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module" />
+        <option value="$PROJECT_DIR$/themes/redprice/templates/page.tpl.php" />
+        <option value="$PROJECT_DIR$/themes/mothership/css/mothership-default.css" />
+        <option value="$PROJECT_DIR$/themes/redprice/mothership.info" />
+        <option value="$PROJECT_DIR$/sites/default/settings.php" />
+        <option value="$PROJECT_DIR$/themes/redprice/template.php" />
       </list>
     </option>
   </component>
@@ -197,6 +175,52 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="redprice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Проект RedPrice.by" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redprice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="redprice" />
@@ -275,84 +299,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="development" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redprice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contrib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -405,11 +351,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\redprice\themes\redprice\templates" />
       <recent name="C:\wamp\www\redprice\sites\all\modules\custom\editor\vendor\markitup\skins\simple" />
       <recent name="C:\wamp\www\redprice\sites\all\modules\custom\editor\vendor" />
       <recent name="C:\wamp\www\redprice\sites\all\modules\custom\editor\vendor\markitup" />
       <recent name="C:\wamp\www\redprice\sites\all\modules\custom\editor" />
-      <recent name="C:\wamp\www\redprice\themes\redprice\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp\www\redprice\sites\all\modules\custom\editor\vendor\markitup\sets" />
@@ -531,7 +477,11 @@
       <created>1386923406585</created>
       <updated>1386923406585</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Yandex captcha">
+      <created>1386984016995</created>
+      <updated>1386984016996</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -563,19 +513,19 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.83439493" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25227273" sideWeight="0.83439493" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24545455" sideWeight="0.83439493" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530303" sideWeight="0.83439493" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="584" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32006368" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31847134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -607,84 +557,32 @@
     <MESSAGE value="Added wysiwyg editor" />
     <MESSAGE value="CDN and PHP Console added" />
     <MESSAGE value="added libraries folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="added libraries folder" />
+    <MESSAGE value="Yandex captcha" />
+    <option name="LAST_COMMIT_MESSAGE" value="Yandex captcha" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+    <entry file="file://$PROJECT_DIR$/includes/theme.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="12" selection-start="2864" selection-end="2871" vertical-scroll-proportion="0.0" vertical-offset="1400" max-vertical-offset="5320">
+        <state line="2566" column="38" selection-start="95864" selection-end="95866" vertical-scroll-proportion="0.0" vertical-offset="51149" max-vertical-offset="58380">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/favourite.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="13" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.0" vertical-offset="1120" max-vertical-offset="2480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="26" selection-start="5462" selection-end="5462" vertical-scroll-proportion="0.0" vertical-offset="4200" max-vertical-offset="10940" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.2112675" vertical-offset="2392" max-vertical-offset="2960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/bootstrap.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2288" column="39" selection-start="78105" selection-end="78105" vertical-scroll-proportion="0.0" vertical-offset="45760" max-vertical-offset="69840">
+        <state line="2395" column="47" selection-start="82030" selection-end="82053" vertical-scroll-proportion="0.0" vertical-offset="47900" max-vertical-offset="69840">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/favourite.js">
+    <entry file="file://$PROJECT_DIR$/includes/menu.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="13" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.0" vertical-offset="1120" max-vertical-offset="2480">
+        <state line="1047" column="24" selection-start="37828" selection-end="37828" vertical-scroll-proportion="0.0" vertical-offset="20940" max-vertical-offset="77720">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="12" selection-start="2864" selection-end="2871" vertical-scroll-proportion="0.0" vertical-offset="1400" max-vertical-offset="5320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/common.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8229" column="1" selection-start="303130" selection-end="303130" vertical-scroll-proportion="0.0" vertical-offset="164580" max-vertical-offset="164700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/editor.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="200" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/jquery_update/jquery_update.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="395" column="37" selection-start="13910" selection-end="13939" vertical-scroll-proportion="0.0" vertical-offset="7900" max-vertical-offset="10100">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Проект RedPrice.by/livestreet/engine/lib/internal/template/js/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="113" selection-start="2792" selection-end="2810" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="2880" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../editor/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="139" selection-start="1814" selection-end="1937" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/settings.js">
@@ -692,23 +590,78 @@
         <state line="16" column="47" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.36795774" vertical-offset="111" max-vertical-offset="720" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="24" selection-start="793" selection-end="793" vertical-scroll-proportion="-12.344828" vertical-offset="22" max-vertical-offset="620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="240" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="860">
-          <folding />
-        </state>
+        <state line="11" column="24" selection-start="240" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="860" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/yandex_captcha/yandex_captcha.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="39" selection-start="5105" selection-end="5105" vertical-scroll-proportion="0.56614786" vertical-offset="2449" max-vertical-offset="7040">
+        <state line="141" column="39" selection-start="5105" selection-end="5105" vertical-scroll-proportion="2.7586207" vertical-offset="2820" max-vertical-offset="7040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/redprice/templates/field.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1973" selection-end="1973" vertical-scroll-proportion="-2.7586207" vertical-offset="0" max-vertical-offset="400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/editor/editor.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="10" selection-start="205" selection-end="737" vertical-scroll-proportion="-13.793103" vertical-offset="0" max-vertical-offset="640" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/redprice/templates/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="36" selection-start="6612" selection-end="6612" vertical-scroll-proportion="0.0" vertical-offset="3000" max-vertical-offset="4920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/common.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8225" column="24" selection-start="303062" selection-end="303073" vertical-scroll-proportion="-0.0" vertical-offset="164500" max-vertical-offset="164700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/menu.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1066" column="42" selection-start="38800" selection-end="38800" vertical-scroll-proportion="6.3585954" vertical-offset="17820" max-vertical-offset="77720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/bootstrap.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2395" column="47" selection-start="82030" selection-end="82053" vertical-scroll-proportion="-0.10676157" vertical-offset="47900" max-vertical-offset="69780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/theme.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2566" column="38" selection-start="95864" selection-end="95866" vertical-scroll-proportion="-5.8965516" vertical-offset="51029" max-vertical-offset="58260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="2" selection-start="2871" selection-end="2871" vertical-scroll-proportion="-9.655172" vertical-offset="500" max-vertical-offset="4300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/redprice/templates/page--user--register.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="56" selection-start="7643" selection-end="7658" vertical-scroll-proportion="-3.254386" vertical-offset="2744" max-vertical-offset="3200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/redprice/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="0" selection-start="5711" selection-end="5711" vertical-scroll-proportion="0.8214286" vertical-offset="2680" max-vertical-offset="3600">
           <folding />
         </state>
       </provider>

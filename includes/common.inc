@@ -3666,7 +3666,7 @@ function drupal_load_stylesheet($file, $optimize = NULL, $reset_basepath = TRUE)
     $basepath = '';
   }
   // Store the value of $optimize for preg_replace_callback with nested
-  // @import loops.
+  // @import loops
   if (isset($optimize)) {
     $_optimize = $optimize;
   }

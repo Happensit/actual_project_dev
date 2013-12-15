@@ -5,7 +5,7 @@
  * This will overwrite the default meta character type tag with HTML5 version.
  */
 function redprice_html_head_alter(&$head_elements) {
-    //dsm($head_elements);
+   //dsm($head_elements);
     $head_elements['system_meta_content_type']['#attributes'] = array(
         'charset' => 'utf-8'
     );
@@ -16,13 +16,15 @@ function redprice_html_head_alter(&$head_elements) {
  * Отключаем @import url.
  * Implements hook_css_alter().
  */
-//function redprice_css_alter(&$vars) {
+function redprice_css_alter(&$vars) {
+    //dsm($vars);
 //    foreach ($vars as $key => $val) {
 //        $vars[$key]['preprocess'] = FALSE;
 //    }
-//}
+}
 
 function redprice_preprocess_html(&$variables) {
+   // dsm($variables);
   // Add variables for path to theme.
   //$variables['base_path'] = base_path();
   //$variables['path_to_redprice'] = drupal_get_path('theme', 'redprice');
@@ -133,7 +135,19 @@ function redprice_preprocess_block(&$variables) {
  * Implements theme_menu_tree().
  */
 function redprice_menu_tree($variables) {
-  return '<ul class="menu clearfix">' . $variables['tree'] . '</ul>';
+  return '<ul id="main-menu-links" class="menu clearfix">' . $variables['tree'] . '</ul>';
+}
+
+/**
+ * theme_menu_link()
+ * unique class for menu items
+ */
+function redprice_menu_link__main_menu(array $variables) {
+    $element = $variables['element'];
+    //dsm($variables['element']['#attributes']['class']);
+    $element['#attributes']['class'] = preg_grep('/^leaf/', $element['#attributes']['class'], PREG_GREP_INVERT);
+    $output = l($element['#title'], $element['#href'], $element['#localized_options']);
+    return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . "</li>\n";
 }
 
 /**
