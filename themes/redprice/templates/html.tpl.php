@@ -46,20 +46,12 @@
     <?php print $head; ?>
     <title><?php print render($head_title); ?></title>
     <?php print $styles; ?>
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-    <!-- End styles -->
     <?php print $scripts; ?>
-    <!-- End scripts -->
-  <!--[if (gte IE 6)&(lte IE 8)]>
-    <script src="<?php echo $base_url .'/'. path_to_theme(); ?>/vendor/js/selectivizr-min.js"></script>
-  <![endif]-->
-  <!--[if lt IE 9]>
-    <script src="http://airve.github.com/js/response/response.min.js"></script>
-    <![endif]-->
 </head>
 <body class="<?php print $classes; ?>"<?php print $attributes; ?>>
   <?php print $page_top; ?>
-  <?php print $page; ?>
+  <?php $page = preg_replace( '/<!--(.|\s)*?-->/' , '' , $page );
+   print $page; ?>
   <?php print $page_bottom; ?>
 </body>
 </html>

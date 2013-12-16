@@ -16,20 +16,36 @@ function redprice_html_head_alter(&$head_elements) {
  * Отключаем @import url.
  * Implements hook_css_alter().
  */
-function redprice_css_alter(&$vars) {
-    //dsm($vars);
-//    foreach ($vars as $key => $val) {
-//        $vars[$key]['preprocess'] = FALSE;
-//    }
+function redprice_css_alter(&$css) {
+    //dsm($css);
+        foreach ($css as $path => $value) {
+            if ($css[$path]['media'] == 'all') {
+                $css[$path]['media'] = 'screen';
+            }
+       }
+        //grap the css and punch it into one file
+        //credits to metaltoad http://www.metaltoad.com/blog/drupal-7-taking-control-css-and-js-aggregation
+        uasort($css, 'drupal_sort_css_js');
+        $i = 0;
+        foreach ($css as $name => $style) {
+            $css[$name]['weight'] = $i++;
+            $css[$name]['group'] = CSS_DEFAULT;
+            $css[$name]['every_page'] = FALSE;
+        }
+}
+
+function redprice_js_alter(&$js) {
+    uasort($js, 'drupal_sort_css_js');
+    $i = 0;
+    foreach ($js as $name => $script) {
+        $js[$name]['weight'] = $i++;
+        $js[$name]['group'] = JS_DEFAULT;
+        $js[$name]['every_page'] = FALSE;
+    }
 }
 
 function redprice_preprocess_html(&$variables) {
-   // dsm($variables);
-  // Add variables for path to theme.
-  //$variables['base_path'] = base_path();
-  //$variables['path_to_redprice'] = drupal_get_path('theme', 'redprice');
-    $variables['base_url'] = $GLOBALS['base_url'];
-  
+  $variables['base_url'] = $GLOBALS['base_url'];
   // Add body classes if certain regions have content.
   if (!empty($variables['page']['featured'])) {
     $variables['classes_array'][] = 'featured';
@@ -53,20 +69,11 @@ function redprice_preprocess_html(&$variables) {
  * Override or insert variables into the page template.
  */
 function redprice_process_page(&$variables) {
-  $variables['hide_site_name']   = theme_get_setting('toggle_name') ? FALSE : TRUE;
   $variables['hide_site_slogan'] = theme_get_setting('toggle_slogan') ? FALSE : TRUE;
-  if ($variables['hide_site_name']) {
-    // If toggle_name is FALSE, the site_name will be empty, so we rebuild it.
-    $variables['site_name'] = filter_xss_admin(variable_get('site_name', 'Drupal'));
-  }
   if ($variables['hide_site_slogan']) {
-    // If toggle_site_slogan is FALSE, the site_slogan will be empty, so we rebuild it.
     $variables['site_slogan'] = filter_xss_admin(variable_get('site_slogan', ''));
   }
-  // Since the title and the shortcut link are both block level elements,
-  // positioning them next to each other is much simpler with a wrapper div.
   if (!empty($variables['title_suffix']['add_or_remove_shortcut']) && $variables['title']) {
-    // Add a wrapper div using the title_prefix and title_suffix render elements.
     $variables['title_prefix']['shortcut_wrapper'] = array(
       '#markup' => '<div class="shortcut-wrapper clearfix">',
       '#weight' => 100,
@@ -75,9 +82,12 @@ function redprice_process_page(&$variables) {
       '#markup' => '</div>',
       '#weight' => -99,
     );
-    // Make sure the shortcut link is the first item in title_suffix.
     $variables['title_suffix']['add_or_remove_shortcut']['#weight'] = -100;
   }
+
+  if (isset($variables['is_front'])) {
+         unset($variables['page']['content']['system_main']['default_message']);
+      }
 }
 
 /**
@@ -134,7 +144,7 @@ function redprice_preprocess_block(&$variables) {
 /**
  * Implements theme_menu_tree().
  */
-function redprice_menu_tree($variables) {
+function redprice_menu_tree__main_menu($variables) {
   return '<ul id="main-menu-links" class="menu clearfix">' . $variables['tree'] . '</ul>';
 }
 
@@ -142,12 +152,19 @@ function redprice_menu_tree($variables) {
  * theme_menu_link()
  * unique class for menu items
  */
-function redprice_menu_link__main_menu(array $variables) {
+function redprice_menu_link(array $variables) {
     $element = $variables['element'];
-    //dsm($variables['element']['#attributes']['class']);
+    $sub_menu = '';
     $element['#attributes']['class'] = preg_grep('/^leaf/', $element['#attributes']['class'], PREG_GREP_INVERT);
+   if ($element['#below']) {
+        $sub_menu = drupal_render($element['#below']);
+    }
     $output = l($element['#title'], $element['#href'], $element['#localized_options']);
-    return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . "</li>\n";
+    return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu. "</li>\n";
+}
+
+function redprice_menu_link__secondary_menu(array $variables){
+    dprint_r($variables);
 }
 
 /**
@@ -172,4 +189,11 @@ function redprice_field__taxonomy_term_reference($variables) {
   $output = '<div class="' . $variables['classes'] . (!in_array('clearfix', $variables['classes_array']) ? ' clearfix' : '') . '"' . $variables['attributes'] .'>' . $output . '</div>';
 
   return $output;
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function redprice_form_alter(&$form, &$form_state, $form_id) {
+    $form['#attributes']['class'][] = drupal_clean_css_identifier($form['#id']);
 }
