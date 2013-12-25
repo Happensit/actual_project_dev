@@ -160,8 +160,11 @@
         <div id="sidebar-second" class="sidebar">
           <?php print render($page['sidebar_second']); ?>
         </div>
-      <?php endif; ?>				
-
+      <?php endif; ?>
+                <div class="list_header">Статьи</div>
+                <div class="article_block">
+                    <?php print views_embed_view('articles_page', 'article_block'); ?>
+                </div>
 				</aside>
 			<div class="clear"></div>
 		</div>

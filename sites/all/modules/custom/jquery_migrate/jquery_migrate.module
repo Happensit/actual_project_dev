@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implement hook_js_alter()
+ * @param $js
+ */
+
+function jquery_migrate_js_alter(&$js) {
+    drupal_add_js('http://code.jquery.com/jquery-migrate-1.2.1.min.js', array('weight' => -30, 'group' => JS_LIBRARY ));
+
+    $js['settings']['scope'] = 'footer';
+    unset($js['modules/user/user.js']);
+}

@@ -8,11 +8,29 @@ function svetexpo_html_head_alter(&$head_elements) {
  * Implements hook_js_alter().
  */
 function svetexpo_js_alter(&$js) {
-    if (isset($js['misc/jquery.js'])) {
-        $jquery_path = '//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js';
-        $js['misc/jquery.js']['data'] = $jquery_path;
-        $js['misc/jquery.js']['version'] = '1.7.2';
-        $js['misc/jquery.js']['type'] = 'external';
+    $js['settings']['scope'] = 'footer';
+}
+
+
+/**
+ * Отключаем @import url.
+ * Implements hook_css_alter().
+ */
+function svetexpo_css_alter(&$css) {
+    //dsm($css);
+    foreach ($css as $path => $value) {
+        if ($css[$path]['media'] == 'all') {
+            $css[$path]['media'] = 'screen';
+        }
+    }
+    //grap the css and punch it into one file
+    //credits to metaltoad http://www.metaltoad.com/blog/drupal-7-taking-control-css-and-js-aggregation
+    uasort($css, 'drupal_sort_css_js');
+    $i = 0;
+    foreach ($css as $name => $style) {
+        $css[$name]['weight'] = $i++;
+        $css[$name]['group'] = CSS_DEFAULT;
+        $css[$name]['every_page'] = FALSE;
     }
 }
 
@@ -208,7 +226,6 @@ function svetexpo_form_alter(&$form, &$form_state, $form_id){
 	$form['submit']['#value'] = 'Подобрать';
 	$form['#info']['filter-keys']['label'] = '';
   }
-  
 }
 
 function svetexpo_callback(){

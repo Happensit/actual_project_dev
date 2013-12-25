@@ -160,7 +160,7 @@
     background: transparent url(prev-vertical.png) no-repeat 0 0;
 }
 
-.jcarousel-skin-tango .jcarousel-prev-vertical:hover,
+.jcarousel-skin-tango .jcarousel-prev-vertical:h.jcarousel-direction-rtl .jcarousel-item-horizontal,
 .jcarousel-skin-tango .jcarousel-prev-vertical:focus {
     background-position: 0 -32px;
 }

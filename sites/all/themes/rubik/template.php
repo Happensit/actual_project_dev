@@ -567,3 +567,12 @@ function _rubik_local_tasks(&$vars) {
   }
 }
 
+function rubik_form_alter(&$form, &$form_state, $form_id){
+    if($form_id == 'bunner_node_form'){
+       $form['title']['#default_value'] = "Баннер на главной";
+        drupal_set_title('Группа баннеров на главной странице');
+        drupal_add_css('.form-item.form-type-textfield.form-item-title, .vertical-tabs {display: none !important};', array('group' => CSS_THEME, 'type' => 'inline'));
+        //dsm($form);
+    }
+
+}

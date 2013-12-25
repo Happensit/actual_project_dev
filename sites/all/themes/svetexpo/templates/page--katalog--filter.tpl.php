@@ -140,7 +140,10 @@
                         <?php print theme('image', array('path' => path_to_theme() . '/img/free_delivery.png','alt' => 'Free')); ?>
 					</a>
 				</div>
-				<!-- <div class="list_header">Бренды</div> -->
+                <div class="list_header">Статьи</div>
+                <div class="article_block">
+                    <?php print views_embed_view('articles_page', 'article_block'); ?>
+                </div>
 				</aside>
 			<div class="clear"></div>
 		</div>
