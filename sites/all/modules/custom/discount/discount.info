@@ -1,0 +1,4 @@
+name = Discount
+description = Discount module Created by: Happensit (http://happensit.ru)
+version = 1.0-dev
+core = 7.x

@@ -77,36 +77,7 @@
  * @var $title string
  * @var $content array
  */
-
-drupal_add_css('/highslide/highslide-min.css', array('every_page' => FALSE));
-drupal_add_js('highslide/highslide-full.min.js');
-//drupal_add_library('system', 'ui.tabs');
-drupal_add_js('jQuery(document).ready(function(){jQuery("#tabs").tabs();});', 'inline');
-$js = <<<JS
-
-//jQuery(document).ready(function() {
-//    jQuery('#second_image_carousel').jcarousel({
-//		// visible: 5, //количество видимых картинок
-//		// scroll: 1  //количество элементов, которые одновременно прокручиваются при щелчке по кнопке
-//	});
-//});
-
-hs.showCredits = false;
-hs.align = 'center';
-hs.dimmingOpacity = 0.75;
-hs.lang={cssDirection:'ltr',loadingText:'Загрузка...',loadingTitle:'Кликните чтобы отменить',focusTitle:'Кликните чтобы перенести вперёд',fullExpandTitle:'Развернуть до размеров оригинала',fullExpandText:'Полноэкранный',previousText:'Предыдущий',previousTitle:'Назад (стрелка влево)',nextText:'Далее',nextTitle:'Далее (стрелка вправо)',moveTitle:'Передвинуть',moveText:'Передвинуть',closeText:'Закрыть',closeTitle:'Закрыть (Esc)',resizeTitle:'Восстановить размер',playText:'Слайд-шоу',playTitle:'Слайд-шоу (пробел)',pauseText:'Пауза',pauseTitle:'Приостановить слайд-шоу (пробел)',number:'Изображение %1/%2',restoreTitle:'Кликните чтобы посмотреть картинку, используйте мышь для перетаскивания. Используйте клавиши вперёд и назад'};
-
-hs.registerOverlay({
-	html: '<div class="closebutton" onclick="return hs.close(this)" title="Close"><\/div>',
-	position: 'top right',
-	fade: 2 // fading the semi-transparent overlay looks bad in IE
-});
-hs.graphicsDir = '/highslide/graphics/';
-hs.wrapperClassName = 'borderless';
-
-JS;
-drupal_add_js($js,'inline');
-
+include_once "lamp-page-script.php";
 $show_icons = false;
 if (isset ($node->field_brand)) {
     /* @var $producer_name string */
@@ -143,11 +114,12 @@ if($ff_price_amount == 0){
 	$status_preorder = true;
 }	
 $product = $node->field_product;
-?>	
+
+?>
 				
 <div class="item">
 	<div class="item_image">
-		<a href="<?php print $big_image; ?>" onclick="return hs.expand(this);">
+		<a class="fancy" href="<?php print $big_image; ?>">
 			<img src="<?php print $big_image; ?>" alt="<?php print $producer_name; ?>">
 		</a>	
 		<div class="left big_pic">
@@ -177,6 +149,9 @@ $product = $node->field_product;
 			<h1><?php print $title; ?></h1>
         		<?php if(!$status_preorder): ?>
                     <div class="item_price">
+                        <?php if(!empty($discount)):?>
+                            <span class="discount">-<?php echo $discount; ?>&#37;</span>
+                        <?php endif; ?>
                         Цена: <span><?php print $content['product:commerce_price'][0]['#markup'] ?></span>
                     </div>
                     <div class="item_buttons">
@@ -188,17 +163,65 @@ $product = $node->field_product;
 		<p>Появились вопросы? Мы с радостью ответим на них по телефону 8-495-961-73-84 с 10-00 до 20-00. Мы работаем без выходных.</p>
 
 		<div class="second_img">
-		<?php if(!empty($second_image)) :?>
-                   <ul id="second_image_carousel" class="jcarousel-skin-tango">
-                     <?php foreach ($second_image as $gallery) : ?>
-				       <li>
-                           <a href="<?php echo $gallery;?>" onclick="return hs.expand(this);">
-                             <?php print theme('image', array('path' => $gallery, 'alt' => 'Home'));?>
-                           </a>
-                       </li>
-             		<?php endforeach; ?>
-	     	       </ul>
-            <?php endif; ?>
+                <div class="gallery_img">
+                    <ul>
+                        <li>
+                            <a rel="second_fancy" href="http://farm5.static.flickr.com/4058/4252054277_f0fa91e026.jpg">
+                                <img alt="example1" src="http://farm5.static.flickr.com/4058/4252054277_f0fa91e026_m.jpg" height="110px" />
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="second_fancy" href="http://farm3.static.flickr.com/2489/4234944202_0fe7930011.jpg">
+                                <img alt="example2" src="http://farm3.static.flickr.com/2489/4234944202_0fe7930011_m.jpg" height="110px" />
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="second_fancy" href="http://farm3.static.flickr.com/2647/3867677191_04d8d52b1a.jpg">
+                                <img alt="example3" src="http://farm3.static.flickr.com/2647/3867677191_04d8d52b1a_m.jpg" height="120" />
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="second_fancy" href="http://farm3.static.flickr.com/2489/4234944202_0fe7930011.jpg">
+                                <img alt="example2" src="http://farm3.static.flickr.com/2489/4234944202_0fe7930011_m.jpg" height="110px" />
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="second_fancy" href="http://farm3.static.flickr.com/2489/4234944202_0fe7930011.jpg">
+                                <img alt="example2" src="http://farm3.static.flickr.com/2489/4234944202_0fe7930011_m.jpg" height="110px" />
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="second_fancy" href="http://farm3.static.flickr.com/2489/4234944202_0fe7930011.jpg">
+                                <img alt="example2" src="http://farm3.static.flickr.com/2489/4234944202_0fe7930011_m.jpg" height="110px" />
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="second_fancy" href="http://farm3.static.flickr.com/2489/4234944202_0fe7930011.jpg">
+                                <img alt="example2" src="http://farm3.static.flickr.com/2489/4234944202_0fe7930011_m.jpg" height="110px" />
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="second_fancy" href="http://farm3.static.flickr.com/2489/4234944202_0fe7930011.jpg">
+                                <img alt="example2" src="http://farm3.static.flickr.com/2489/4234944202_0fe7930011_m.jpg" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="gallery_img-control-prev">&lsaquo;</a>
+                <a href="#" class="gallery_img-control-next">&rsaquo;</a>
+
+
+<!--		--><?php ////if(!empty($second_image)) :?>
+<!--                   <ul id="second_image_carousel">-->
+<!--                     --><?php ////foreach ($second_image as $gallery) : ?>
+<!--				       <li>-->
+<!--                           <a href="--><?php //echo $gallery;?><!--" onclick="return hs.expand(this);">-->
+<!--                             --><?php //print theme('image', array('path' => $gallery, 'alt' => 'Home'));?>
+<!--                           </a>-->
+<!--                       </li>-->
+<!--             		--><?php ////endforeach; ?>
+<!--	     	       </ul>-->
+<!--            --><?php ////endif; ?>
 		</div>
 	</div>
 	<div class="clear"></div>
@@ -229,45 +252,25 @@ $product = $node->field_product;
 	</div>
 </div>	
 
-<div style = "position: relative;"><!-- Тут были табы --> </div>
-<div id="tabs">
-    <ul>
-        <li><a href="#tabs-1">Nunc tincidunt</a></li>
-        <li><a href="#tabs-2">Proin dolor</a></li>
-        <li><a href="#tabs-3">Aenean lacinia</a></li>
-    </ul>
-    <div id="tabs-1">
-        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
-    </div>
-    <div id="tabs-2">
-        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
-    </div>
-    <div id="tabs-3">
-        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
-        <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
-    </div>
-</div>
-<!---->
-<!--<div id="tabs">-->
-<!--	<ul>-->
-<!--		<li><a href="#tabs-1">Товары из этой же серии</a></li>-->
-<!--		<li><a href="#tabs-2">Товары из этой же категории</a></li>-->
-<!--	</ul>-->
-<!-- -->
-<!--	<div id="tabs-1">-->
-<!--        <p>-->
-<!--		--><?php //// Товары из этой же серии
-//		$block = module_invoke('views', 'block_view', 'lamp_related-block_2');
-//		print render($block['content']);
-//		?>
-<!--        </p>-->
-<!--	</div>-->
-<!--	<div id="tabs-2">-->
-<!--        <p>-->
-<!--		--><?php // // Товары из этой же категории
-//		$block = module_invoke('views', 'block_view', 'lamp_related-block');
-//		print render($block['content']);
-//	   ?>
-<!--        </p>-->
-<!--	</div>-->
-<!--</div>-->
+<div style = "position: relative;"><!-- Далее пошли табы --> </div>
+
+<dl class="tabs">
+    <dt class="active first">Товары из той же серии </dt>
+    <dd class="active">
+        <div class="tabs_content">
+            <?php // Товары из этой же серии
+            $block = module_invoke('views', 'block_view', 'lamp_related-block_2');
+            print render($block['content']);
+            ?>
+        </div>
+    </dd>
+    <dt>Товары из этой же категории</dt>
+    <dd>
+        <div class="tabs_content">
+            <?php  // Товары из этой же категории
+            $block = module_invoke('views', 'block_view', 'lamp_related-block');
+            print render($block['content']);
+            ?>
+        </div>
+    </dd>
+</dl>

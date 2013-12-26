@@ -38,6 +38,12 @@ endif;
 Сортировать по цене:
   <select name="sort-order" onchange="this.form.submit()">
     <option value="goto">без сортировки</option>
+      <?php
+      /**
+       * @var $sel string.
+       */
+      $sel='';
+      ?>
     <option <?php echo ($sel == 'asc') ? 'selected':'';?> value="asc" >начиная с дешёвого</option>
     <option <?php echo ($sel == 'desc') ? 'selected':'';?>  value="desc" >начиная от дорогого</option>
   </select>

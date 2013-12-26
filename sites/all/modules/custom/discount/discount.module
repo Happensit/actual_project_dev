@@ -1,0 +1,24 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Happensit
+ * Date: 26.12.13
+ * Time: 4:00
+ */
+
+function discount_preprocess_node(&$variables) {
+
+    if ($variables['node']->type == 'lamp') {
+        $view_node = node_view($variables['node']);
+        $new_price = ($view_node['product:commerce_price']['#items'][0]['amount']/100);
+        $old_price = ($view_node['field_old_price']['#items'][0]['amount']/100);
+        $discount = ($old_price - $new_price)*100/$old_price;
+        $discount = number_format($discount, 1, ',', '');
+        $discount = trim(trim($discount, '0'), ',');
+        $variables['discount'] = $discount;
+    }
+}
+
+/**
+ * @todo Не забыть убрать проверку http://new.svetexpo.ru/serii/monaco и старую цену у http://new.svetexpo.ru/katalog/ulichnye-svetilniki/podvesnye/a1495so-1bk
+ */

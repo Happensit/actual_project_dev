@@ -55,45 +55,50 @@ function svetexpo_commerce_cart_block($variables=array()) {
 	return "{$cart_link} на сумму <span style = 'color: #0275c6;'>".commerce_currency_format($total['amount'], $total['currency_code'])."</span>";//. "<br>$checkout_link";
 }
 
- 
+
 function svetexpo_field__lamp(&$variables) {
-	if ($variables['element']['#view_mode'] == 'full' || $variables['element']['#view_mode'] == 'default' || $variables['element']['#view_mode'] == '_custom_display') {
+    $items = $variables['items'];
+    $view_mode = $variables['element']['#view_mode'];
+    $label = $variables['label'];
 
-		$label =  !$variables['label_hidden'] ? $variables['label']:'';
+    switch ($view_mode) {
+        case 'full':
+        case 'default':
+        case '_custom_display':
 
-	 $value = '';
-		foreach ($variables['items'] as $key => $item) {
-      if($key > 0) {
-           $value .= (', '.$items);
-     }
+        global $value;
+        $output = '';
+		foreach ($items as $key => $item) {
+              if($key > 0) {
+                   $value .= (', '.$items);
+             }
+			$value = $item;
 
-			$value .= drupal_render($item);
+            if(!empty($value)){
+                if ($label == 'Товар') $label = '';
 
-		}
-		if($value != ''){
-			if ($label == 'Товар') $label = '';  
-			$output = '<li>
-							<div class="double">
-								<div class="double_box">
-									<div class="double_box_content">
-										<div class="double_box">
-											'.$label.'
-										</div>
-										<div class="double_box_description">
-											'.$value.'
-										</div>
-										<div class="clear"></div>
-									</div>
-								</div>
-								<div class="clear"></div>
-							</div>
-						</li>';
-
-			return $output;
-		}
-	} 
-	else { 
-		$output = ''; 
+                $output .= '<li>
+                                <div class="double">
+                                    <div class="double_box">
+                                        <div class="double_box_content">
+                                            <div class="double_box">
+                                                '.$label.'
+                                            </div>
+                                            <div class="double_box_description">
+                                                '.drupal_render($value).'
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </li>';
+                }
+            return $output;
+        }
+        break;
+	default:
+		$output = '';
 
 		// Render the label, if it's not hidden.
 		if (!$variables['label_hidden']) {
@@ -102,19 +107,19 @@ function svetexpo_field__lamp(&$variables) {
 
 		// Render the items.
 		$output .= '<div class="field-items"' . $variables['content_attributes'] . '>';
-		foreach ($variables['items'] as $delta => $item) {
+		foreach ($items as $delta => $item) {
 			$classes = 'field-item ' . ($delta % 2 ? 'odd' : 'even');
 			if (is_array($item))
 				$output .= '<div class="' . $classes . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</div>';
-		}	
+		}
 		$output .= '</div>';
 
 		// Render the top-level DIV.
 		$output = '<div class="' . $variables['classes'] . '"' . $variables['attributes'] . '>' . $output . '</div>';
 
-		return $output;  
+		return $output;
 	}
-  
+
 }
 
 
