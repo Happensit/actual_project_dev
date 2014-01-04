@@ -1006,9 +1006,9 @@ header .recall span {
     margin-bottom: 23px
 }
 
-.item .item_content .item_buttons a {
-    margin-right: 4px
-}
+/*.item .item_content .item_buttons a {*/
+    /*margin-right: 4px*/
+/*}*/
 
 .item .item_content .item_price {
     line-height: 17px;

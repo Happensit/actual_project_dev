@@ -49,10 +49,10 @@ function product_image_preprocess_node(&$variables) {
 
 } 
 
-function product_image_preprocess_page(&$vars) {
-    if (($node = menu_get_object()) && $node->type == 'lamp') {
- 		$vars['node']->big_image = $node->big_image;
- 	}
-}
+//function product_image_preprocess_page(&$vars) {
+//    if (($node = menu_get_object()) && $node->type == 'lamp') {
+// 		$vars['node']->big_image = $node->big_image;
+// 	}
+//}
 
 // @todo Прописать в $IMAGE_REALPATH полный путь о поддомена

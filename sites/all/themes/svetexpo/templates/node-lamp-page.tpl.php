@@ -108,15 +108,6 @@ if($ff_price_amount == 0){
     $text_status = 'Нет в наличии';
     $status_preorder = true;
 }
-
-
-hide($content['field_ostatki']);
-hide($content['field_artikul_fabriki']);
-hide($content['field_strana_proishozhdenija']);
-hide($content['field_obshhee_opisanie']);
-hide($content['field_serie']);
-hide($content['field_product']);
-
 ?>
 				
 <div class="item">
@@ -249,6 +240,13 @@ hide($content['field_product']);
 				hide($content['product:commerce_price']);
 				unset($content['field_brand']);
                 hide($content['field_old_price']);
+                hide($content['field_ostatki']);
+                hide($content['field_artikul_fabriki']);
+                hide($content['field_strana_proishozhdenija']);
+                hide($content['field_obshhee_opisanie']);
+                hide($content['field_serie']);
+                hide($content['field_product']);
+
 				print render($content);
 			?>
 		</ul>
