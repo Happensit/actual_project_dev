@@ -11,7 +11,7 @@
 // 
 function product_image_preprocess_node(&$variables) {
 
-	if ($variables['node']->type == "lamp") {
+	if ($variables['node']->type == 'lamp') {
         module_load_include('inc', 'pathauto', 'pathauto');
         $img_path_root = "http://new.svetexpo.ru";
         $IMAGE_PATH = $img_path_root . '/goods/images/';
@@ -50,10 +50,9 @@ function product_image_preprocess_node(&$variables) {
 } 
 
 function product_image_preprocess_page(&$vars) {
-    if (($node = menu_get_object()) && $node->type) {
+    if (($node = menu_get_object()) && $node->type == 'lamp') {
  		$vars['node']->big_image = $node->big_image;
  	}
-//dsm($vars['node']);
 }
 
 // @todo Прописать в $IMAGE_REALPATH полный путь о поддомена

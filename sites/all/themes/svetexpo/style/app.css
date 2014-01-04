@@ -1026,7 +1026,8 @@ header .recall span {
 
 .item .item_content .item_price span.discount {
     position: absolute;
-    margin: -20px 0 0 110px;
+    margin: -20px 0 0 90px;
+    font-weight: normal;
 }
 
 span.discount_teaser {

@@ -77,13 +77,38 @@
  * @var $title string
  * @var $content array
  */
-include_once "lamp-page-script.php";
+
 $show_icons = false;
 if (isset ($node->field_brand)) {
-    /* @var $producer_name string */
     $producer_name = $node->field_brand['und'][0]['taxonomy_term']->name;
 	$show_icons = svetexpo_show_icons($producer_name);
-}	
+}
+
+$ost = 0;
+if(isset($node->field_ostatki['und'][0]['value']))$ost = $node->field_ostatki['und'][0]['value'];
+
+//$content['field_product'][0]['label_hidden'] = 1;
+
+if(isset($node->field_status['und'][0]['value'])){
+    $status = end($node->field_status['und']);
+    $text_status = $status['value'];
+    $status_preorder = false;
+}else{
+    if ($ost != 0) {
+        $text_status = 'В наличии';
+        $status_preorder = false;
+    } else {
+        $text_status = 'Нет в наличии';
+        $status_preorder = true;
+    }
+}
+
+$ff_price_amount = $content['product:commerce_price']['#object']->commerce_price['und'][0]['amount'];
+if($ff_price_amount == 0){
+    $text_status = 'Нет в наличии';
+    $status_preorder = true;
+}
+
 
 hide($content['field_ostatki']);
 hide($content['field_artikul_fabriki']);
@@ -91,29 +116,6 @@ hide($content['field_strana_proishozhdenija']);
 hide($content['field_obshhee_opisanie']);
 hide($content['field_serie']);
 hide($content['field_product']);
-$ost = isset($node->field_ostatki['und'][0]['value'])?$node->field_ostatki['und'][0]['value']:0;
-$content['field_product'][0]['label_hidden'] = 1;
-
-if(isset($node->field_status['und'][0]['value'])){
-	$status = end($node->field_status['und']);
-	$text_status = $status['value'];
-	$status_preorder = false;
-}else{
-	if ($ost != 0) {
-		$text_status = 'В наличии';
-		$status_preorder = false; 
-	} else {
-		$text_status = 'Нет в наличии';
-		$status_preorder = true;
-	}
-}
-
-$ff_price_amount = $content['product:commerce_price']['#object']->commerce_price['und'][0]['amount'];
-if($ff_price_amount == 0){
-	$text_status = 'Нет в наличии';
-	$status_preorder = true;
-}	
-$product = $node->field_product;
 
 ?>
 				
@@ -246,6 +248,7 @@ $product = $node->field_product;
 				hide($content['links']);
 				hide($content['product:commerce_price']);
 				unset($content['field_brand']);
+                hide($content['field_old_price']);
 				print render($content);
 			?>
 		</ul>
