@@ -1,4 +1,0 @@
-name = Get filter json selective result
-description = Exposed filters selective result
-core = 7.x
-version = VERSION
