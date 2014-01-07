@@ -3592,8 +3592,7 @@ function drupal_build_css_cache($css) {
       // starting with "ad*".
       $filename = drupal_hash_base64($data) . '.css';
       // Обрезаем от 42 символов
-      $filename = substr($filename, 30);
-    // Create the css/ within the files folder.
+    $filename = strtolower(substr($filename, 33));
     $csspath = 'public://css';
     $uri = $csspath . '/' . $filename;
     // Create the CSS file.
@@ -4961,7 +4960,7 @@ function drupal_build_js_cache($files) {
 
     $filename = drupal_hash_base64($contents) . '.js';
     // Обрезаем от 42 символов
-    $filename = substr($filename, 30);
+    $filename = strtolower(substr($filename, 33));
     $jspath = 'public://js';
     $uri = $jspath . '/' . $filename;
     // Create the JS file.
