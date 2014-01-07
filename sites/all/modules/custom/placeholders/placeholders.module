@@ -1,0 +1,73 @@
+<?php
+
+function placeholders_form_alter(&$form, &$form_state, $form_id) {
+    if ($form_id == 'company_node_form') {
+        drupal_add_js('//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js', array(
+            'type' => 'external',
+            'scope' => 'header',
+            'group' => JS_THEME,
+            'every_page' => TRUE
+        ));
+
+        drupal_add_js(drupal_get_path('module', 'placeholders').'/bootstrap-tooltip.js');
+        drupal_add_js(drupal_get_path('module', 'placeholders').'/bootstrap-popover.js');
+
+        $form['#attached']['css'] = array(
+            drupal_get_path('module', 'placeholders'). '/bootstrap.min.css',
+            drupal_get_path('module', 'placeholders'). '/addcompany-style.css'
+        );
+
+        drupal_add_js('jQuery(document).ready(function(){
+            jQuery("[rel=popover]").popover({
+                trigger:"focus",
+                delay: {show: 100}
+            });
+
+         jQuery("select#edit-company-town-und").find("option").each(function () {
+            var terms = jQuery(this).text();
+            if(terms.indexOf("-")){
+                jQuery(this).addClass("parent");
+            }
+            var terms = terms.replace(/[-]/, "");
+            this.text = terms;
+         });
+
+        });', 'inline');
+
+       $form['title']['#attributes']= array(
+           'placeholder'  => ('Введите название организации'),
+           'data-content' => 'Именно это название будет использоваться на сайте как основное.',
+           'rel'          => 'popover',
+       );
+        $form['title']['#prefix'] = '<strong>Название организации</strong><hr>';
+
+        unset($form['phone_number']['und'][0]['phone_number_2']['und'][0]['second']['#options']['']);
+        unset($form['contact_phone_number']['und'][0]['phone_number_2']['und'][0]['second']['#options']['']);
+//        unset($form['contact_phone_number']['und'][1]['phone_number_2']['und'][0]['second']['#options']['']);
+//        unset($form['contact_phone_number']['und'][2]['phone_number_2']['und'][0]['second']['#options']['']);
+
+        $form['contact_email']['#prefix'] = '<div id="contact_mail_skype">';
+        $form['contact_skype']['#suffix'] = '</div>';
+        $form['business_hours']['#suffix'] = '<div class="clearfix"></div><strong>Дополнительно</strong><hr>';
+
+        /* Placeholders field */
+        $form['number_registry']['und'][0]['value']['#attributes']['placeholder'] = $form['number_registry']['und']['#description'];
+        $form['issued_by']['und'][0]['value']['#attributes']['placeholder'] = $form['issued_by']['und']['#description'];
+        $form['contact_user_name']['#prefix'] = '<strong>Контактное лицо</strong><hr>';
+        $form['contact_user_name']['und'][0]['value']['#attributes']['placeholder'] = $form['contact_user_name']['und']['#description'];
+        $form['contact_mail']['und'][0]['email']['#attributes']['placeholder'] = $form['contact_mail']['und'][0]['email']['#description'];
+        $form['adds']['und'][0]['value']['#attributes']['placeholder'] = $form['adds']['und'][0]['#description'];
+        $form['business_hours']['und'][0]['value']['#attributes']['placeholder'] = $form['business_hours']['und'][0]['value']['#description'];
+        $form['body']['und'][0]['summary']['#default_value'] = ' ';
+        $form['body']['und'][0]['summary']['#title'] = 'Краткое описание (не более *** символов)';
+        $form['body']['und'][0]['value']['#title'] = 'Подробное описание';
+        //dsm($form['body']);
+    }
+
+
+}
+
+function placeholder_summary_remove(&$javascript) {
+    // Removes the js that hides the summary field in node add form.
+    unset($javascript['modules/field/modules/text/text.js']);
+}

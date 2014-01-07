@@ -1,51 +1,9 @@
 <?php
 
-
 /**
  * Add body classes if certain regions have content.
  */
 function bartik_preprocess_html(&$variables) {
-
-  /**
- * Reset all css files.
- */
- //drupal_static_reset('drupal_add_css');
-
-  /**
- * If user is logged in add system css files.
- */
- 
- if(user_is_logged_in() == 1) {
-    drupal_add_css(drupal_get_path('module', 'toolbar') . '/toolbar.css', array('group' => CSS_THEME));
-    drupal_add_css(drupal_get_path('module', 'system') . '/system.base.css', array('group' => CSS_SYSTEM, 'preprocess' => TRUE)); 
-    drupal_add_css(drupal_get_path('module', 'adminimal_admin_menu') . '/adminimal_admin_menu.css', array('group' => CSS_SYSTEM));
-    }
-
-
-/**
- * Reset all js files.
- */
- 
- //drupal_static_reset('drupal_add_js');
-
-
-  /**
- * If user is logged in add system js files.
- */
-   if(user_is_logged_in() == 1) {
-   //drupal_add_js($GLOBALS['base_url'] .'/misc/drupal11.js','file');
-   drupal_add_js(drupal_get_path('module', 'overlay') .'/overlay-parent.js', 'file');
-   drupal_add_js(drupal_get_path('module', 'adminimal_admin_menu') .'/adminimal_admin_menu.js', 'file');
-   }
-
-
-
-
-
-
-
-
-
   if (!empty($variables['page']['featured'])) {
     $variables['classes_array'][] = 'featured';
   }
@@ -68,6 +26,15 @@ function bartik_preprocess_html(&$variables) {
   drupal_add_css(path_to_theme() . '/css/ie6.css', array('group' => CSS_THEME, 'browsers' => array('IE' => 'IE 6', '!IE' => FALSE), 'preprocess' => FALSE));
 }
 
+/**
+ * Override or insert variables into the page template for HTML output.
+ */
+function bartik_process_html(&$variables) {
+  // Hook into color.module.
+  if (module_exists('color')) {
+    _color_html_alter($variables);
+  }
+}
 
 /**
  * Override or insert variables into the page template.

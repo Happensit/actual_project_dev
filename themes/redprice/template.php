@@ -42,6 +42,7 @@ function redprice_js_alter(&$js) {
         $js[$name]['group'] = JS_DEFAULT;
         $js[$name]['every_page'] = FALSE;
     }
+    $js['settings']['scope'] = 'footer';
 }
 
 function redprice_preprocess_html(&$variables) {
@@ -120,6 +121,22 @@ function redprice_process_maintenance_page(&$variables) {
     // If toggle_site_slogan is FALSE, the site_slogan will be empty, so we rebuild it.
     $variables['site_slogan'] = filter_xss_admin(variable_get('site_slogan', ''));
   }
+}
+
+/**
+ * Implements hook_page_alter().
+ */
+function redprice_page_alter(&$page) {
+    // Remove all the region wrappers.
+    foreach (element_children($page) as $key => $region) {
+        if (!empty($page[$region]['#theme_wrappers'])) {
+            $page[$region]['#theme_wrappers'] = array_diff($page[$region]['#theme_wrappers'], array('region'));
+        }
+    }
+    // Remove the wrapper from the main content block.
+    if (!empty($page['content']['system_main'])) {
+        $page['content']['system_main']['#theme_wrappers'] = array_diff($page['content']['system_main']['#theme_wrappers'], array('block'));
+    }
 }
 
 /**

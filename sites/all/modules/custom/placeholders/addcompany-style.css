@@ -1,0 +1,104 @@
+.node-company-form label[for="edit-certificate-of-registration-und"] {
+    padding-bottom: .7em;
+}
+
+.node-company-form .form-radios .form-item {
+    display:inline;
+    padding-right: 1em;
+}
+
+.node-company-form .description {
+    display: none;
+}
+.node-company-form label[for="edit-certificate-of-registration-und"] {
+    font-weight: bold !important;
+    font: normal 13px/.5em Open Sans, "Segoe UI", "Helvetica", sans-serif;
+    border-bottom: 1px solid #cccccc;
+}
+.node-company-form #edit-certificate-of-registration-und {
+    margin-top: 1em;
+}
+
+.field-name-phone-number fieldset {
+    border: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+.field-name-phone-number fieldset legend {
+    display: none;
+}
+
+/* Telephone field */
+#edit-phone-number-und-0-phone-number-2 label[for="edit-phone-number-und-0-phone-number-2-und-0"],
+.field-name-contact-phone-number label[for="edit-contact-phone-number-und-0-phone-number-1-und-0"],
+.field-name-contact-phone-number label[for="edit-contact-phone-number-und-0-phone-number-2-und-0"],
+.field-name-contact-phone-number label[for="edit-contact-phone-number-und-1-phone-number-1-und-0"],
+.field-name-contact-phone-number label[for="edit-contact-phone-number-und-1-phone-number-2-und-0"],
+.field-name-contact-phone-number label[for="edit-contact-phone-number-und-2-phone-number-1-und-0"],
+.field-name-contact-phone-number label[for="edit-contact-phone-number-und-2-phone-number-2-und-0"]{
+    display: none;
+}
+
+.field-name-phone-number #edit-phone-number-und-0-phone-number-1-und-0,
+.field-name-contact-phone-number #edit-contact-phone-number-und-0-phone-number-1-und-0,
+.field-name-contact-phone-number #edit-contact-phone-number-und-1-phone-number-1-und-0,
+.field-name-contact-phone-number #edit-contact-phone-number-und-2-phone-number-1-und-0{
+    float: left;
+}
+.field-name-phone-number .field-type-double-field.field-name-phone-number-2 {
+    margin-top: -.9em;
+}
+
+.field-name-phone-number .form-item-phone-number-und-0-phone-number-2-und-0-first,
+.field-name-contact-phone-number .form-item-contact-phone-number-und-0-phone-number-2-und-0-first{
+    padding-left: 2px !important;
+}
+
+/*#contact-phone-number-values li:nth-child(2)*/
+
+
+
+
+.node-company-form .form-item-company-town-und select#edit-company-town-und,
+.node-company-form .parent {
+    font-weight: bold !important;
+
+}
+
+.field-name-company-town {
+    float: left;
+    padding-right: 1em;
+}
+
+#contact_mail_skype {
+    width: 250px;
+    float: left;
+}
+
+textarea#edit-business-hours-und-0-value {
+    width: auto !important;
+}
+
+label[for="edit-corporative-site-und-0"], label[for="edit-shop-und-0"] {
+    display: none;
+}
+
+#edit-corporative-site {
+    margin-top: 10px;
+}
+
+.form-item-corporative-site-und-0-second input, .form-item-shop-und-0-second input {
+    position: absolute;
+    left: 182px;
+}
+
+span.field-edit-link {
+    display: none;
+}
+
+/* Убираем текст при фокусе инпута средствами css */
+input:focus::-webkit-input-placeholder
+{
+    color: transparent;
+}

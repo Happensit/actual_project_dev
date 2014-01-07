@@ -58,7 +58,7 @@
  * implement the 'table' hook, the phptemplate.engine would find
  * bartik_table().
  *
- * The theme system is described and defined in pager.inc.
+ * The theme system is described and defined in theme.inc.
  *
  * @see theme()
  * @see hook_theme()

@@ -1806,3 +1806,14 @@ h1.site-name {
 a.reset {
     padding-left: 270px;
 }
+
+
+/* Ссылки на странице сброса пароля */
+
+form#user-pass a.active {
+    border-bottom: 1px dashed rgb(63, 138, 215);
+}
+form#user-pass a:hover {
+    text-decoration: none;
+    border-bottom: 1px dashed rgb(255, 0, 0);
+}

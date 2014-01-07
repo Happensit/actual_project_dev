@@ -35,7 +35,7 @@
  *   the site, if they have been configured.
  * - $breadcrumb: The breadcrumb trail for the current page.
  *
- * Page content (in order of occurrence in the default page.tpl.twig):
+ * Page content (in order of occurrence in the default page.tpl.php):
  * - $title_prefix (array): An array containing additional output populated by
  *   modules, intended to be displayed in front of the main title tag that
  *   appears in the template.

@@ -6,3 +6,9 @@ core = 7.x
 stylesheets[all][] = style.css
 stylesheets[print][] = print.css
 settings[garland_width] = fluid
+
+; Information added by  packaging script on 2013-12-04
+version = "7.24+29-dev"
+project = "drupal"
+datestamp = "1386118107"
+

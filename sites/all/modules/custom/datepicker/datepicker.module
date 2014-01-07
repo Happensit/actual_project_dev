@@ -1,0 +1,17 @@
+<?php
+
+function datepicker_form_alter(&$form, &$form_state, $form_id) {
+    if ($form_id == 'company_node_form') {
+
+        drupal_add_js(drupal_get_path('module', 'datepicker'). '/bootstrap-datepicker.js', 'file');
+        drupal_add_css(drupal_get_path('module', 'datepicker'). '/datepicker.css', 'file');
+        drupal_add_js("jQuery(document).ready(function(){
+        jQuery('#edit-registration-date-und-0-value').datepicker({
+         format: 'dd.mm.yyyy',
+         autoclose: 'true',
+         //todayBtn: 'linked'
+          });
+        });", array('type' => 'inline', 'scope' => 'footer'));
+    }
+}
+

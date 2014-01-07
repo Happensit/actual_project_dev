@@ -4,3 +4,9 @@ package = Core
 version = VERSION
 core = 7.x
 stylesheets[all][] = layout.css
+
+; Information added by  packaging script on 2013-12-04
+version = "7.24+29-dev"
+project = "drupal"
+datestamp = "1386118107"
+

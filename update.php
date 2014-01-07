@@ -31,7 +31,7 @@ define('MAINTENANCE_MODE', 'update');
  * Renders a form with a list of available database updates.
  */
 function update_selection_page() {
-  drupal_set_title('Обновление базы данных');
+  drupal_set_title('Drupal database update');
   $elements = drupal_get_form('update_script_selection_form');
   $output = drupal_render($elements);
 
@@ -151,9 +151,9 @@ function update_script_selection_form($form, &$form_state) {
  * Provides links to the homepage and administration pages.
  */
 function update_helpful_links() {
-  $links[] = '<a href="' . base_path() . '">Главная страница</a>';
+  $links[] = '<a href="' . base_path() . '">Front page</a>';
   if (user_access('access administration pages')) {
-    $links[] = '<a href="' . base_path() . '?q=backend">Страница администрирования</a>';
+    $links[] = '<a href="' . base_path() . '?q=admin">Administration pages</a>';
   }
   return $links;
 }
@@ -162,7 +162,7 @@ function update_helpful_links() {
  * Displays results of the update script with any accompanying errors.
  */
 function update_results_page() {
-  drupal_set_title('Обновление базы данных');
+  drupal_set_title('Drupal database update');
   $links = update_helpful_links();
 
   update_task_list();
@@ -178,7 +178,8 @@ function update_results_page() {
     $output = '<p>Updates were attempted. If you see no failures below, you may proceed happily back to your <a href="' . base_path() . '">site</a>. Otherwise, you may need to update your database manually.' . $log_message . '</p>';
   }
   else {
-    list($module, $version) = array_pop(reset($_SESSION['updates_remaining']));
+    $updates_remaining = reset($_SESSION['updates_remaining']);
+    list($module, $version) = array_pop($updates_remaining);
     $output = '<p class="error">The update process was aborted prematurely while running <strong>update #' . $version . ' in ' . $module . '.module</strong>.' . $log_message;
     if (module_exists('dblog')) {
       $output .= ' You may need to check the <code>watchdog</code> database table manually.';
@@ -270,7 +271,7 @@ function update_info_page() {
   $output .= "</ol>\n";
   $output .= "<p>When you have performed the steps above, you may proceed.</p>\n";
   $form_action = check_url(drupal_current_script_url(array('op' => 'selection', 'token' => $token)));
-  $output .= '<form method="post" action="' . $form_action . '"><p><input type="submit" value="Обновить" class="form-submit" /></p></form>';
+  $output .= '<form method="post" action="' . $form_action . '"><p><input type="submit" value="Continue" class="form-submit" /></p></form>';
   $output .= "\n";
   return $output;
 }
