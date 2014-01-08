@@ -1,0 +1,11 @@
+name = Field name prefix remove
+description = Removes field_ prefixes from automatically being created by the Field UI.
+core = 7.x
+version = 7.x-1.0
+
+; Information added by drupal.org packaging script on 2013-08-06
+version = "7.x-1.1"
+core = "7.x"
+project = "field_name_prefix_remove"
+datestamp = "1375791707"
+

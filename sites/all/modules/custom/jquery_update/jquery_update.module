@@ -1,0 +1,19 @@
+<?php
+
+function jquery_update_js_alter(&$js) {
+    global $base_url;
+    global $theme;
+   // if($theme == 'redprice') {
+        $jQuery_version = '1.7.1';
+        //$jQuery_local = $base_url.'/'.drupal_get_path('module', 'jquery_update').'/js/jquery-1.9.1.min.js?v='.$jQuery_version;
+        $jQuery_cdn = 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js';
+        $js['misc/jquery.js']['data'] = $jQuery_cdn;
+        $js['misc/jquery.js']['version'] = $jQuery_version;
+        $js['misc/jquery.js']['group'] = JS_LIBRARY;
+        $js['misc/jquery.js']['weight'] = -20;
+        drupal_add_js('http://code.jquery.com/jquery-migrate-1.2.1.min.js', array('weight' => -30, 'group' => JS_LIBRARY ));
+
+    $js['settings']['scope'] = 'footer';
+    unset($js['modules/user/user.js']);
+  //}
+}

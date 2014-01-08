@@ -2499,7 +2499,7 @@ function template_preprocess_html(&$variables) {
   if (theme_get_setting('toggle_favicon')) {
     $favicon = theme_get_setting('favicon');
     $type = theme_get_setting('favicon_mimetype');
-    drupal_add_html_head_link(array('rel' => 'shortcut icon', 'type' => $type, 'href' => drupal_strip_dangerous_protocols($favicon)));
+    drupal_add_html_head_link(array('rel' => 'shortcut icon', 'href' => drupal_strip_dangerous_protocols($favicon), 'type' => $type));
   }
 
   // Construct page title.
@@ -2516,7 +2516,7 @@ function template_preprocess_html(&$variables) {
     }
   }
   $variables['head_title_array'] = $head_title;
-  $variables['head_title'] = implode(' :: ', $head_title);
+  $variables['head_title'] = implode(' | ', $head_title);
 
   // Populate the page template suggestions.
   if ($suggestions = theme_get_suggestions(arg(), 'html')) {

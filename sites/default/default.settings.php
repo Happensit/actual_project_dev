@@ -349,7 +349,7 @@ ini_set('session.cookie_lifetime', 2000000);
  * is explicitly set to maintenance mode through the administration page or when
  * the database is inactive due to an error. It can be set through the
  * 'maintenance_theme' key. The template file should also be copied into the
- * theme. It is located inside 'modules/system/maintenance-page.tpl.twig'.
+ * theme. It is located inside 'modules/system/maintenance-page.tpl.php'.
  * Note: This setting does not apply to installation and update pages.
  */
 # $conf['maintenance_theme'] = 'bartik';
@@ -551,13 +551,3 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  * Remove the leading hash signs to disable.
  */
 # $conf['allow_authorize_operations'] = FALSE;
-
-/**
- * Smart start:
- *
- * If you would prefer to be redirected to the installation system when a
- * valid settings.php file is present but no tables are installed, remove
- * the leading hash sign below.
- */
-# $conf['pressflow_smart_start'] = TRUE;
-

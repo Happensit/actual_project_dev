@@ -34,7 +34,7 @@
           <?php if ($site_name): ?>
             <div id="site-name"<?php if ($hide_site_name) { print ' class="element-invisible"'; } ?>>
               <strong>
-                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
+                <a style="color: rgb(255,0,0)" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
               </strong>
             </div>
           <?php endif; ?>
@@ -61,6 +61,5 @@
     </div></div> <!-- /#main, /#main-wrapper -->
 
   </div></div> <!-- /#page, /#page-wrapper -->
-
 </body>
 </html>
