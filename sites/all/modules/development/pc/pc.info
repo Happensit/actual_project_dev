@@ -1,0 +1,13 @@
+name = PHP console
+description = Handle PHP errors, dump variables, execute PHP code remotely in Google Chrome
+core = 7.x
+package = Development
+php = 5.3
+configure = admin/config/development/php-console
+
+; Information added by  packaging script on 2013-11-28
+version = "7.x-1.0-alpha2"
+core = "7.x"
+project = "pc"
+datestamp = "1385623705"
+
