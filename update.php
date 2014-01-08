@@ -153,7 +153,7 @@ function update_script_selection_form($form, &$form_state) {
 function update_helpful_links() {
   $links[] = '<a href="' . base_path() . '">Front page</a>';
   if (user_access('access administration pages')) {
-    $links[] = '<a href="' . base_path() . '?q=admin">Administration pages</a>';
+    $links[] = '<a href="' . base_path() . '?q=backend">Administration pages</a>';
   }
   return $links;
 }
@@ -168,7 +168,7 @@ function update_results_page() {
   update_task_list();
   // Report end result.
   if (module_exists('dblog') && user_access('access site reports')) {
-    $log_message = ' All errors have been <a href="' . base_path() . '?q=admin/reports/dblog">logged</a>.';
+    $log_message = ' All errors have been <a href="' . base_path() . '?q=backend/reports/dblog">logged</a>.';
   }
   else {
     $log_message = ' All errors have been logged.';
@@ -266,7 +266,7 @@ function update_info_page() {
   $output .= "<ol>\n";
   $output .= "<li><strong>Back up your database</strong>. This process will change your database values and in case of emergency you may need to revert to a backup.</li>\n";
   $output .= "<li><strong>Back up your code</strong>. Hint: when backing up module code, do not leave that backup in the 'modules' or 'sites/*/modules' directories as this may confuse Drupal's auto-discovery mechanism.</li>\n";
-  $output .= '<li>Put your site into <a href="' . base_path() . '?q=admin/config/development/maintenance">maintenance mode</a>.</li>' . "\n";
+  $output .= '<li>Put your site into <a href="' . base_path() . '?q=backend/config/development/maintenance">maintenance mode</a>.</li>' . "\n";
   $output .= "<li>Install your new files in the appropriate location, as described in the handbook.</li>\n";
   $output .= "</ol>\n";
   $output .= "<p>When you have performed the steps above, you may proceed.</p>\n";
@@ -275,6 +275,7 @@ function update_info_page() {
   $output .= "\n";
   return $output;
 }
+
 
 /**
  * Renders a 403 access denied page for update.php.

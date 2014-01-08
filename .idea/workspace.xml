@@ -2,23 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="330ef119-f288-4786-b9d3-de5ed910ae81" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\cache\css\-mW04HJNfNm5o.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\cache\css\-q5vrkvft0.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\cache\css\4jeprvoyuq.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\cache\css\4jeprvoyuq.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\cache\css\7v23iurzcy.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\cache\css\E7f1RmQewhZwM.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\cache\css\bezmsnrd-4.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\cache\css\uwmtwcnfoe.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\cache\css\uwmtwcnfoe.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\cache\js\5goysikuic.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\cache\js\5goysikuic.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\cache\js\D4Y4aUqk3MlFo.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\cache\js\bmxyfvyvje.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\cache\js\yzbqbviahy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\cache\js\yzbqbviahy.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\0HaOf8fTO6tGQ.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\0HaOf8fTO6tGQ.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\1rmqewhzwm.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\4WeBEzMSNrd-4.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\7UI7V23iUrZCY.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\7v23iurzcy.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\7v23iurzcy.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\Bm84jEPRvoyuQ.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\Bm84jEPRvoyuQ.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\DwGZ2ADz91OMk.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\E7f1RmQewhZwM.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\P4OYOxUcn8Zwk.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\VKhU1zTV_4Bes.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\bezmsnrd-4.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\bezmsnrd-4.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\by_zjx34cy.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\by_zjx34cy.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\o9KRMwZq0cGmw.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\of8fto6tgq.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\of8fto6tgq.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\rmwzq0cgmw.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\s6Y-Q5vrKVFT0.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\uwmtwcnfoe.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\yoxucn8zwk.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\znNUWmTWcnfoE.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\css\znNUWmTWcnfoE.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\1gdcabvlxo.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\4FeJ7QY4TgieQ.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\4FeJ7QY4TgieQ.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\4auqk3mlfo.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\4auqk3mlfo.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\5goysikuic.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\C5YyzBQBviahY.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\C5YyzBQBviahY.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\D4Y4aUqk3MlFo.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\D4Y4aUqk3MlFo.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\DaKLn-g9u9el4.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\DaKLn-g9u9el4.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\GSzxn3751r7d4.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\GSzxn3751r7d4.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\WlyftPB2WUYJE.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\WlyftPB2WUYJE.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\bwpkcgrzsk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\bwpkcgrzsk.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\hkanyyza_k.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\k-9D9t0WLwAZs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\k-9D9t0WLwAZs.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\obDbmXYFVyVJE.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\obDbmXYFVyVJE.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\oylbedo5cu.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\prq4dR6fxy-MI.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\prq4dR6fxy-MI.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\shi2rgazak.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\u5eBwpKCGrZsk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\u5eBwpKCGrZsk.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\uyr5GoySikuic.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\uyr5GoySikuic.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\vtiWXDaNnEmhY.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\vtiWXDaNnEmhY.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\w5v1pppdxg.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\wxdannemhy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\wxdannemhy.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\xn3751r7d4.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\xn3751r7d4.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\js\yzbqbviahy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\languages\ru_cnslDTnYsLvCAVl25Ac4KnbmzGKwUQ-Tc9siokgyD0A.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\languages\ru_mcp_j_bSTmzZkzB4-W7EqChybZdCtiM7rR5QkB85gOs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MailCloud\www\Redprice\public\tmp\.htaccess" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update.php" afterPath="$PROJECT_DIR$/update.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\MailCloud\www\Redprice\public\.htaccess" afterPath="$PROJECT_DIR$/sites/default/files/private/.htaccess" />
     </list>
     <list id="1ddada74-361a-4d19-8255-910dadcf22fc" name="Failed commit: Default" comment="merge with core version 25">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cache/css/-q5vrkvft0.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/1gdcabvlxo.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/1rmqewhzwm.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/4jeprvoyuq.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cache/css/7v23iurzcy.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cache/js/D4Y4aUqk3MlFo.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/DwGZ2ADz91OMk.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/E7f1RmQewhZwM.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/HRaHKaNYyZA_k.js.gz" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redprice/img/add.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/images/animated-overlay.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cache/css/bezmsnrd-4.css.gz" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redprice/img/buttons.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/images/config/calendar-small.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/redprice/img/comment-arrow-rtl.gif" />
@@ -30,7 +103,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/images/exclamation.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/images/fc-rtl.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/images/fc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/hkanyyza_k.js.gz" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/simpletest/files/image-test.gif" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/simpletest/files/image-test.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/images/list-item-rtl.png" />
@@ -38,42 +110,25 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/images/config/organic-groups-small.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/images/config/people-medium.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/images/config/regional-medium.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/rmwzq0cgmw.css.gz" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/screenshot.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/images/config/search-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/shi2rgazak.js.gz" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/images/small-bullet.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/images/task-item.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/images/ui-bg_flat_100_fffce5_40x100.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/uwmtwcnfoe.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/w5v1pppdxg.js.gz" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/images/config/workflow-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cache/js/wxdannemhy.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/yzbqbviahy.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cache/css/-mW04HJNfNm5o.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/private/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/4WeBEzMSNrd-4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/4jeprvoyuq.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/5goysikuic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/7UI7V23iUrZCY.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/field_group/CHANGELOG.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cache/css/E7f1RmQewhZwM.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/HRaHKaNYyZA_k.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/backup_migrate/LICENSE.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/email/LICENSE.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/field_group/LICENSE.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/libraries/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/P4OYOxUcn8Zwk.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/README.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/simpletest/files/README.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/backup_migrate/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/VKhU1zTV_4Bes.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/simpletest/tests/actions_loop_test.install" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/simpletest/tests/ajax_forms_test.module" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/backup_migrate/backup_migrate.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/blog/blog.module" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cache/js/bmxyfvyvje.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/book/book-export-html.tpl.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/book/book-navigation.tpl.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/book/book-rtl.css" />
@@ -166,12 +221,10 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/msnf/includes/msnf.field_ui.inc" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/msnf/msnf.module" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/multifield/multifield.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/o9KRMwZq0cGmw.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/openid/openid.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/openid/openid.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/openid/openid.test" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/openid/tests/openid_test.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/oylbedo5cu.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/simpletest/tests/pager.test" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/simpletest/tests/password.test" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/simpletest/tests/path_test.module" />
@@ -185,7 +238,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/rename_admin_paths/rename_admin_paths.install" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/simpletest/tests/requirements1_test.module" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/languages/ru_FK_atdJgVLVMfdrOJzSpZ8ObTIMY8rriN9ySv4fFYMA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/s6Y-Q5vrKVFT0.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/simpletest/tests/schema.test" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/simpletest/tests/session.test" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/shortcut/shortcut.admin.css" />
@@ -212,8 +264,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/simpletest/tests/upgrade/upgrade.test" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/simpletest/tests/url_alter_test.install" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/adminimal_theme/css/vertical-tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cache/js/wxdannemhy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/yoxucn8zwk.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Remote/Auth.php" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Remote/Auth.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Connector.php" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/tests/Test/Connector.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Dispatcher/Debug.php" afterPath="$PROJECT_DIR$/sites/all/libraries/php-console/src/PhpConsole/Dispatcher/Debug.php" />
@@ -770,7 +820,6 @@
     <file path="$PROJECT_DIR$/sites/all/modules/development/devel/devel_krumo_path.js" ignored="false" />
     <file path="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/set_connector_eval_enabled.php" ignored="false" />
     <file path="$PROJECT_DIR$/sites/all/libraries/php-console/tests/scripts/set_connector_allowed_ip.php" ignored="false" />
-    <file path="$PROJECT_DIR$/sites/default/files/private/.htaccess" ignored="false" />
     <file path="$PROJECT_DIR$/public/js/5goysikuic.js" ignored="false" />
     <file path="$PROJECT_DIR$/public/css/yoxucn8zwk.css" ignored="false" />
     <file path="$PROJECT_DIR$/public/js/HRaHKaNYyZA_k.js" ignored="false" />
@@ -1043,7 +1092,19 @@
     <favorites_list name="Redprice" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="update.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="268" column="75" selection-start="9993" selection-end="10003" vertical-scroll-proportion="0.33271027" vertical-offset="5182" max-vertical-offset="10360">
+              <folding>
+                <marker date="1389156983844" expanded="true" signature="11243:12168" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -1067,6 +1128,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/includes/common.inc" />
+        <option value="$PROJECT_DIR$/update.php" />
       </list>
     </option>
   </component>
@@ -1218,11 +1280,16 @@
       <created>1389154325654</created>
       <updated>1389154325654</updated>
     </task>
+    <task id="LOCAL-00001" summary="merge with core version 25">
+      <created>1389156602590</created>
+      <updated>1389156602590</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1232,7 +1299,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32961783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1267,6 +1334,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="3602" column="44" selection-start="134631" selection-end="134631" vertical-scroll-proportion="2.631728" vertical-offset="70991" max-vertical-offset="164500">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="268" column="75" selection-start="9993" selection-end="10003" vertical-scroll-proportion="0.33271027" vertical-offset="5182" max-vertical-offset="10360">
+          <folding>
+            <marker date="1389156983844" expanded="true" signature="11243:12168" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
