@@ -508,6 +508,17 @@ div.nav span, .breadcrumbs span {
     font-size: 15px
 }
 
+.catalog li .catalog_price .left span.old_price {
+    font-size: .9em;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+.catalog li .catalog_price .left span.new_price{
+    position: absolute;
+    margin: -45px 0 0 25px;
+}
+
 .catalog li .catalog_text {
     margin-bottom: 6px
 }
@@ -2253,3 +2264,32 @@ dl.tabs dt.active {
 
 }
 dl.tabs dd.active {display:block;}
+
+.catalog_box .novelty {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 0 0 10px;
+    line-height: 18px;
+    height: 20px;
+    opacity: .9;
+    background: #F06419;
+    color: #fff;
+    font-weight: bold;
+}
+
+.catalog_box .novelty:before {
+    border-color: #F06419 transparent #F06419 #F06419;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -20px;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.catalog_box .novelty span.discount {
+    font-size: 13px;
+}

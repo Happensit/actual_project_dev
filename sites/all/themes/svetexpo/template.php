@@ -2,6 +2,9 @@
 
 function svetexpo_html_head_alter(&$head_elements) {
   unset($head_elements['system_meta_generator']);
+  foreach (preg_grep('/^drupal_add_html_head_link:shortlink:/', array_keys($head_elements)) as $key) {
+      unset($head_elements[$key]);
+    }
 }
 
 /**
@@ -439,7 +442,7 @@ function svetexpo_preprocess_node(&$variables) {
         drupal_add_js(drupal_get_path('theme', 'svetexpo') . '/js/jquery.jcarousel.min.js');
         drupal_add_css(drupal_get_path('theme', 'svetexpo') . '/style/bunners.css', array(
                 'group' => CSS_DEFAULT,
-                'preprocess' => FALSE
+                'preprocess' => TRUE
             ));
 
         drupal_add_js('jQuery(document).ready(function(){

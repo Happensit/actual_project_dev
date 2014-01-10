@@ -17,7 +17,7 @@ function product_image_preprocess_node(&$variables) {
         $IMAGE_PATH = $img_path_root . '/goods/images/';
     	$IMAGE_REALPATH = $_SERVER['DOCUMENT_ROOT'].'/goods/images/';
         $sku = $variables['content']['product:commerce_price']['#object']->sku;
-        $img = str_replace(array('/', '.', '(', ')','№', '=', ' '), '_', trim($sku));
+        $img = str_replace(array('/', '.', '(', ')','№', '=', ' '), '_', ($sku));
         $img = pathauto_cleanstring($img);
  	    $base = 'interior/'.$img;
  	    $img .= '.jpg';

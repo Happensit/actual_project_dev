@@ -238,7 +238,7 @@ if($ff_price_amount == 0){
 				hide($content['comments']);
 				hide($content['links']);
 				hide($content['product:commerce_price']);
-				unset($content['field_brand']);
+				hide($content['field_brand']);
                 hide($content['field_old_price']);
                 hide($content['field_ostatki']);
                 hide($content['field_artikul_fabriki']);

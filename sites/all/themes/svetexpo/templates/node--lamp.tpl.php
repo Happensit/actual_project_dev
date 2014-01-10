@@ -139,9 +139,16 @@ if($ff_price_amount == 0){
     <a href="<?php print $node_url; ?>" class="catalog_ilink">
         <?php if(isset($big_image)) print theme('image', array('path' => $big_image, 'alt' => $producer_name, 'attributes' => array('class' => 'catalog_image lazy'))); ?>
     </a>
-    <?php if(!empty($discount)):?>
-        <span class="discount_teaser">-<?php echo $discount; ?>&#37;</span>
+  <?php if(!empty($node->field_novelty)):?>
+      <div class="novelty">Новинка</div>
+  <?php elseif(!empty($node->field_popular_items)): ?>
+      <div class="novelty">Популярный товар</div>
+    <?php elseif(!empty($discount)):?>
+    <div class="novelty">Скидка <span class="discount">-<?php echo $discount; ?>&#37;</span></div>
+    <?php //if(!empty($discount)):?>
+<!--        <span class="discount_teaser">---><?php //echo $discount; ?><!--&#37;</span>-->
     <?php endif; ?>
+
     <div class="left">
         <?php if ($show_icons) {
             print theme('image', array('path' => path_to_theme() . '/img/at_home.png', 'alt' => 'Home', 'title' => 'Можно примерить у себя дома', 'attributes' => array('class' => 'prim')));
@@ -166,7 +173,15 @@ if($ff_price_amount == 0){
     <?php /** @var $status_preorder boolean */
     if(!$status_preorder): ?>
         <div class="left">
-            <p><strong><?php print $content['product:commerce_price'][0]['#markup']; ?></strong></p>
+            <p><?php if(!empty($discount)):?>
+              <span class="old_price"><?php echo($node->field_old_price['und'][0]['amount']/100); ?> руб.</span>
+                <span class="new_price">
+                  <strong><?php print $content['product:commerce_price'][0]['#markup']; ?></strong>
+              </span>
+            <?php else: ?>
+                <strong><?php print $content['product:commerce_price'][0]['#markup']; ?></strong>
+            <?php endif; ?>
+            </p>
         </div>
         <div class="right">
             <?php print render($content['field_product']); ?>
