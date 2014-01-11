@@ -1,5 +1,8 @@
 (function ($) {
 $(document).ready(function() {
+
+    var formsearch = document.getElementById('edit-search-api-views-fulltext');
+    $(formsearch).attr('placeholder', 'Поиск по сайту...');
 	
 	$('.footer_menu ul li a').hover( function() {
 		if ($.browser.msie && ($.browser.version == 7 || $.browser.version == 8)) {
@@ -84,5 +87,7 @@ var ttt
 		});
 		return false;
 	}
+
+
 
 }(jQuery));

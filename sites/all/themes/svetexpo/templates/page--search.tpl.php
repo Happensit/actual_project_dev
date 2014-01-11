@@ -87,11 +87,7 @@
               </div>
 			</nav>
 			<div class="content">
-                <?php if(drupal_is_front_page()) print render($page['takeathome']); ?>
-
-<?php if (isset($breadcrumb)) {
-    print render($breadcrumb);
-} ?>
+              <div class="breadcrumb" style="outline: none;"><a href="/"><?php print theme('image', array('path' => path_to_theme() . '/img/home.gif','alt' => 'Главная')); ?></a>&nbsp;&nbsp;-&nbsp;&nbsp;<a style="outline: none;">Поиск по сайту</a></div>
 <?php if ($messages): ?>
     <div id="messages">
         <div class="section clearfix">
@@ -104,8 +100,6 @@
 <?php endif; ?>
 
 			<?php print render($page['content']); ?>
-
-                <?php if(drupal_is_front_page()) print render($page['takeathome']); ?>
 			
 <?php $current = taxonomy_term_load(arg(2)); ?>
 <?php if ($current): ?>

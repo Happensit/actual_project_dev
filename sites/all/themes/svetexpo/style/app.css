@@ -1425,7 +1425,7 @@ nav .nav_shadow {
     right: 0
 }
 
-nav .search_go {
+nav #edit-submit-search-on-site {
     width: 28px;
     height: 27px;
     cursor: pointer;
@@ -1433,11 +1433,12 @@ nav .search_go {
     border: 0 none;
     outline: 0;
     position: absolute;
-    top: 11px;
-    right: 12px
+    top: -10px;
+    right: 12px;
+    text-indent: -999em;
 }
 
-nav .search_text {
+nav #edit-search-api-views-fulltext {
     width: 290px;
     height: 13px;
     padding: 7px 12px;
@@ -1451,6 +1452,18 @@ nav .search_text {
     font-family: arial, helvetica, sans-serif;
     color: #949494
 }
+
+/* Убираем текст при фокусе инпута средствами css */
+input:focus::-webkit-input-placeholder
+{
+    color: transparent;
+}
+
+.page-search .view-search-on-site .views-exposed-form {
+    display: none !important;
+}
+
+
 
 .one_click_button {
     width: 135px;

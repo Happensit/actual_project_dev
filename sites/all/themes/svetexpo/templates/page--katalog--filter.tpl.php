@@ -76,10 +76,15 @@
 			<nav>
 			<?php print render($page['header_menu']); ?>
 				<div class="nav_shadow"></div>
-				<form method="get" action="/find">
-				<input name="keys" type="text" class="search_text" value="поиск по сайту ..." onblur="if(this.value=='') this.value='поиск по сайту ...';" onfocus="if(this.value=='поиск по сайту ...') this.value='';">
-				<input type="submit" class="search_go" value="">
-				</form>
+              <div class="search_form">
+                <?php
+                $view = views_get_view('search_on_site');
+                $view->set_display('page');
+                $view->init_handlers();
+                $exposed_form = $view->display_handler->get_plugin('exposed_form');
+                print $exposed_form->render_exposed_form(TRUE);
+                ?>
+              </div>
 			</nav>
 			<div class="content">
             <?php print $breadcrumb; ?>
