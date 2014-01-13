@@ -63,7 +63,7 @@
 
             var getFilterResultTimeout, filterChangeEmiter, getFilterResult = function () {
                 var url = '/filter/get_count?' + $('#views-exposed-form-product-filter-page').serialize();
-                var current_url = 'katalog/filter?' + $('#views-exposed-form-product-filter-page').serialize();
+                var current_url = 'katalog/filter/result?' + $('#views-exposed-form-product-filter-page').serialize();
                 $('.results').hide();
                 var resultsContainer = filterChangeEmiter.closest('.views-exposed-widget').find('.results');
                 $.ajax(url, {
@@ -130,7 +130,7 @@
                 if ($(this).is(':checked')) {
                     if($ul.size() > 0 ) {
                         $ul.show('fast');
-                        setTimeout('$res.html("Выберите подкатегорию<span>&nbsp;</span>");', 1700);
+                        setTimeout('$res.html("Выберите подкатегорию<span>&nbsp;</span>");', 1500);
                     }
                  } else {
                    // Uncheck 

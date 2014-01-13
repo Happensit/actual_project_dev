@@ -1,4 +1,4 @@
-<?php if ($tabs): echo render($tabs); endif; ?> 
+<?php if ($tabs): echo render($tabs); endif; ?>
 <div class="overlay"></div>
 
 <div class="popup recall_popup">
@@ -87,24 +87,28 @@
               </div>
 			</nav>
 			<div class="content">
-            <?php print $breadcrumb; ?>
-            <?php if ($messages): ?>
+              <div class="breadcrumb" style="outline: none;"><a href="/"><?php print theme('image', array('path' => path_to_theme() . '/img/home.gif','alt' => 'Главная')); ?></a>&nbsp;&nbsp;-&nbsp;&nbsp;<a style="outline: none;">Расширенный поиск</a></div>
+
+              <?php if ($messages): ?>
                 <div id="messages"><div class="section clearfix">
                   <?php print $messages; ?>
                 </div></div> <!-- /.section, /#messages -->
               <?php endif; ?>
-            <?php if ($page && !(isset($node) && $node && ($node->type=='lamp' || $node->type == 'streetlamp' ))): ?>
             <h1 class="title"><?php print $title; ?></h1>
-            <?php endif; ?>
+              <?php $path = drupal_strtolower(drupal_get_path_alias($_GET['q']));
+              if(drupal_match_path($path, 'katalog/filter/result*')):?>
+              <h3><a href="#" class="filters clearfix" style="float: right; margin-top: -30px">Раскрыть фильтр</a></h3>
+                <div class="clearfix"></div>
+              <?php if ($block = module_invoke('views', 'block_view', '-exp-product_filter-page')) {
+                print render($block['content']);
+              } ?>
+              <?php print render($page['content']);?>
+              <?php else: ?>
+              <?php if ($block = module_invoke('views', 'block_view', '-exp-product_filter-page')) {
+                print render($block['content']);
+              } ?>
+              <?php endif; ?>
 
-			<?php print render($page['content']); ?>
-
-            <?php $current = taxonomy_term_load(arg(2)); ?>
-            <?php if ($current): ?>
-                <div class="taxonomy-description">
-                    <?php echo $current->description; ?>
-                </div>
-            <?php endif; ?>
 
 			</div>
 			<aside>

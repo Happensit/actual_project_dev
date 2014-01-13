@@ -1,0 +1,4 @@
+name = Banner redirect form
+description = Goto front page
+core = 7.x
+version = VERSION

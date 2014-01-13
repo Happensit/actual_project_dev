@@ -257,7 +257,6 @@ function svetexpo_views_pre_execute(&$view) {
   }
 }
 
-
 function svetexpo_pager($variables) {
   $tags = $variables['tags'];
   $element = $variables['element'];

@@ -1,0 +1,47 @@
+.views-exposed-widgets {
+    width: auto !important;
+    margin-left: 7px;
+}
+.views-exposed-form .views-exposed-widget {
+    padding: 0 50px 20px 0 !important;
+}
+
+
+#edit-led-wrapper,
+#edit-dotted-wrapper,
+#edit-christal-wrapper,
+#edit-children-wrapper,
+#edit-forged-wrapper,
+#edit-solar-wrapper,
+#edit-protect-wrapper,
+#edit-floristics-wrapper
+{
+    padding: 0 !important;
+    min-width: 260px;
+}
+
+.slider-widget-wrapper,
+.slider-widget,
+#edit-count-lamp-wrapper,
+#edit-dlina-wrapper,
+#edit-shirina-wrapper,
+#edit-diametr-wrapper,
+#edit-price-wrapper,
+#edit-type-lamp-wrapper,
+#edit-capacity-value-wrapper
+{
+    width: auto !important;
+    min-width: 200px;
+
+}
+
+.filtertip {
+    cursor: help;
+    position: inherit !important;
+    width: 35px;
+    margin: -20px 0 0 180px !important;
+    /*margin-top: -20px !important;*/
+}
+.filtertip img {
+    margin: -20px 10px 0 15px !important;
+}

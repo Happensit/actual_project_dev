@@ -50,11 +50,24 @@ function filter_block_init(){
   if(drupal_match_path($path, 'katalog/properties/floristika')){
     drupal_add_css("#edit-floristics {display: none !important}", 'inline');
   }
-  if(drupal_match_path($path, 'katalog/filter')){
+  if(drupal_match_path($path, 'katalog/filter*')){
     drupal_add_css(drupal_get_path('module', 'filter_block'). '/assets/filter_page.css');
   }
-  if(drupal_match_path($path, 'katalog/filter*')){
-    //drupal_add_css("#views-exposed-form-product-filter-page {display: none !important}", 'inline');
+  if(drupal_match_path($path, 'katalog/filter/result*')){
+    drupal_add_js('(function($) {
+    $(function(){
+    var form =  document.getElementById("views-exposed-form-product-filter-page");
+      $(form).hide();
+      $("a.filters").toggle(
+        function(){
+          $(form).slideDown(100);
+        },
+       function(){
+          $(form).slideUp(100);
+       });
+
+       });
+    })(jQuery);', 'inline');
   }
 }
 
